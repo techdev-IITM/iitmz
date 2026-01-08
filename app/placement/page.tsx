@@ -1,6 +1,8 @@
 import { PlacementComp } from "@/components/student-placement";
 import styles from "./page.module.scss";
 import Img from "@/components/image";
+import Button from "@/components/button";
+import Link from "next/link";
 
 export const metadata = {
   title: "Student Placement",
@@ -25,6 +27,14 @@ export default function PlacementPage() {
             alt=""
             loading="eager"
           />
+        </div>
+        <div className={styles.cta}>
+          <Link target="_blank" href="/placement-brochure.png">
+            <Button kind="SECONDARY">Download Placement Brochure</Button>
+          </Link>
+          <Link target="_blank" href="https://forms.gle/J18cXSru9XEt7bcE7">
+            <Button kind="PRIMARY">Recruiter Registration Form</Button>
+          </Link>
         </div>
         {/*<div className={styles.body}>
           <p>Information will be updated soon. Stay tuned for more details !</p>

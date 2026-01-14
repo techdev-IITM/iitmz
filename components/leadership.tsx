@@ -7,6 +7,19 @@ export default function Leadership() {
     <div className={styles.section}>
       <h2 className="section-title center">IITM Zanzibar Leadership</h2>
       <div className="container">
+        <Link href="/schools/engineering-and-science/faculty/prof-prabhu-rajagopal">
+          <div className={styles.card}>
+            <Img
+              src="/prajagopal.png"
+              height={200}
+              width={200}
+              alt="Image of Professor Preeti Aghalayam"
+            />
+            <h3>Prof. Prabhu Rajagopal</h3>
+            <h4>Director-in-Charge</h4>
+            <p>Dean - School of Engg. & Science</p>
+          </div>
+        </Link>
         <Link href="/schools/engineering-and-science/faculty/prof-preeti-aghalayam">
           <div className={styles.card}>
             <Img
@@ -16,8 +29,8 @@ export default function Leadership() {
               alt="Image of Professor Preeti Aghalayam"
             />
             <h3>Prof Preeti Aghalayam</h3>
-            <h4>Director in Charge</h4>
-            <p>Dean of School of Engineering & Science</p>
+            <h4>Former Director-in-Charge, IITMZ</h4>
+            <p>Faculty - School of Engg. & Science</p>
           </div>
         </Link>
         <Link href="/schools/engineering-and-science/faculty/prof-suresh-akkihebbal">
@@ -29,7 +42,9 @@ export default function Leadership() {
               alt="Image of Professor Suresh Akkihebbal"
             />
             <h3>Prof. K. Suresh Akkihebbal</h3>
-            <h4>Vice President and Professor-in-Charge </h4>
+            <h4>
+              Vice President and <br /> Professor-in-Charge{" "}
+            </h4>
             <p>Academic Administration</p>
           </div>
         </Link>

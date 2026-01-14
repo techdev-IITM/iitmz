@@ -1,4 +1,4 @@
-import styles from "./governance-board.module.scss"
+import styles from "./governance-board.module.scss";
 import Img from "./image";
 
 export const governanceBoardMember = [
@@ -10,7 +10,8 @@ export const governanceBoardMember = [
   },
   {
     name: "Prof. Raghunathan Rengaswamy",
-    title: "Dean, Global Engagement, Professor Chemical Engineering, IIT Madras",
+    title:
+      "Dean, Global Engagement, Professor Chemical Engineering, IIT Madras",
     img: "/prof-raghu.jpg",
   },
   {
@@ -37,7 +38,8 @@ export const governanceBoardMember = [
   },
   {
     name: "Dr. Said Ally Khamis",
-    title: "Executive Secretary - National Examinations Council of Tanzania (NECTA), Govt. of Tanzania",
+    title:
+      "Executive Secretary - National Examinations Council of Tanzania (NECTA), Govt. of Tanzania",
     img: "/Dr.-Said-Ally-Khamis.jpg",
   },
   {
@@ -48,19 +50,18 @@ export const governanceBoardMember = [
   },
   {
     name: "Dr. Asha Rose Migiro",
-    title: "Former High Commissioner of Tanzania to the United Kingdom, Former United Nations Deputy Secretary General",
+    title:
+      "Former High Commissioner of Tanzania to the United Kingdom, Former United Nations Deputy Secretary General",
     img: "/Dr-Asha-Rose-Migiro.jpg",
   },
   {
     name: "Prof. Devang Khakhar",
-    title:
-      "Professor, Chemical Engg. and Former Director, IIT Bombay",
+    title: "Professor, Chemical Engg. and Former Director, IIT Bombay",
     img: "/Prof-Devang-V-Khakhar.jpg",
   },
   {
     name: "Prof. Bhaskar Ramamurthi",
-    title:
-      "Professor, Electrical Engg. and Former Director, IIT Madras",
+    title: "Professor, Electrical Engg. and Former Director, IIT Madras",
     img: "/Prof.-Bhaskar-Ramamurthi.jpeg",
   },
   {
@@ -73,34 +74,34 @@ export const governanceBoardMember = [
   {
     name: "Prof. Preeti Aghalayam",
     title:
-      "Director-in-charge and Dean of School of Engg. & Science, IIT Madras Zanzibar",
+      "Former Director-in-Charge, IITMZ and Faculty - School of Engg. & Science",
     img: "/preeti.jpg",
   },
 ];
 
 export default function GovernanceBoard() {
-    return (
-      <div className={styles.section}>
-        <h2 className="section-title center">Governance Board</h2>
-        <div className="container">
-          <div className={styles.flex_grid}>
-            {governanceBoardMember.map((member) => (
-              <div key={member.img} className={styles.card}>
-                <Img
-                  src={member.img}
-                  alt={`Picture of ${member.name}`}
-                  width={200}
-                  height={200}
-                  style={{ objectFit: "cover" }}
-                />
-                <div className={styles.body}>
-                  <h2>{member.name}</h2>
-                  <h4>{member.title}</h4>
-                </div>
+  return (
+    <div className={styles.section}>
+      <h2 className="section-title center">Governance Board</h2>
+      <div className="container">
+        <div className={styles.flex_grid}>
+          {governanceBoardMember.map((member) => (
+            <div key={member.img} className={styles.card}>
+              <Img
+                src={member.img}
+                alt={`Picture of ${member.name}`}
+                width={200}
+                height={200}
+                style={{ objectFit: "cover" }}
+              />
+              <div className={styles.body}>
+                <h2>{member.name}</h2>
+                <h4>{member.title}</h4>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
-    );
+    </div>
+  );
 }

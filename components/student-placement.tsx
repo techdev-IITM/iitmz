@@ -106,9 +106,9 @@ export function PlacementComp() {
               >
                 <h3 className={styles.directorName}>Prof. Preeti Aghalayam</h3>
                 <p className={styles.directorTitle}>
-                  Dean - School of Engg. & Science
+                  Faculty - School of Engg. & Science
                   <br />
-                  Director-in-Charge
+                  Former Director-in-Charge, IITMZ
                 </p>
               </Link>
             </div>

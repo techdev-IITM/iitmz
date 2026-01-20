@@ -175,14 +175,153 @@ export const researchData: ResearchDataType = {
     },
     {
       name: "Dr. Tushar Shinde",
-      posterImage: "/research-7.png",
+      posterImage: "/AAAI Conference.png",
       publications: [
+        {
+          year: 2026,
+          title:
+            "Adaptive Coreset Selection via Uncertainty-Density for Efficient Spam Detection",
+          venue:
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore 🇸🇬",
+          type: "Conference",
+          description:
+            "Presents work on uncertainty-density coreset selection for efficient spam detection. Aisha was selected for the AAAI 2026 Travel Grant ($1,250) and Registration Grant (~$600).",
+        },
+        {
+          year: 2026,
+          title:
+            "Bridging Machine Learning and Physics for Scalable Long-Term Building Temperature Prediction",
+          venue:
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore 🇸🇬",
+          type: "Conference",
+          description:
+            "Focuses on scalable long-term building temperature prediction by combining machine learning and physics-based modeling. Rohan was selected for the AAAI 2026 Travel Grant ($1,000) and Registration Grant (~$600).",
+        },
+        {
+          year: 2026,
+          title:
+            "CADResNet: Lightweight Multi-Task Learning for Multi-Label and Valence-Arousal-Dominance Prediction from Bodily Emotional Expressions",
+          venue:
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026) Workshop on Bodily Expressed Emotion Understanding (BEEU), Singapore 🇸🇬",
+          type: "Workshop",
+          description:
+            "Models bodily emotional expressions in video for continuous emotion prediction.",
+        },
+        {
+          year: 2025,
+          title:
+            "Are Binary Neural Networks Input Bit-Invariant? Optimizing Sensor-Model Systems with Mean Hassanat Distance",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025), PMLR Proceedings Track, San Diego, USA 🇺🇸",
+          type: "Conference",
+          description:
+            "Investigates input bit-invariance properties of binary neural networks and their implications for sensor-model system optimization. Avinash was selected for the NeurIPS 2025 Scholar Award.",
+        },
+        {
+          year: 2025,
+          title:
+            "How Weight Pruning Destroys Chain-of-Thought Reasoning in Language Reasoning Models",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Efficient Reasoning, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "Analyzes the impact of weight pruning on reasoning models in language processing.",
+        },
+        {
+          year: 2025,
+          title: "eFinBERT: Efficient Financial Sentiment Classification",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Generative AI in Finance, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "Efficiently classifies financial sentiment with eFinBERT. Aisha selected for the GenAIinFinance@NeurIPS 2025 Travel Grant ($800).",
+        },
+        {
+          year: 2025,
+          title:
+            "Data-Efficient and Robust Coreset Selection via Sparse Adversarial Perturbations",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Reliable ML from Unreliable Data, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "Proposes sparse adversarial perturbations for data-efficient coreset selection.",
+        },
+        {
+          year: 2025,
+          title:
+            "Efficient Spam Detection with Sentence-BERT using Adaptive Uncertainty-Diversity Ranking Coresets",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "Combines Sentence-BERT and uncertainty-diversity for efficient spam detection. Aisha selected for WiML@NeurIPS 2025 Travel Grants ($2,586.71).",
+        },
+        {
+          year: 2025,
+          title:
+            "From National Goals to Industry Action: AI-Driven Forecasting of India’s Carbon Emissions",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "AI-driven forecasting for India’s carbon emissions and national policy impact. Anushka selected for WiML@NeurIPS 2025 Travel Grants ($1,423.93). Anushka also received the NeurIPS 2025 Scholar Award.",
+        },
+        {
+          year: 2025,
+          title:
+            "Resource-Efficient ECG Foundation Networks via Layer-wise Adaptive Compression",
+          venue:
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Foundation Models for the Brain and Body, San Diego, USA 🇺🇸",
+          type: "Workshop",
+          description:
+            "Proposes resource-efficient ECG networks through adaptive compression techniques. Dr. Shinde received the NeurIPS 2025 Travel Award ($1,500) from BrainBodyFM.",
+        },
+        {
+          year: 2025,
+          title:
+            "Introducing VMAFAC, a Visual Quality Metric for Asymmetric Video Coding: Use Case on Sport Video Content",
+          venue: "IEEE Picture Coding Symposium (PCS) 2025, Aachen, Germany",
+          type: "Conference",
+          description:
+            "Introduces a visual quality metric, VMAFAC, for asymmetric video coding in sports.",
+        },
+        {
+          year: 2025,
+          title:
+            "Towards Efficient FinBERT via Quantization and Coreset for Financial Sentiment Analysis",
+          venue:
+            "30th Empirical Methods in Natural Language Processing (EMNLP 2025), Proceedings of the 10th Workshop on Financial Technology and Natural Language Processing, China",
+          type: "Workshop",
+          description:
+            "Focuses on enhancing FinBERT with quantization and coreset techniques for financial sentiment analysis.",
+        },
+        {
+          year: 2025,
+          title:
+            "Efficient Generative Defect Synthesis for Industrial Anomaly Detection on MVTec AD",
+          venue:
+            "IEEE 27th International Workshop on Multimedia Signal Processing (MMSP 2025), Beijing, China",
+          type: "Conference",
+          description:
+            "Presents generative defect synthesis for industrial anomaly detection on MVTec AD dataset and model compression techniques.",
+        },
+        {
+          year: 2025,
+          title:
+            "Multi-Style Perceptual Quality Assessment of AI-Generated Images Using Temperature-Calibrated Fusion",
+          venue:
+            "36th British Machine Vision Conference (BMVC 2025) Workshop on Media Authenticity in the Age of Artificial Intelligence, Sheffield, UK",
+          type: "Workshop",
+          description:
+            "Focuses on perceptual quality assessment of AI-generated images using temperature-calibrated fusion techniques.",
+        },
+
         {
           year: 2025,
           title:
             "Adaptive Compression of Large Vision Models for Efficient Image Quality Assessment of AI-Generated Content",
           venue:
-            "IEEE/CVF International Conference on Computer Vision (ICCV) 2025 workshop on Efficient Computing under Limited Resources (ECLR), Honolulu, Hawaii, USA 🇺🇸.",
+            "IEEE/CVF International Conference on Computer Vision (ICCV) 2025 workshop on Efficient Computing under Limited Resources (ECLR), Honolulu, Hawaii, USA.",
           type: "Conference",
           description:
             "Introduces a novel adaptive compression framework that enables large vision models to be used efficiently for assessing the visual quality of AI-generated content, paving the way for scalable, real-time deployment on resource-constrained platforms.",

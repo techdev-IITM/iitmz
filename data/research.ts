@@ -182,7 +182,7 @@ export const researchData: ResearchDataType = {
           title:
             "Adaptive Coreset Selection via Uncertainty-Density for Efficient Spam Detection",
           venue:
-            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore 🇸🇬",
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore",
           type: "Conference",
           description:
             "Presents work on uncertainty-density coreset selection for efficient spam detection. Aisha was selected for the AAAI 2026 Travel Grant ($1,250) and Registration Grant (~$600).",
@@ -192,7 +192,7 @@ export const researchData: ResearchDataType = {
           title:
             "Bridging Machine Learning and Physics for Scalable Long-Term Building Temperature Prediction",
           venue:
-            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore 🇸🇬",
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026), SAPP Program Proceedings, Singapore",
           type: "Conference",
           description:
             "Focuses on scalable long-term building temperature prediction by combining machine learning and physics-based modeling. Rohan was selected for the AAAI 2026 Travel Grant ($1,000) and Registration Grant (~$600).",
@@ -202,7 +202,7 @@ export const researchData: ResearchDataType = {
           title:
             "CADResNet: Lightweight Multi-Task Learning for Multi-Label and Valence-Arousal-Dominance Prediction from Bodily Emotional Expressions",
           venue:
-            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026) Workshop on Bodily Expressed Emotion Understanding (BEEU), Singapore 🇸🇬",
+            "40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026) Workshop on Bodily Expressed Emotion Understanding (BEEU), Singapore",
           type: "Workshop",
           description:
             "Models bodily emotional expressions in video for continuous emotion prediction.",
@@ -212,7 +212,7 @@ export const researchData: ResearchDataType = {
           title:
             "Are Binary Neural Networks Input Bit-Invariant? Optimizing Sensor-Model Systems with Mean Hassanat Distance",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025), PMLR Proceedings Track, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025), PMLR Proceedings Track, San Diego, USA",
           type: "Conference",
           description:
             "Investigates input bit-invariance properties of binary neural networks and their implications for sensor-model system optimization. Avinash was selected for the NeurIPS 2025 Scholar Award.",
@@ -222,7 +222,7 @@ export const researchData: ResearchDataType = {
           title:
             "How Weight Pruning Destroys Chain-of-Thought Reasoning in Language Reasoning Models",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Efficient Reasoning, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Efficient Reasoning, San Diego, USA",
           type: "Workshop",
           description:
             "Analyzes the impact of weight pruning on reasoning models in language processing.",
@@ -231,7 +231,7 @@ export const researchData: ResearchDataType = {
           year: 2025,
           title: "eFinBERT: Efficient Financial Sentiment Classification",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Generative AI in Finance, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Generative AI in Finance, San Diego, USA",
           type: "Workshop",
           description:
             "Efficiently classifies financial sentiment with eFinBERT. Aisha selected for the GenAIinFinance@NeurIPS 2025 Travel Grant ($800).",
@@ -241,7 +241,7 @@ export const researchData: ResearchDataType = {
           title:
             "Data-Efficient and Robust Coreset Selection via Sparse Adversarial Perturbations",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Reliable ML from Unreliable Data, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Reliable ML from Unreliable Data, San Diego, USA",
           type: "Workshop",
           description:
             "Proposes sparse adversarial perturbations for data-efficient coreset selection.",
@@ -251,7 +251,7 @@ export const researchData: ResearchDataType = {
           title:
             "Efficient Spam Detection with Sentence-BERT using Adaptive Uncertainty-Diversity Ranking Coresets",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA",
           type: "Workshop",
           description:
             "Combines Sentence-BERT and uncertainty-diversity for efficient spam detection. Aisha selected for WiML@NeurIPS 2025 Travel Grants ($2,586.71).",
@@ -261,7 +261,7 @@ export const researchData: ResearchDataType = {
           title:
             "From National Goals to Industry Action: AI-Driven Forecasting of India’s Carbon Emissions",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Women in Machine Learning, San Diego, USA",
           type: "Workshop",
           description:
             "AI-driven forecasting for India’s carbon emissions and national policy impact. Anushka selected for WiML@NeurIPS 2025 Travel Grants ($1,423.93). Anushka also received the NeurIPS 2025 Scholar Award.",
@@ -271,7 +271,7 @@ export const researchData: ResearchDataType = {
           title:
             "Resource-Efficient ECG Foundation Networks via Layer-wise Adaptive Compression",
           venue:
-            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Foundation Models for the Brain and Body, San Diego, USA 🇺🇸",
+            "39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025) Workshop on Foundation Models for the Brain and Body, San Diego, USA",
           type: "Workshop",
           description:
             "Proposes resource-efficient ECG networks through adaptive compression techniques. Dr. Shinde received the NeurIPS 2025 Travel Award ($1,500) from BrainBodyFM.",

@@ -373,6 +373,29 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/iitmz-seminar-series-sirish-shah.png",
+    startDate: "January 23, 2026",
+    name: "IITMZ Seminar Series",
+    time: "3:00 PM - 4:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "Join us for a session with Prof. Sirish Shah from the University of Alberta, where he will discuss how rapid and widespread advances in machine learning and generative AI are prompting government and industrial organizations to rethink the adoption of these methodologies for more efficient operations.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/iitmz-seminar-series-sirish-shah.docx",
+      },
+    ],
+  },
+  {
+    img: "/gfl-seminar.jpeg",
+    startDate: "January 04, 2026",
+    endDate: "January 08, 2026",
+    name: "GFL Seminar on Air–Sea–Land Interactions: Observations and Modelling",
+    time: "10:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "The international discussion meeting on Air–Sea–Land Interactions: Observations and Modelling was held during January 4–8, 2026 at IIT Madras Zanzibar, Tanzania. The event brought together leading scientists, early career researchers, and students to discuss coastal processes, air–sea interactions, fine-scale dynamics, and emerging observational and modeling approaches. The program featured keynote lectures by internationally renowned experts, focused discussion sessions, and thematic technical talks, fostering collaboration across physical oceanography, atmospheric sciences, and geophysical fluid dynamics.",
+  },
 ];
 
 export default eventsList;

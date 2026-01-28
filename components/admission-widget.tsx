@@ -1,7 +1,8 @@
+"use client";
 import styles from "./admission-widget.module.scss";
 import Link from "next/link";
-import { FaGraduationCap, FaWhatsapp } from "react-icons/fa";
-import { MdOutlineQuestionAnswer, MdOutlineLibraryBooks } from "react-icons/md";
+import { FaGraduationCap, } from "react-icons/fa";
+import { MdOutlineQuestionAnswer, MdOutlineLibraryBooks, MdOutlineDescription,  } from "react-icons/md";
 
 export default function ContactWidget() {
   return (
@@ -18,11 +19,20 @@ export default function ContactWidget() {
 
       <Link
         target="_blank"
-        href="/IB_BS_2026.pdf"
+        href="/IB_BS_2026_updated.pdf"
         className={styles.widgetItem}
       >
         <MdOutlineLibraryBooks className={styles.icon} />
-        <label>Info Brochure</label>
+        <label>BS Info Brochure</label>
+      </Link>
+
+      <Link
+        target="_blank"
+        href="/IB_MTech_2026.pdf"
+        className={styles.widgetItem}
+      >
+        <MdOutlineDescription className={styles.icon} />
+        <label>M.Tech. Info Brochure</label>
       </Link>
 
       <Link

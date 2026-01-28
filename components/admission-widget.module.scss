@@ -1,62 +1,62 @@
 .widget {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  z-index: 10;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 10;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 .widgetItem {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  background: #c32938;
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-  transform: translateX(70%);
-
-  label {
-    font-size: 1.4rem;
-    font-weight: 500;
-    white-space: nowrap;
-    color: #fff;
-    padding-left: 1rem;
-    pointer-events: none;
-    transition: all 0.3s ease;
-  }
-
-  &:hover {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
     background: #c32938;
-    transform: translateX(0);
-  }
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    transform: translateX(78%);
+
+    label {
+        font-size: 1.4rem;
+        font-weight: 500;
+        white-space: nowrap;
+        color: #fff;
+        padding-left: 1rem;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+    &:hover {
+        background: #c32938;
+        transform: translateX(0);
+    }
 }
 
 .icon {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 480px) {
-  .widget {
-    gap: 0.3rem;
-  }
-
-  .widgetItem {
-    padding: 0.8rem;
-
-    label {
-      font-size: 1.2rem;
-      left: 3.5rem;
+    .widget {
+        gap: 0.3rem;
     }
-  }
 
-  .icon {
-    font-size: 2rem;
-  }
+    .widgetItem {
+        padding: 0.8rem;
+
+        label {
+            font-size: 1.2rem;
+            left: 3.5rem;
+        }
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
 }

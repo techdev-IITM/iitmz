@@ -5,6 +5,8 @@ import {
   FaPencilAlt,
   FaUserCheck,
 } from "react-icons/fa";
+import Button from "./button";
+import Link from "next/link";
 
 interface TimelineProps {
   variant?: "default" | "simple";
@@ -89,6 +91,11 @@ const AdmissionTimeline: React.FC<TimelineProps> = ({
               </div>
             ))}
           </div>
+        </div>
+        <div className={styles.buttonWrapper}>
+          <Link target="_blank" href="/timeline-poster.pdf">
+            <Button>Admission Flyer</Button>
+          </Link>
         </div>
       </div>
     </section>

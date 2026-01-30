@@ -94,7 +94,14 @@ const AdmissionTimeline: React.FC<TimelineProps> = ({
         </div>
         <div className={styles.buttonWrapper}>
           <Link target="_blank" href="/timeline-poster.pdf">
-            <Button>Admission Flyer</Button>
+            <Button>BS Admission Flyer</Button>
+          </Link>
+          <Link
+            target="_blank"
+            href="/mtech-timeline-poster.pdf"
+            rel="noopener noreferrer"
+          >
+            <Button kind="SECONDARY">M.Tech. Admission Flyer</Button>
           </Link>
         </div>
       </div>

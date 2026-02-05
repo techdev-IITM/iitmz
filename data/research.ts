@@ -547,6 +547,16 @@ export const researchData: ResearchDataType = {
     },
     {
       mentor: "Dr. Tushar Shinde",
+      student:
+        "Malavika Nithyanand (M.Tech student), Vikalp Srivastava (M.Tech student), Shivam Vyas (M.Tech student)",
+      award: "First Place - ICIP 2025 Grand Challenge",
+      work: "TwinShield: A Dual-Phase System for Detecting and Extracting Backdoors in VLMs",
+      conference:
+        "IEEE International Conference on Image Processing (ICIP) 2025 Grand Challenge",
+      posterImage: "/IEEE-ICIP-2025-Grand-Challenge.png",
+    },
+    {
+      mentor: "Dr. Tushar Shinde",
       student: "Aisha Hamad Hassan (M.Tech student)",
       award: "NeurIPS 2025 GenAI in Finance Travel Grant of USD $800!",
       work: "eFinBERT: Efficient Financial Sentiment Classification",

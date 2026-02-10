@@ -397,7 +397,7 @@ const eventsList = [
     desc: "The international discussion meeting on Air–Sea–Land Interactions: Observations and Modelling was held during January 4–8, 2026 at IIT Madras Zanzibar, Tanzania. The event brought together leading scientists, early career researchers, and students to discuss coastal processes, air–sea interactions, fine-scale dynamics, and emerging observational and modeling approaches. The program featured keynote lectures by internationally renowned experts, focused discussion sessions, and thematic technical talks, fostering collaboration across physical oceanography, atmospheric sciences, and geophysical fluid dynamics.",
   },
   {
-    img: "/iitmz-poster.pdf",
+    img: "/exotic-conf.png",
     startDate: "July 13, 2026",
     endDate: "July 24, 2026",
     name: "School and Workshop on Exotic Quantum Phases in Equilibrium and Driven Matter",
@@ -408,6 +408,10 @@ const eventsList = [
       {
         title: "View More Information",
         link: "http://indico.ictp.it/event/11121/",
+      },
+      {
+        title: "Download Workshop Brochure",
+        link: "/iitmz-poster.pdf",
       },
     ],
   },

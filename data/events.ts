@@ -400,7 +400,7 @@ const eventsList = [
     img: "/iitmz-poster.pdf",
     startDate: "July 13, 2026",
     endDate: "July 24, 2026",
-    name: "GFL Seminar on Air–Sea–Land Interactions: Observations and Modelling",
+    name: "School and Workshop on Exotic Quantum Phases in Equilibrium and Driven Matter",
     time: "10:00 AM EAT",
     location: "IITMZ Auditorium",
     desc: "This School and Workshop explores exotic quantum phases in equilibrium and driven matter, focusing on quantum spin liquids, spin–orbit–coupled materials, experimental probes, and nonequilibrium control via Floquet engineering and ultrafast dynamics.",

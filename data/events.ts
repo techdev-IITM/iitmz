@@ -396,6 +396,21 @@ const eventsList = [
     location: "IITMZ Auditorium",
     desc: "The international discussion meeting on Air–Sea–Land Interactions: Observations and Modelling was held during January 4–8, 2026 at IIT Madras Zanzibar, Tanzania. The event brought together leading scientists, early career researchers, and students to discuss coastal processes, air–sea interactions, fine-scale dynamics, and emerging observational and modeling approaches. The program featured keynote lectures by internationally renowned experts, focused discussion sessions, and thematic technical talks, fostering collaboration across physical oceanography, atmospheric sciences, and geophysical fluid dynamics.",
   },
+  {
+    img: "/iitmz-poster.pdf",
+    startDate: "July 13, 2026",
+    endDate: "July 24, 2026",
+    name: "GFL Seminar on Air–Sea–Land Interactions: Observations and Modelling",
+    time: "10:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This School and Workshop explores exotic quantum phases in equilibrium and driven matter, focusing on quantum spin liquids, spin–orbit–coupled materials, experimental probes, and nonequilibrium control via Floquet engineering and ultrafast dynamics.",
+    links: [
+      {
+        title: "View More Information",
+        link: "http://indico.ictp.it/event/11121/",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

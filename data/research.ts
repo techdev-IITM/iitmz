@@ -536,6 +536,15 @@ export const researchData: ResearchDataType = {
   ],
   awards: [
     {
+      mentor: "Dr. Tushar Shinde",
+      student: "Shivam Vyas (M.Tech student)",
+      award: "IEEE Signal Processing Society (SPS) Travel Grant of USD 1,500!",
+      work: "Resource-Efficient Vision Transformers for Multi-Scale Chest X-Ray Analysis with Distillation, Compression, and Coresets",
+      conference:
+        "51st 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026), Barcelona, Spain",
+      posterImage: "/icassp-2026.png",
+    },
+    {
       faculty: "Prof. Tushar Shinde",
       mentor: "",
       student: "",

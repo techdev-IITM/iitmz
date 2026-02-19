@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const StaffMember = [
   {
-    name: "Ms. Mshauri Abdulla Juma",
+    name: "Ms. Mshauri Abdulla Khamis",
     title: "Registrar",
     img: "/staff/MSHAURI ABDULLA KHAMIS (Registrar).jpg",
   },

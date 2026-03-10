@@ -33,16 +33,26 @@ export const researchData: ResearchDataType = {
   faculty: [
     {
       name: "Dr. Innocent Nyalala",
-      posterImage: "/AFRICHI-Egypt 2025.png",
+      posterImage: "/learning-representation-2026.png",
       publications: [
+        {
+          year: 2026,
+          title:
+            "Unifying Perspectives on Learning Biases: A Data-Centric Intervention for Holistic Fairness, Robustness, and Generalization",
+          venue:
+            "International Conference on Learning Representations 2026, Rio de Janeiro, Brazil",
+          type: "Conference",
+          description:
+            "This paper explores data-centric approaches to simultaneously improve AI fairness, robustness, and generalization by treating learning biases as a unified challenge rather than isolated problems. It proposes a specialized intervention framework designed to build trustworthy systems that remain reliable and unbiased across different modalities.",
+        },
         {
           year: 2025,
           title:
-            "From Art to Algorithms: Co-Designing AI for Clove Grading with Zanzibar&#39;s Indigenous Experts",
+            "From Art to Algorithms: Co-Designing AI for Clove Grading with Zanzibar's Indigenous Experts",
           venue: "AFRICHI ACM Conference 2025",
           type: "Conference",
           description:
-            "Proposes a socio-technical approach to modernizing Zanzibar&#39;s clove grading system. Validates a segmentation-first deep learning architecture, achieving 99.0% accuracy, while advocating for co-design with Indigenous experts to develop a low-cost mobile tool that fosters transparency and trust.",
+            "Proposes a socio-technical approach to modernizing Zanzibar's clove grading system. Validates a segmentation-first deep learning architecture, achieving 99.0% accuracy, while advocating for co-design with Indigenous experts to develop a low-cost mobile tool that fosters transparency and trust.",
         },
         {
           year: 2025,

@@ -20,6 +20,6 @@ export const announcements: Announcements = [
     content:
       "Join Our Upcoming Webinar on M.Tech. in DS & AI on 25 March'26 at 7PM to 8 PM IST | 4.30 PM - 5.30 PM EAT",
     linkText: "Register Now",
-    linkUrl: "/",
+    linkUrl: "https://forms.gle/D81UbGGxSqXUggwL8",
   },
 ];

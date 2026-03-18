@@ -430,6 +430,25 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/_RIEP–RISE-4.0-Innovation-Bootcamp.jpg",
+    startDate: "March 4, 2026",
+    endDate: "March 6, 2026",
+    name: "RIEP – RISE 4.0 Innovation Bootcamp",
+    time: "10:00 AM EAT",
+    location: "IITM Zanzibar Campus",
+    desc: "IIT Madras Zanzibar hosted the RIEP – RISE 4.0 Innovation Bootcamp, bringing together students, faculty leaders, and innovation stakeholders from India, Kenya, and Tanzania. The programme featured an international hackathon, a three-month mentorship phase, an intensive innovation bootcamp, and a faculty exchange programme with 30+ East African universities.  Our team CarbonTrace, secured a £3,500 non-dilutive grant to further develop their innovation.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/_RIEP–RISE-4.0-Innovation-Bootcamp.pdf",
+      },
+      {
+        title: "RIEP – RISE 4.0 Video Snippets",
+        link: "https://drive.google.com/file/d/1wNkLoCcTt_nIGplA2BmYhJDs6zkvuBbO/view",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

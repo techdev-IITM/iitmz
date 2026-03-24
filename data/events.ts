@@ -449,6 +449,21 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/mtech-webinar-poster.png",
+    startDate: "March 25, 2026",
+    name: "From Data to Decisions: Your Path to an M.Tech. in DS & AI at IITM Zanzibar",
+    time: "7PM to 8 PM IST | 4.30 PM - 5.30 PM EAT",
+    location: "Virtual",
+    RegLink: "https://forms.gle/D81UbGGxSqXUggwL8",
+    desc: "To know more about the program, you are invited to join an informative session on the M.Tech. Program Curriculum, Admissions, Life in Zanzibar, and Opportunities.",
+    links: [
+      {
+        title: "Joining Link",
+        link: "https://us06web.zoom.us/j/87087713362?pwd=pVKWCCmnnnzcNbr9iIfUui90XGauDU.1",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

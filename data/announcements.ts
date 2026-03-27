@@ -16,10 +16,10 @@ export const announcements: Announcements = [
     linkUrl: "https://admissions.iitmz.ac.in/",
   },
   {
-    activeTill: "2026-03-25",
+    activeTill: "2026-04-04",
     content:
-      "Join Our Upcoming Webinar on M.Tech. in DS & AI on 25 March'26 at 7PM to 8 PM IST | 4.30 PM - 5.30 PM EAT",
+      "Join Our Upcoming BS Webinar on 04 April'26 at 5PM to 6:30 PM IST",
     linkText: "Register Now",
-    linkUrl: "https://forms.gle/D81UbGGxSqXUggwL8",
+    linkUrl: "https://forms.gle/mEEYkAEr31XdeAFJ7",
   },
 ];

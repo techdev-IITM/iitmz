@@ -31,7 +31,8 @@ export const banners: Banner[] = [
     lgTitle: "",
     smTitle: "",
     img: "/banner_front.jpg",
-    linkText: "YouTube Link",
-    linkURL: "https://youtube.com/live/dEpVgYIdirs?feature=share",
+    linkText: "Register Now",
+    // linkURL: "https://youtube.com/live/dEpVgYIdirs?feature=share",
+    linkURL: "https://forms.gle/mEEYkAEr31XdeAFJ7",
   },
 ];

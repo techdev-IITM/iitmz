@@ -27,12 +27,12 @@ export const banners: Banner[] = [
   },
   {
     mdTitle:
-      "Join Our Upcoming BS Webinar on 04 April'26 at 5PM to 6:30 PM IST",
+      "Join Our Upcoming BS Webinar with Allen Career Institute on 11 April'26 at 5PM to 6:30 PM IST | 2:30 - 3:30 PM EAT",
     lgTitle: "",
     smTitle: "",
     img: "/banner_front.jpg",
     linkText: "Register Now",
     // linkURL: "https://youtube.com/live/dEpVgYIdirs?feature=share",
-    linkURL: "https://forms.gle/mEEYkAEr31XdeAFJ7",
+    linkURL: "https://forms.gle/mEubr2vzZTZ34RS69",
   },
 ];

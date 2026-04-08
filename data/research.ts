@@ -33,8 +33,37 @@ export const researchData: ResearchDataType = {
   faculty: [
     {
       name: "Dr. Innocent Nyalala",
-      posterImage: "/learning-representation-2026.png",
+      posterImage: "/cloves.png",
       publications: [
+        {
+          year: 2026,
+          title:
+            "CLOVES-4603: Benchmarking Classical Texture Features and Fine-Tuned Deep Models for Clove Quality Grading. ",
+          venue:
+            "7th Workshop on Vision for Agriculture (V4A), CVPR 2026. Denver, USA",
+          type: "Conference",
+          description:
+            "We introduce CLOVES-4603, the first public benchmark for clove quality grading, comprising 4,603 images across four commercial grades. Fine-tuned deep models achieve up to 99.67% accuracy, with our classical texture baseline reaching 92.94%, providing deployment-ready trade-offs for agricultural settings with limited infrastructure.",
+        },
+        {
+          year: 2026,
+          title:
+            "Deep Learning for Automated Clove Quality Grading: A Feasibility Study Using CNN Architectures on a Novel Zanzibar Dataset",
+          venue: "AI for East Africa Conference (AI4EAC 2026). Kigali, Rwanda",
+          type: "Conference",
+          description:
+            "We investigate automated clove quality grading using deep learning on a novel dataset of 5,298 images collected at the Zanzibar State Trading Corporation. ResNet18 achieves 94.46% accuracy across four commercial grades, establishing a strong baseline for responsible AI deployment in East African agriculture.",
+        },
+        {
+          year: 2026,
+          title:
+            "Culturally Attuned and Resource-Aware Foundation Models for East African Agriculture: A Theoretical Framework and Research Agenda.",
+          venue:
+            "Deep Learning Indaba 2025, Proceedings of Machine Learning Research (PMLR)",
+          type: "Conference",
+          description:
+            "We propose CARA-FM, a theoretical framework for building foundation models suited to East African agriculture, where over 175 million people are underserved by AI systems designed without their constraints in mind. The framework addresses computational limitations, linguistic diversity, and indigenous knowledge systems across four pillars: community-driven data, edge-first model design, indigenous knowledge integration, and participatory governance.",
+        },
         {
           year: 2026,
           title:
@@ -44,6 +73,15 @@ export const researchData: ResearchDataType = {
           type: "Conference",
           description:
             "This paper explores data-centric approaches to simultaneously improve AI fairness, robustness, and generalization by treating learning biases as a unified challenge rather than isolated problems. It proposes a specialized intervention framework designed to build trustworthy systems that remain reliable and unbiased across different modalities.",
+        },
+        {
+          year: 2026,
+          title:
+            "AI Sovereignty in the Global South: Power, Dependency, and Strategic Futures",
+          venue: "AAAI 2026 Conference - Workshop Empowering Global South AI",
+          type: "Conference",
+          description:
+            "Analyzes structural power asymmetries in AI development across the Global South, proposing multipolar policy frameworks involving the African Union, ASEAN, and South-South cooperation to counter digital dependency on foreign platforms.",
         },
         {
           year: 2025,
@@ -71,15 +109,6 @@ export const researchData: ResearchDataType = {
           type: "Conference",
           description:
             "This study examines whether Global South countries are advancing toward digital sovereignty or drifting into digital serfdom. It uses a seven-dimensional framework and four case studies (Singapore, Vietnam, Kenya, and Syria) to reveal asymmetries in computing, talent, and regulation.",
-        },
-        {
-          year: 2025,
-          title:
-            "AI Sovereignty in the Global South: Power, Dependency, and Strategic Futures",
-          venue: "AAAI 2026 Conference - Workshop Empowering Global South AI",
-          type: "Conference",
-          description:
-            "Analyzes structural power asymmetries in AI development across the Global South, proposing multipolar policy frameworks involving the African Union, ASEAN, and South-South cooperation to counter digital dependency on foreign platforms.",
         },
         {
           year: 2025,

@@ -27,7 +27,7 @@ export const banners: Banner[] = [
   },
   {
     mdTitle:
-      "Join Our Upcoming BS Webinar with Allen Career Institute on 11 April'26 at 5PM to 6:30 PM IST | 2:30 - 3:30 PM EAT",
+      "Join Our Upcoming BS Webinar on 11 April'26 at 5PM to 6:30 PM IST | 2:30 - 3:30 PM EAT",
     lgTitle: "",
     smTitle: "",
     img: "/banner_front.jpg",

@@ -464,6 +464,22 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/manoj-seminar-series.png",
+    startDate: "March 27, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "Understanding the link between protein structure and function through the evolution of enzyme systems.",
+  },
+  {
+    img: "/arun-kumar-seminar-series.png",
+    startDate: "April 10, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "A concise introduction to understanding graph eigenvalues through fundamental graph operations.",
+  },
 ];
 
 export default eventsList;

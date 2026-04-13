@@ -473,12 +473,20 @@ const eventsList = [
     desc: "Understanding the link between protein structure and function through the evolution of enzyme systems.",
   },
   {
-    img: "/arun-kumar-seminar-series.png",
-    startDate: "April 10, 2026",
+    img: "/raghunathan-rengaswamy.png",
+    startDate: "April 17, 2026",
     name: "IITMZ Seminar Series",
     time: "04:00 PM EAT",
     location: "IITMZ Auditorium",
-    desc: "A concise introduction to understanding graph eigenvalues through fundamental graph operations.",
+    desc: "Explore how Artificial Intelligence is transforming engineering process systems—from design and modeling to monitoring and control. The talk highlights real-world applications, data-driven design, and emerging ideas like unsupervised learning in binary data.",
+  },
+  {
+    img: "/sanjeev.png",
+    startDate: "April 24, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This talk explores the role of log-concavity in reliability theory, focusing on its preservation in multi-state systems across series, parallel, and hybrid configurations. It highlights modeling approaches, probability bounds, and applications in complex industrial systems.",
   },
 ];
 

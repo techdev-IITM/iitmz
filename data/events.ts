@@ -481,12 +481,12 @@ const eventsList = [
     desc: "Explore how Artificial Intelligence is transforming engineering process systems—from design and modeling to monitoring and control. The talk highlights real-world applications, data-driven design, and emerging ideas like unsupervised learning in binary data.",
   },
   {
-    img: "/sanjeev.png",
+    img: "/sanjeev-poster.png",
     startDate: "April 24, 2026",
     name: "IITMZ Seminar Series",
     time: "04:00 PM EAT",
     location: "IITMZ Auditorium",
-    desc: "This talk explores the role of log-concavity in reliability theory, focusing on its preservation in multi-state systems across series, parallel, and hybrid configurations. It highlights modeling approaches, probability bounds, and applications in complex industrial systems.",
+    desc: "This talk explores how log-concavity is preserved in multi-state systems—both discrete and continuous—across series, parallel, and hybrid configurations and its applications in obtaining bounds for joint probabilities for multi-state systems.",
   },
 ];
 

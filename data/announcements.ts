@@ -32,7 +32,7 @@ export const announcements: Announcements = [
   {
     activeTill: "2026-04-11",
     content:
-      "Join Our Upcoming BS Admissions webinar on 15 April'26 at 5PM to 6:30 PM IST | 2:30 - 4:00 PM EAT",
+      "Join Our Upcoming BS Admissions 2026 - 27 webinar on 15 April'26 at 5PM to 6:30 PM IST | 2:30 - 4:00 PM EAT",
     linkText: "Register Now",
     linkUrl: "https://forms.gle/n6UzMLg4o4p9mwmW7",
   },

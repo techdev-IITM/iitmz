@@ -575,6 +575,15 @@ export const researchData: ResearchDataType = {
   ],
   awards: [
     {
+      mentor: "Dr. Innocent Nyalala",
+      student: "Patrick Vincent (MTech Student)",
+      award: "AI4EAC 2026 Travel grant of USD 980!",
+      work: "Deep Learning for Automated Clove Quality Grading: A Feasibility Study Using CNN Architectures on a Novel Zanzibar Dataset",
+      conference:
+        "4th EAC Regional Science, Technology and Innovation Conference (AI4EAC 2026), Kigali, Rwanda",
+      posterImage: "/award-poster.png",
+    },
+    {
       mentor: "Dr. Tushar Shinde",
       student: "Shivam Vyas (M.Tech student)",
       award: "IEEE Signal Processing Society (SPS) Travel Grant of USD 1,500!",

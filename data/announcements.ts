@@ -9,6 +9,13 @@ export type Announcements = Announcement[];
 
 export const announcements: Announcements = [
   {
+    activeTill: "2026-04-20",
+    content:
+      "M.Tech. applications has been extended to Monday, 20 April 2026, until 12:30 PM IST (10:00 AM EAT)",
+    linkText: "Apply Now",
+    linkUrl: "https://admissions.iitmz.ac.in/mtechdsai",
+  },
+  {
     activeTill: "2026-04-30",
     content:
       "To know more about the BS admissions process, download the brochure",

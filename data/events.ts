@@ -491,7 +491,7 @@ const eventsList = [
   {
     img: "/ai-sustainable.png",
     startDate: "April 15, 2026",
-    name: "IITMZ Seminar Series",
+    name: "AI for Sustainable Development: Opportunities, Innovation & Careers",
     time: "01:30 PM EAT | 4 PM IST",
     location: "IITMZ Auditorium",
     desc: "This webinar aims to bring together interdisciplinary experts to discuss how Artificial Intelligence can address key sustainability challenges, with a focus on Africa. The session is designed as a thought leadership platform while also introducing participants to academic pathways in AI and sustainability.",

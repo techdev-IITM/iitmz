@@ -1,8 +1,8 @@
 export interface Announcement {
   activeTill: string;
   content: string;
-  linkText: string;
-  linkUrl: string;
+  linkText?: string;
+  linkUrl?: string;
 }
 
 export type Announcements = Announcement[];
@@ -15,6 +15,10 @@ export const announcements: Announcements = [
   //   linkText: "Apply Now",
   //   linkUrl: "https://admissions.iitmz.ac.in/mtechdsai",
   // },
+  {
+    activeTill: "2026-04-30",
+    content: "M.Tech applications closed",
+  },
   {
     activeTill: "2026-04-30",
     content:

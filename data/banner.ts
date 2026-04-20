@@ -17,8 +17,7 @@ export const banners: Banner[] = [
     linkURL: "",
   },
   {
-    mdTitle:
-      "BS & M.Tech. Admissions for the academic year 2026–27 are open now",
+    mdTitle: "BS Admissions for the academic year 2026–27 are open now",
     lgTitle: "",
     smTitle: "",
     img: "/banner_front.jpg",

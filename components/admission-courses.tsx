@@ -96,7 +96,9 @@ export default function AcademicPrograms() {
           url: "/schools/engineering-and-science/mtech-data-science-and-ai#screening-test",
         },
       ],
-      applicationLink: "https://admissions.iitmz.ac.in/mtechdsai",
+      // applicationLink: "https://admissions.iitmz.ac.in/mtechdsai",
+      applicationLink: "/",
+      applicationDisabled: true,
     },
     {
       title: "M.Tech. in Ocean Structures",

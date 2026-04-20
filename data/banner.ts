@@ -25,13 +25,4 @@ export const banners: Banner[] = [
     linkText: "Apply Now",
     linkURL: "https://admissions.iitmz.ac.in/",
   },
-  {
-    mdTitle: "Join Our Upcoming BS Admissions 2026 - 27 webinar on ",
-    lgTitle: "",
-    smTitle: "15 April'26 at 5PM to 6:30 PM IST | 2:30 - 4:00 PM EAT",
-    img: "/banner_front.jpg",
-    linkText: "Register Now",
-    // linkURL: "https://youtube.com/live/dEpVgYIdirs?feature=share",
-    linkURL: "https://forms.gle/n6UzMLg4o4p9mwmW7",
-  },
 ];

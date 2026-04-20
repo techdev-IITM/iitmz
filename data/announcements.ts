@@ -9,38 +9,31 @@ export type Announcements = Announcement[];
 
 export const announcements: Announcements = [
   {
-    activeTill: "2026-04-20",
+    activeTill: "2026-04-21",
     content:
       "M.Tech. applications has been extended to Monday, 20 April 2026, until 12:30 PM IST (10:00 AM EAT)",
     linkText: "Apply Now",
     linkUrl: "https://admissions.iitmz.ac.in/mtechdsai",
   },
-  {
-    activeTill: "2026-04-30",
-    content:
-      "To know more about the BS admissions process, download the brochure",
-    linkText: "BS Info Brochure",
-    linkUrl: "/IB_BS_2026_updated.pdf",
-  },
-  {
-    activeTill: "2026-04-30",
-    content:
-      "To know more about the M.Tech. admissions process, download the brochure",
-    linkText: "M.Tech. Info Brochure",
-    linkUrl: "/IB_MTech_2026.pdf",
-  },
-  {
-    activeTill: "2026-04-30",
-    content:
-      "BS & M.Tech. Admissions for the academic year 2026–27 are open now",
-    linkText: "Apply Now",
-    linkUrl: "https://admissions.iitmz.ac.in/",
-  },
-  {
-    activeTill: "2026-04-15",
-    content:
-      "Join Our Upcoming BS Admissions 2026 - 27 webinar on 15 April'26 at 5PM to 6:30 PM IST | 2:30 - 4:00 PM EAT",
-    linkText: "Register Now",
-    linkUrl: "https://forms.gle/n6UzMLg4o4p9mwmW7",
-  },
+  // {
+  //   activeTill: "2026-04-30",
+  //   content:
+  //     "To know more about the BS admissions process, download the brochure",
+  //   linkText: "BS Info Brochure",
+  //   linkUrl: "/IB_BS_2026_updated.pdf",
+  // },
+  // {
+  //   activeTill: "2026-04-30",
+  //   content:
+  //     "To know more about the M.Tech. admissions process, download the brochure",
+  //   linkText: "M.Tech. Info Brochure",
+  //   linkUrl: "/IB_MTech_2026.pdf",
+  // },
+  // {
+  //   activeTill: "2026-04-30",
+  //   content:
+  //     "BS & M.Tech. Admissions for the academic year 2026–27 are open now",
+  //   linkText: "Apply Now",
+  //   linkUrl: "https://admissions.iitmz.ac.in/",
+  // },
 ];

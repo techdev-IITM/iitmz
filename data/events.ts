@@ -498,7 +498,8 @@ const eventsList = [
   },
   {
     img: "/tutoring-session.jpeg",
-    startDate: "May 30, 2026",
+    startDate: "April 20, 2026",
+    endDate: "May 30, 2026",
     regLink:
       "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
     name: "Tutoring Session Cohort 3",

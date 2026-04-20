@@ -496,6 +496,16 @@ const eventsList = [
     location: "IITMZ Auditorium",
     desc: "This webinar aims to bring together interdisciplinary experts to discuss how Artificial Intelligence can address key sustainability challenges, with a focus on Africa. The session is designed as a thought leadership platform while also introducing participants to academic pathways in AI and sustainability.",
   },
+  {
+    img: "/tutoring-session.jpeg",
+    startDate: "May 30, 2026",
+    regLink:
+      "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+    name: "Tutoring Session Cohort 3",
+    time: "05:00 PM IST",
+    location: "Virtual",
+    desc: "Students who complete their BS application get exclusive access to Screening Test Training Sessions at IIT Madras Zanzibar, featuring live sessions, curated practice sets, and expert guidance. These sessions help you clearly understand the syllabus, practice with real sample questions, and learn effective strategies for objective exams, along with the opportunity to interact directly with IITM students through live Q&A sessions.",
+  },
 ];
 
 export default eventsList;

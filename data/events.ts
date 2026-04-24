@@ -507,6 +507,16 @@ const eventsList = [
     location: "Virtual",
     desc: "Students who complete their BS application get exclusive access to Screening Test Training Sessions at IIT Madras Zanzibar, featuring live sessions, curated practice sets, and expert guidance. These sessions help you clearly understand the syllabus, practice with real sample questions, and learn effective strategies for objective exams, along with the opportunity to interact directly with IITM students through live Q&A sessions.",
   },
+  {
+    img: "/outreach-1.jpeg",
+    startDate: "April 27, 2026",
+    regLink:
+      "https://us06web.zoom.us/webinar/register/WN_nsk0i34_R7ij7dF6_M4rTw",
+    name: "Africa & Middle East Exclusive Webinar",
+    time: "04:30 PM EAT",
+    location: "Virtual",
+    desc: "An online information session will provide an overview of the institute, its academic framework, and opportunities for students across Africa, the Middle East, and neighbouring regions. Structured Tutoring Sessions are available for registered applicants to support their preparation for the programme. ",
+  },
 ];
 
 export default eventsList;

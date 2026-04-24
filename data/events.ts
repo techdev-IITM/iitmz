@@ -512,7 +512,7 @@ const eventsList = [
     startDate: "April 27, 2026",
     regLink:
       "https://us06web.zoom.us/webinar/register/WN_nsk0i34_R7ij7dF6_M4rTw",
-    name: "Africa & Middle East Exclusive Webinar",
+    name: "IITM Zanzibar Information Session",
     time: "04:30 PM EAT",
     location: "Virtual",
     desc: "An online information session will provide an overview of the institute, its academic framework, and opportunities for students across Africa, the Middle East, and neighbouring regions. Structured Tutoring Sessions are available for registered applicants to support their preparation for the programme. ",

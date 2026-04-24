@@ -33,8 +33,17 @@ export const researchData: ResearchDataType = {
   faculty: [
     {
       name: "Dr. Innocent Nyalala",
-      posterImage: "/cloves.png",
+      posterImage: "/cultural-sutainability.png",
       publications: [
+        {
+          year: 2026,
+          title: "Cultural Sustainability in the New Technological Age",
+          venue:
+            "International Conference on AI Policy Harmonisation in East Africa, University of Oxford, United Kingdom",
+          type: "Conference",
+          description:
+            "Exploring the intersection of technology and culture, this research presents a framework for harmonising Al policies in East Africa while preserving cultural sustainability in a rapidly evolving technological age.",
+        },
         {
           year: 2026,
           title:

@@ -20,7 +20,7 @@ export const announcements: Announcements = [
     content: "M.Tech applications closed",
   },
   {
-    activeTill: "2026-04-30",
+    activeTill: "2026-05-15",
     content:
       "To know more about the BS admissions process, download the brochure",
     linkText: "BS Info Brochure",
@@ -34,8 +34,8 @@ export const announcements: Announcements = [
     linkUrl: "/IB_MTech_2026.pdf",
   },
   {
-    activeTill: "2026-04-30",
-    content: "BS Admissions for the academic year 2026–27 are open now",
+    activeTill: "2026-05-15",
+    content: "BS Admission has been extended till May 15, 2026",
     linkText: "Apply Now",
     linkUrl: "https://admissions.iitmz.ac.in/",
   },

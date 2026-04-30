@@ -34,7 +34,7 @@ const AdmissionTimeline: React.FC<TimelineProps> = ({
     {
       date: (
         <>
-          BS: April 30, 2026
+          BS: May 15, 2026
           <br />
           M.Tech: April 20, 2026
         </>

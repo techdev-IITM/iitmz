@@ -517,6 +517,14 @@ const eventsList = [
     location: "Virtual",
     desc: "An online information session will provide an overview of the institute, its academic framework, and opportunities for students across Africa, the Middle East, and neighbouring regions. Structured Tutoring Sessions are available for registered applicants to support their preparation for the programme. ",
   },
+  {
+    img: "/abhinandan.png",
+    startDate: "May 08, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "A deep reinforcement learning framework, COUNSEL, optimizes resource configuration in multi-component cloud services. It adapts to dynamic workloads without profiling overhead, ensuring efficient utilization while meeting SLOs and budget constraints. It delivers 20–60% performance improvement with constant-time inference in complex cloud environments.",
+  },
 ];
 
 export default eventsList;

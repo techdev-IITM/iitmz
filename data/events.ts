@@ -525,6 +525,15 @@ const eventsList = [
     location: "IITMZ Auditorium",
     desc: "A deep reinforcement learning framework, COUNSEL, optimizes resource configuration in multi-component cloud services. It adapts to dynamic workloads without profiling overhead, ensuring efficient utilization while meeting SLOs and budget constraints. It delivers 20–60% performance improvement with constant-time inference in complex cloud environments.",
   },
+  {
+    img: "/VeriVoice.png",
+    startDate: "May 12, 2026",
+    endDate: "May 15, 2026",
+    name: "Africa Digital ID Hackathon 2026",
+    time: "09:00 AM IST",
+    location: "Abidjan, Côte d’Ivoire",
+    desc: "Following a competitive selection process, Team VeriVoice has advanced to the next phase of the hackathon and will represent IITM Zanzibar and the country at the ID4Africa 2026 Annual General Meeting. The event will bring together global experts, innovators, and policymakers in the digital identity sector. Participation in this international platform highlights VeriVoice’s innovative approach to digital solutions while reflecting IITM Zanzibar’s commitment to technological advancement and digital transformation on a global stage.",
+  },
 ];
 
 export default eventsList;

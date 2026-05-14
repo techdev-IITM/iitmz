@@ -1,5 +1,4 @@
 import styles from "./course-components.module.scss";
-import Link from "next/link";
 
 export const Section = ({
   children,
@@ -39,9 +38,9 @@ export const Document = ({
   // If href is provided, render a clickable Link
   if (href) {
     return (
-      <Link href={href} target="_blank" className={styles.document}>
+      <a href={href} target="_blank" rel="noreferrer" className={styles.document}>
         {children}
-      </Link>
+      </a>
     );
   }
 

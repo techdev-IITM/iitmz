@@ -17,23 +17,25 @@ export default function ContactWidget() {
         <label>Apply Now</label>
       </Link>
 
-      <Link
+      <a
         target="_blank"
         href="/IB_BS_2026_updated.pdf"
         className={styles.widgetItem}
+        rel="noreferrer"
       >
         <MdOutlineLibraryBooks className={styles.icon} />
         <label>BS Info Brochure</label>
-      </Link>
+      </a>
 
-      <Link
+      <a
         target="_blank"
         href="/IB_MTech_2026.pdf"
         className={styles.widgetItem}
+        rel="noreferrer"
       >
         <MdOutlineDescription className={styles.icon} />
         <label>M.Tech. Info Brochure</label>
-      </Link>
+      </a>
 
       <Link
         target="_blank"

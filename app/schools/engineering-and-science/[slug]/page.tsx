@@ -193,9 +193,9 @@ export default async function PagePage({
 
             <div className={styles.cta}>
               {coursesMember.flyerLink && (
-                <Link target="_blank" href={coursesMember.flyerLink}>
+                <a target="_blank" href={coursesMember.flyerLink} rel="noreferrer">
                   <Button kind="SECONDARY">Download Program Flyer</Button>
-                </Link>
+                </a>
               )}
               {coursesMember?.applicationLink && (
                 <Link

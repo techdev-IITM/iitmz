@@ -23,7 +23,7 @@ export default function Ticker({ announcements }: TickerProps) {
       <p key={announcement.content}>
         <span>{content}</span>
         {announcement.linkUrl && announcement.linkText && (
-          <Link href={announcement.linkUrl}>{announcement.linkText}</Link>
+          <a href={announcement.linkUrl} target="_blank" rel="noreferrer">{announcement.linkText}</a>
         )}
       </p>
     );

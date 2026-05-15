@@ -34,8 +34,8 @@ export const announcements: Announcements = [
     linkUrl: "/IB_MTech_2026.pdf",
   },
   {
-    activeTill: "2026-05-15",
-    content: "BS Admission has been extended till May 15, 2026",
+    activeTill: "2026-05-16",
+    content: "BS Applications closing soon 15 May'26. Apply now",
     linkText: "Apply Now",
     linkUrl: "https://admissions.iitmz.ac.in/",
   },

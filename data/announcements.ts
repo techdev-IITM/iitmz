@@ -39,4 +39,17 @@ export const announcements: Announcements = [
     linkText: "Apply Now",
     linkUrl: "https://admissions.iitmz.ac.in/",
   },
+  {
+    activeTill: "2026-05-30",
+    content: "Tutoring sessions are ongoing until 30 May 2026",
+    linkText: "Join Tutoring session",
+    linkUrl:
+      "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+  },
+  {
+    activeTill: "2026-06-06",
+    content: "BS Examination is scheduled for 06 June 2026",
+    linkText: "Know More",
+    linkUrl: "https://www.iitmz.ac.in/admission",
+  },
 ];

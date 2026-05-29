@@ -50,7 +50,7 @@ export const announcements: Announcements = [
     activeTill: "2026-06-06",
     content: "BS Admit card has been released",
     linkText: "Click Here to Download",
-    linkUrl: "https://admissions.iitmz.ac.in/",
+    linkUrl: "https://admissions.iitmz.ac.in/bs",
   },
   {
     activeTill: "2026-06-06",

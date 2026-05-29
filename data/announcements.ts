@@ -40,11 +40,17 @@ export const announcements: Announcements = [
     linkUrl: "https://admissions.iitmz.ac.in/",
   },
   {
-    activeTill: "2026-05-30",
-    content: "Tutoring sessions are ongoing until 30 May 2026",
+    activeTill: "2026-05-31",
+    content: "Tutoring sessions are ongoing until 31 May 2026",
     linkText: "Join Tutoring session",
     linkUrl:
       "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+  },
+  {
+    activeTill: "2026-06-06",
+    content: "BS Admit card has been released",
+    linkText: "Click Here to Download",
+    linkUrl: "https://admissions.iitmz.ac.in/",
   },
   {
     activeTill: "2026-06-06",

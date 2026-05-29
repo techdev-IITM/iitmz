@@ -534,6 +534,21 @@ const eventsList = [
     location: "Abidjan, Côte d’Ivoire",
     desc: "Following a competitive selection process, Team VeriVoice has advanced to the next phase of the hackathon and will represent IITM Zanzibar and the country at the ID4Africa 2026 Annual General Meeting. The event will bring together global experts, innovators, and policymakers in the digital identity sector. Participation in this international platform highlights VeriVoice’s innovative approach to digital solutions while reflecting IITM Zanzibar’s commitment to technological advancement and digital transformation on a global stage.",
   },
+  {
+    img: "/curtain-raiser-news.png",
+    startDate: "June 09, 2026",
+    regLink: "https://forms.gle/R8ayAsbTJs1euXQg8",
+    name: "CPE - Curtain Raiser Event",
+    time: "10:00 AM - 5:00 PM IST",
+    location: "IIT Madras Zanzibar Campus",
+    desc: "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/CPE-Curtain-Raiser.pdf",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

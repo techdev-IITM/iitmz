@@ -549,6 +549,14 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/goutam.jpg",
+    startDate: "June 05, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This talk highlights the role of Artificial Intelligence (AI) in advancing robotics and surveillance through intelligent automation, navigation, object recognition, and adaptive decision-making. The session will also cover AI-driven surveillance technologies such as facial recognition, smart video analytics, autonomous drones, and the application of Reinforcement Learning in robotic path planning and adaptive monitoring systems.",
+  },
 ];
 
 export default eventsList;

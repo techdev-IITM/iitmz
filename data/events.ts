@@ -557,6 +557,14 @@ const eventsList = [
     location: "IITMZ Auditorium",
     desc: "This talk highlights the role of Artificial Intelligence (AI) in advancing robotics and surveillance through intelligent automation, navigation, object recognition, and adaptive decision-making. The session will also cover AI-driven surveillance technologies such as facial recognition, smart video analytics, autonomous drones, and the application of Reinforcement Learning in robotic path planning and adaptive monitoring systems.",
   },
+  {
+    img: "/krishnamurthy.png",
+    startDate: "June 19, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "As part of the IITM Zanzibar Seminar Series, Prof. C. V. Krishnamurthy, former Professor of Physics at IIT Madras, will deliver a seminar on “Structure and Dynamics of Strongly Confined Fluids” on 19 June. The talk will explore how fluids confined within sub-nanometer channels exhibit unique structural and dynamical properties that differ significantly from those of bulk fluids, with particular emphasis on the behavior of water under extreme confinement. Students, faculty, and researchers are invited to attend this engaging session and gain insights into contemporary challenges in condensed matter physics and molecular dynamics.",
+  },
 ];
 
 export default eventsList;

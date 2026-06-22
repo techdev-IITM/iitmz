@@ -7,20 +7,27 @@ export interface News {
 
 export const news: News[] = [
   {
+    title: "Short-Term Professional Course",
+    content:
+      "Data Science for Epidemiology and Public Health Analytics is a 2-week intensive program commencing on 20 July 2026, designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
+    img: "/course-1.png",
+    linkURL: "/course.pdf",
+  },
+  {
     title: "CPE - Curtain Raiser Event",
     content:
       "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
     img: "/curtain.png",
     linkURL: "https://forms.gle/R8ayAsbTJs1euXQg8",
   },
-  {
-    title: "Tutoring Session Cohort 3",
-    content:
-      "Students who complete their BS application get exclusive access to Screening Test Training Sessions at IIT Madras Zanzibar, featuring live sessions, curated practice sets, and expert guidance. These sessions help you clearly understand the syllabus, practice with real sample questions, and learn effective strategies for objective exams, along with the opportunity to interact directly with IITM students through live Q&A sessions.",
-    img: "/tutoring-session.jpeg",
-    linkURL:
-      "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
-  },
+  // {
+  //   title: "Tutoring Session Cohort 3",
+  //   content:
+  //     "Students who complete their BS application get exclusive access to Screening Test Training Sessions at IIT Madras Zanzibar, featuring live sessions, curated practice sets, and expert guidance. These sessions help you clearly understand the syllabus, practice with real sample questions, and learn effective strategies for objective exams, along with the opportunity to interact directly with IITM students through live Q&A sessions.",
+  //   img: "/tutoring-session.jpeg",
+  //   linkURL:
+  //     "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+  // },
   {
     title: "RIEP – RISE 4.0 Innovation Bootcamp",
     content:

@@ -147,6 +147,63 @@ export default function SkillPrograms() {
             </p>
           </div>
         </article>
+
+        {/* Zanzibar course */}
+
+        <article className={styles.programCard}>
+          <div className={styles.cardHeader}>
+            <div className={styles.logoContainer}>
+              <Img
+                src="/iitmz.png"
+                alt="IITMZ Course"
+                className={styles.logo}
+                width={100}
+                height={140}
+              />
+            </div>
+            <div className={styles.cardInfo}>
+              <h2 className={styles.cardTitle}>
+                Short-Term Professional Course
+              </h2>
+              <h3 className={styles.cardSubtitle}>
+                Data Science for Epidemiology and Public Health Analytics
+              </h3>
+              <div
+                className={`${styles.cardMeta} ${styles.certButtonsContainer}`}
+              >
+                {" "}
+                <Link
+                  href="/course.pdf"
+                  className={styles.cardLink}
+                  target="_blank"
+                >
+                  Course Details
+                </Link>
+                <Link
+                  href="https://forms.gle/KiEY8GzJHDV3GWuL6"
+                  className={styles.cardLink}
+                  target="_blank"
+                >
+                  {" "}
+                  {/* Assuming a placeholder link for TDS */}
+                  Registration Link
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.cardContent}>
+            <p className={styles.description}>
+              This intensive short-term course is designed to equip participants
+              with essential data science skills for analyzing, interpreting,
+              and visualizing epidemiological and public health data. Through a
+              combination of lectures, hands-on laboratory sessions, and
+              project-based learning, participants will gain practical
+              experience in applying modern data analytics techniques to address
+              real-world public health challenges.
+            </p>
+          </div>
+        </article>
+
         {/* Beem Africa */}
 
         <article className={styles.programCard}>

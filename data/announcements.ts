@@ -20,6 +20,13 @@ export const announcements: Announcements = [
     content: "M.Tech applications closed",
   },
   {
+    activeTill: "2026-07-06",
+    content:
+      "Data Science for Epidemiology and Public Health Analytics – Registrations Open Until 5 July 2026",
+    linkText: "Click here to register",
+    linkUrl: "https://forms.gle/KiEY8GzJHDV3GWuL6",
+  },
+  {
     activeTill: "2026-05-15",
     content:
       "To know more about the BS admissions process, download the brochure",

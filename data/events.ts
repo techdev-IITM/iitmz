@@ -565,6 +565,21 @@ const eventsList = [
     location: "IITMZ Auditorium",
     desc: "As part of the IITM Zanzibar Seminar Series, Prof. C. V. Krishnamurthy, former Professor of Physics at IIT Madras, will deliver a seminar on “Structure and Dynamics of Strongly Confined Fluids” on 19 June. The talk will explore how fluids confined within sub-nanometer channels exhibit unique structural and dynamical properties that differ significantly from those of bulk fluids, with particular emphasis on the behavior of water under extreme confinement. Students, faculty, and researchers are invited to attend this engaging session and gain insights into contemporary challenges in condensed matter physics and molecular dynamics.",
   },
+  {
+    img: "/data-science-short-term-course.jpg",
+    startDate: "July 20, 2026",
+    regLink: "https://forms.gle/KiEY8GzJHDV3GWuL6",
+    name: "Data Science for Epidemiology and Public Health Analytics",
+    time: "10:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This 2-week intensive program is designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/course.pdf",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

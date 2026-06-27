@@ -584,6 +584,15 @@ export const researchData: ResearchDataType = {
   ],
   awards: [
     {
+      mentor: "Dr. Tushar Shinde",
+      student: "Sreejita Roy (MTech Student)",
+      award: "Women in Computer Vision (WiCV) Travel Grant of USD $2000",
+      work: "AdaCRAD: Adaptive Compression via Representation-Aware Drift for Ranking Preservation in AIGC-IQA",
+      conference:
+        "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)",
+      posterImage: "/cvpr-2026.png",
+    },
+    {
       mentor: "Dr. Innocent Nyalala",
       student: "Patrick Vincent (MTech Student)",
       award: "AI4EAC 2026 Travel grant of USD 980!",

@@ -20,6 +20,13 @@ export const announcements: Announcements = [
     content: "M.Tech applications closed",
   },
   {
+    activeTill: "2026-07-06",
+    content:
+      "Data Science for Epidemiology and Public Health Analytics – Registrations Open Until 5 July 2026",
+    linkText: "Click here to register",
+    linkUrl: "https://forms.gle/KiEY8GzJHDV3GWuL6",
+  },
+  {
     activeTill: "2026-05-15",
     content:
       "To know more about the BS admissions process, download the brochure",
@@ -34,9 +41,28 @@ export const announcements: Announcements = [
     linkUrl: "/IB_MTech_2026.pdf",
   },
   {
-    activeTill: "2026-05-15",
-    content: "BS Admission has been extended till May 15, 2026",
+    activeTill: "2026-05-16",
+    content: "BS Applications closing soon 15 May'26. Apply now",
     linkText: "Apply Now",
     linkUrl: "https://admissions.iitmz.ac.in/",
+  },
+  {
+    activeTill: "2026-05-31",
+    content: "Tutoring sessions are ongoing until 31 May 2026",
+    linkText: "Join Tutoring session",
+    linkUrl:
+      "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+  },
+  {
+    activeTill: "2026-06-06",
+    content: "BS Admit card has been released",
+    linkText: "Click Here to Download",
+    linkUrl: "https://admissions.iitmz.ac.in/bs",
+  },
+  {
+    activeTill: "2026-06-06",
+    content: "BS Examination is scheduled for 06 June 2026",
+    linkText: "Know More",
+    linkUrl: "https://www.iitmz.ac.in/admission",
   },
 ];

@@ -17,14 +17,6 @@ export const banners: Banner[] = [
     linkURL: "",
   },
   {
-    mdTitle: "BS Admission has been extended till May 15, 2026",
-    lgTitle: "",
-    smTitle: "",
-    img: "/banner_front.jpg",
-    linkText: "Apply Now",
-    linkURL: "https://admissions.iitmz.ac.in/",
-  },
-  {
     mdTitle: "Tutoring Session Cohort 3",
     lgTitle: "",
     smTitle: "April 20, 2026 - May 30, 2026 | 05:00 PM IST",

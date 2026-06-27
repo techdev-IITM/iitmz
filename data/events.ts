@@ -499,7 +499,7 @@ const eventsList = [
   {
     img: "/tutoring-session.jpeg",
     startDate: "April 20, 2026",
-    endDate: "May 30, 2026",
+    endDate: "May 31, 2026",
     regLink:
       "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
     name: "Tutoring Session Cohort 3",
@@ -533,6 +533,52 @@ const eventsList = [
     time: "09:00 AM IST",
     location: "Abidjan, Côte d’Ivoire",
     desc: "Following a competitive selection process, Team VeriVoice has advanced to the next phase of the hackathon and will represent IITM Zanzibar and the country at the ID4Africa 2026 Annual General Meeting. The event will bring together global experts, innovators, and policymakers in the digital identity sector. Participation in this international platform highlights VeriVoice’s innovative approach to digital solutions while reflecting IITM Zanzibar’s commitment to technological advancement and digital transformation on a global stage.",
+  },
+  {
+    img: "/curtain-raiser-news.png",
+    startDate: "June 09, 2026",
+    regLink: "https://forms.gle/R8ayAsbTJs1euXQg8",
+    name: "CPE - Curtain Raiser Event",
+    time: "10:00 AM - 5:00 PM IST",
+    location: "IIT Madras Zanzibar Campus",
+    desc: "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/CPE-Curtain-Raiser.pdf",
+      },
+    ],
+  },
+  {
+    img: "/goutam.jpg",
+    startDate: "June 05, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This talk highlights the role of Artificial Intelligence (AI) in advancing robotics and surveillance through intelligent automation, navigation, object recognition, and adaptive decision-making. The session will also cover AI-driven surveillance technologies such as facial recognition, smart video analytics, autonomous drones, and the application of Reinforcement Learning in robotic path planning and adaptive monitoring systems.",
+  },
+  {
+    img: "/krishnamurthy.png",
+    startDate: "June 19, 2026",
+    name: "IITMZ Seminar Series",
+    time: "04:00 PM EAT",
+    location: "IITMZ Auditorium",
+    desc: "As part of the IITM Zanzibar Seminar Series, Prof. C. V. Krishnamurthy, former Professor of Physics at IIT Madras, will deliver a seminar on “Structure and Dynamics of Strongly Confined Fluids” on 19 June. The talk will explore how fluids confined within sub-nanometer channels exhibit unique structural and dynamical properties that differ significantly from those of bulk fluids, with particular emphasis on the behavior of water under extreme confinement. Students, faculty, and researchers are invited to attend this engaging session and gain insights into contemporary challenges in condensed matter physics and molecular dynamics.",
+  },
+  {
+    img: "/data-science-short-term-course.jpg",
+    startDate: "July 20, 2026",
+    regLink: "https://forms.gle/KiEY8GzJHDV3GWuL6",
+    name: "Data Science for Epidemiology and Public Health Analytics",
+    time: "10:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This 2-week intensive program is designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
+    links: [
+      {
+        title: "View More Information",
+        link: "/course.pdf",
+      },
+    ],
   },
 ];
 

@@ -1,60 +1,107 @@
-/* .container {
-    min-height: 100vh;
-    background-color: #ffffff;
-} */
-
 .content {
-    /* max-width: 1152px;
-    margin: 0 auto;
-    padding: 48px 24px; */
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 6rem;
 }
 
+/* --- Section headings: amber underline accent, matching the site --- */
 .sectionHeader {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 32px;
+    margin-bottom: 2.6rem;
 }
 
 .sectionIndicator {
-    width: 4px;
-    height: 32px;
-    background-color: #ffb013;
-    border-radius: 9999px;
+    display: none;
 }
 
 .sectionTitle {
+    position: relative;
     font-size: 2.6rem;
-    font-weight: 600;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
+    font-weight: 700;
+    color: #141517;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    padding-bottom: 1.1rem;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 4.4rem;
+        height: 4px;
+        border-radius: 2px;
+        background: #ffb013;
+    }
 }
 
 .directorHeader {
-    padding-top: 10px;
+    padding-top: 0.5rem;
 }
+
+/* --- Cards: flat, borderless --- */
+.card {
+    background-color: #ffffff;
+}
+
+.cardContent {
+    padding: 3rem;
+}
+
+.cardContentTeam {
+    padding: 3.4rem 2.6rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: #f6f8fb;
+    border-radius: 14px;
+}
+
+/* --- Body copy --- */
+.textLarge {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #3a3a44;
+}
+
+.textRegular {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #3a3a44;
+    margin-bottom: 1rem;
+}
+
+.textMuted {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #6a6a73;
+    margin-top: 1.6rem;
+}
+
+/* --- Director's message --- */
 .directorSection {
     display: grid;
-    gap: 32px;
+    gap: 3rem;
     align-items: start;
 }
 
 @media (min-width: 768px) {
     .directorSection {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 280px 1fr;
     }
 }
 
-/* Adding styles for director profile with circular image */
 .directorProfile {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    gap: 1.4rem;
+
+    a:hover .directorName {
+        color: #c32938;
+    }
 }
 
 .directorImage {
@@ -62,151 +109,48 @@
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #e2e8f0;
+    border: 1px solid #e7e8ee;
 }
 
 .directorName {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #0f172a;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #141517;
     margin: 0;
+    transition: color 0.2s ease;
 }
 
 .directorTitle {
-    font-size: 0.875rem;
-    color: #6b7280;
-    margin: 0;
-}
-.card {
-    /* replaced hsl(var(--card)) with exact white color */
-    background-color: #ffffff;
-    /* replaced hsl(var(--border)) with exact light gray border */
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    box-shadow:
-        0 1px 3px 0 rgb(0 0 0 / 0.1),
-        0 1px 2px -1px rgb(0 0 0 / 0.1);
-}
-.cardContent {
-    padding: 32px;
-}
-
-.cardContentSmall {
-    padding: 24px;
-}
-
-.cardContentTeam {
-    padding: 24px;
-    text-align: center;
-}
-
-.textLarge {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
-}
-
-.textRegular {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
-    margin-bottom: 10px;
-}
-
-.textMuted {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    color: #6b7280;
-    margin-top: 16px;
-}
-
-.philosophyGrid {
-    display: grid;
-    gap: 32px;
-}
-
-@media (min-width: 768px) {
-    .philosophyGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    .philosophyGrid > div:nth-child(2) > .sectionHeader {
-        margin-top: 70px;
-    }
-}
-
-.cardFull {
-    height: 100%;
-}
-
-.highlightBox {
-    margin-top: 16px;
-    padding: 16px;
-    background-color: rgba(255, 176, 19, 0.05);
-    border-radius: 8px;
-    border-left: 2px solid #ffb013;
-}
-
-.highlightText {
-    font-size: 1.6rem;
-    color: #6b7280;
-}
-
-.visionList {
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.visionItem {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.visionDot {
-    width: 8px;
-    height: 8px;
-    background-color: #ffb013;
-    border-radius: 50%;
-}
-
-.visionText {
-    font-size: 1.6rem;
-    color: #6b7280;
+    font-size: 1.35rem;
+    color: #6a6a73;
+    line-height: 1.5;
+    margin: 0.4rem 0 0;
 }
 
 .messageContent {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2rem;
 }
 
 .academicBox {
-    /* replaced hsl(var(--muted) / 0.5) with exact light gray background */
-    background-color: rgba(148, 163, 184, 0.1);
-    padding: 24px;
-    border-radius: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    background-color: rgba(255, 176, 19, 0.07);
+    border: 1px solid #f1e6cf;
+    padding: 2.4rem;
+    border-radius: 10px;
+    margin: 2rem 0;
 }
 
 .academicTitle {
-    font-size: 1.6rem;
-    font-weight: 600;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
-    margin-bottom: 12px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #141517;
+    margin-bottom: 1.4rem;
 }
 
 .academicGrid {
     display: grid;
-    gap: 16px;
+    gap: 1.4rem;
     font-size: 1.6rem;
 }
 
@@ -219,7 +163,9 @@
 .academicItem {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 1rem;
+    color: #3a3a44;
+    font-size: 1.5rem;
 }
 
 .academicDot {
@@ -227,86 +173,64 @@
     height: 8px;
     background-color: #ffb013;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .academicNote {
-    color: #6b7280;
-    font-size: 1.6rem;
-    margin-top: 12px;
+    color: #6a6a73;
+    font-size: 1.45rem;
+    line-height: 1.6;
+    margin-top: 1.4rem;
 }
 
+/* --- Pull quote: amber quotation mark, no side stripe --- */
 .quote {
-    border-left: 4px solid #ffb013;
-    padding-left: 24px;
+    position: relative;
+    padding: 3rem 1rem 0.5rem 4.5rem;
+
+    &::before {
+        content: "\201C";
+        position: absolute;
+        left: 0.5rem;
+        top: 1.6rem;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 6rem;
+        line-height: 1;
+        color: #ffb013;
+    }
 }
 
 .quoteText {
-    font-size: 1.6rem;
-    color: #6b7280;
+    font-size: 1.7rem;
+    color: #3a3a44;
     font-style: italic;
-    margin-top: 28px;
-    margin-bottom: 28px;
-    line-height: 1.8;
+    line-height: 1.75;
+    margin: 0;
 }
 
-.directorSignature {
-    margin-top: 32px;
-    padding-top: 24px;
-    /* replaced hsl(var(--border)) with exact light gray border */
-    border-top: 1px solid #e2e8f0;
-}
-
-.directorInfo {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.directorAvatar {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.directorName {
-    font-size: 2rem;
-    font-weight: 600;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
-}
-
-.directorTitle {
-    font-size: 1.5rem;
-    color: #6b7280;
-}
-
+/* --- Team --- */
 .teamGrid {
     display: grid;
-    gap: 24px;
+    gap: 2.4rem;
+    max-width: 760px;
+    margin: 0;
 }
 
 @media (min-width: 640px) {
     .teamGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 1024px) {
-    .teamGrid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 .teamAvatar {
-    width: 120px;
-    height: 120px;
+    width: 118px;
+    height: 118px;
     border-radius: 50%;
-    margin: 0 auto 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffb013;
+    margin: 0 auto 1.8rem;
+    border: 3px solid #ffffff;
+    outline: 2px solid #ffd28a;
+    outline-offset: 0;
+    overflow: hidden;
 }
 
 .teamImage {
@@ -317,42 +241,51 @@
 }
 
 .teamName {
-    font-size: 1.6rem;
-    font-weight: 600;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #141517;
+    letter-spacing: -0.01em;
 }
 
 .teamRole {
-    font-size: 1.6rem;
-    color: #6b7280;
-    margin-top: 4px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
+    color: #6a6a73;
+    line-height: 1.55;
+    margin-top: 0.6rem;
+    margin-bottom: 2.2rem;
 }
 
+.cardContentTeam a {
+    margin-top: auto;
+}
+
+/* --- Past recruiters: clean uniform logo wall --- */
 .recruitersDescription {
-    font-size: 1.6rem;
-    color: #6b7280;
-    margin-bottom: 32px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #8a8a93;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
 .recruitersGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    align-items: center;
+    gap: 2.4rem;
+    align-items: start;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     .recruitersGrid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (min-width: 1024px) {
     .recruitersGrid {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -360,13 +293,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 1rem;
 }
 
 .recruiterLogo {
-    width: 120px;
-    height: 120px;
-    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    padding: 2.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,7 +312,17 @@
 }
 
 .recruiterName {
-    font-size: 1.6rem;
-    color: #6b7280;
+    font-size: 1.35rem;
+    color: #575757;
     text-align: center;
+    line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+    .content {
+        gap: 4.5rem;
+    }
+    .cardContent {
+        padding: 2.2rem;
+    }
 }

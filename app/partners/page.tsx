@@ -522,8 +522,8 @@ export default function PartnersPage() {
             </Slider>
           </div> */}
 
-        <div className={styles.header}>
-          <h1>Academic Partners</h1>
+        <div className={styles.sectionTitle}>
+          <h2>Academic Partners</h2>
         </div>
         <div className={styles.partners}>
           <div className={styles.card}>
@@ -672,8 +672,8 @@ export default function PartnersPage() {
           </div>
         </div>
 
-        <div className={styles.header}>
-          <h1>Corporate and Government Partners</h1>
+        <div className={styles.sectionTitle}>
+          <h2>Corporate and Government Partners</h2>
         </div>
         <div className={styles.partners}>
           <div className={styles.card}>

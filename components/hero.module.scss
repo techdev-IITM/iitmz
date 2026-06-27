@@ -7,12 +7,17 @@
     align-items: center;
     &:before {
         position: absolute;
-        width: 100%;
-        height: 100%;
-        background: #000;
+        inset: 0;
         content: "";
-        opacity: 0.45;
         z-index: 2;
+        /* Tinted navy scrim, lighter at top so the photo breathes,
+           deeper toward the lower third where the headline + CTA sit. */
+        background: linear-gradient(
+            180deg,
+            rgba(12, 17, 36, 0.32) 0%,
+            rgba(12, 17, 36, 0.46) 55%,
+            rgba(12, 17, 36, 0.64) 100%
+        );
     }
     & > img {
         position: absolute;
@@ -38,12 +43,17 @@
     h4 {
         margin-bottom: 1rem;
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0 2px 14px rgba(8, 11, 24, 0.55);
         font-weight: 700;
+        text-align: center;
+        max-width: 22ch;
     }
     h2 {
         font-size: 3.5rem;
         margin-bottom: 1.5rem;
+        letter-spacing: -0.015em;
+        line-height: 1.15;
+        max-width: 18ch;
     }
     h3 {
         font-size: 2.75rem;
@@ -59,7 +69,7 @@
 
 @media (max-width: 480px) {
     .item {
-        height: 75vh;
+        height: 75dvh;
     }
     .content {
         h4 {

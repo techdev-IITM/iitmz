@@ -14,12 +14,14 @@ html {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato), "Lato", -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.8rem;
     color: #575757;
+    text-rendering: optimizeLegibility;
 }
 
 p,
@@ -29,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Raleway, sans-serif;
+    font-family: var(--font-raleway), "Raleway", -apple-system, BlinkMacSystemFont, sans-serif;
     overflow-wrap: break-word;
     margin-bottom: 0;
     line-height: 1.3;
@@ -61,6 +63,32 @@ select {
 a {
     text-decoration: none !important;
     color: #333;
+}
+
+/* Visible keyboard focus, restored after the global `outline: none` reset.
+   Uses the brand crimson so it reads as intentional, not a browser default. */
+:focus-visible {
+    outline: 2px solid #d50032;
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+/* Honour reduced-motion: neutralise autoplay sliders, marquee, ticker, hovers */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Display headings tighten optically at large sizes */
+h1,
+h2 {
+    letter-spacing: -0.01em;
 }
 
 .container {

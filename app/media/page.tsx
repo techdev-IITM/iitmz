@@ -1,7 +1,6 @@
 import styles from "./page.module.scss";
 import media from "@/data/media";
-import NewsCard from "@/components/news-card";
-import YoutubePlayer from "@/components/youtube-player";
+import MediaCard from "@/components/media-card";
 
 export const metadata = {
   title: "News",
@@ -14,18 +13,21 @@ export const metadata = {
 
 export default function MediaPage() {
   return (
-    <div className="container">
-      <div className={styles.section}>
-        {/* <div className={styles.youtube_container}>
-          {media.yt.map((video) => {
-            return <YoutubePlayer key={video.id} id={video.id} />;
-          })}
-        </div> */}
-        <div className={styles.news_container}>
+    <div className={styles.page}>
+      <div className="container">
+        <div className={styles.header}>
+          <h1>News &amp; Media</h1>
+          <p>
+            IIT Madras Zanzibar in the press, and the latest stories from our
+            campus.
+          </p>
+        </div>
+        <div className={styles.grid}>
           {media.articles.map((article) => (
-            <NewsCard
+            <MediaCard
               key={article.title}
               image={article.image.url}
+              alt={article.image.alt}
               title={article.title}
               desc={article.desc}
               link={article.link}

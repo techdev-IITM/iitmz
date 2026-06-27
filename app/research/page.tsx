@@ -17,6 +17,10 @@ export default function ResearchPage() {
            <div className="container">
               <div className={styles.header}>
               <h1>Research Highlights</h1>
+              <p>
+                Recent publications, conference talks, and student recognitions
+                from the faculty of IIT Madras Zanzibar.
+              </p>
               </div>
               <div className={styles.body}>
         <ResearchHighlights />

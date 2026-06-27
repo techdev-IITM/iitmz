@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, ReactNode } from "react";
+import { BsChevronDown } from "react-icons/bs";
 import styles from "./expand.module.scss";
-import Button from "@/components/button";
 
 interface ExpandProps {
   children: ReactNode[] | string;
@@ -17,6 +17,23 @@ export default function Expand({
 }: ExpandProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const toggle = (
+    <button
+      type="button"
+      className={styles.toggle}
+      onClick={() => setIsExpanded(!isExpanded)}
+      aria-expanded={isExpanded}
+    >
+      {isExpanded ? "Read less" : "Read more"}
+      <BsChevronDown
+        className={`${styles.toggleIcon} ${
+          isExpanded ? styles.toggleIconOpen : ""
+        }`}
+        aria-hidden="true"
+      />
+    </button>
+  );
+
   if (typeof children === "string") {
     const shouldTrim = children.length > previewChars;
     return (
@@ -26,13 +43,7 @@ export default function Expand({
             <p className={styles.textRegular}>
               {isExpanded ? children : children.slice(0, previewChars) + "..."}
             </p>
-
-            <Button
-              kind="SECONDARY"
-              onClick={() => setIsExpanded(!isExpanded)}
-            >
-              {isExpanded ? "Read Less" : "Read More"}
-            </Button>
+            {toggle}
           </>
         ) : (
           <p className={styles.textRegular}>{children}</p>
@@ -40,7 +51,6 @@ export default function Expand({
       </div>
     );
   }
-  
 
   const shouldTrim = children.length > previewItems;
 
@@ -49,12 +59,7 @@ export default function Expand({
       {shouldTrim ? (
         <>
           {isExpanded ? children : children.slice(0, previewItems)}
-          <Button
-            kind="SECONDARY"
-            onClick={() => setIsExpanded(!isExpanded)}
-          >
-            {isExpanded ? "Read Less" : "Read More"}
-          </Button>
+          {toggle}
         </>
       ) : (
         <>{children}</>

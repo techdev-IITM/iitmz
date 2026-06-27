@@ -1,11 +1,11 @@
 .papers {
     & > div {
-        border: 1.5px solid #edeef2;
-        border-radius: 7px;
-        padding: 1rem 2rem;
-        margin: 1.5rem 0;
+        border: 1px solid #e7e8ee;
+        border-radius: 8px;
+        padding: 1.4rem 1.7rem;
+        margin: 1.25rem 0;
         &:not(:last-child) {
-            margin-bottom: 1.75rem;
+            margin-bottom: 1.25rem;
         }
     }
 }
@@ -13,25 +13,39 @@
 .paper {
     > * {
         &:not(:last-child) {
-            margin-bottom: 0.7rem;
+            margin-bottom: 0.5rem;
         }
     }
+    /* Year — quiet eyebrow above the title */
     h4 {
-        color: #f4b442;
-        font-size: 1.5rem;
+        color: #8a8a93;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 0.45rem;
+        svg {
+            color: #e0a015;
+            flex-shrink: 0;
+            font-size: 1.3rem;
+        }
     }
+    /* Title — the focal point */
     h3 {
-        margin-bottom: 1.35rem !important;
-        color: #36383d;
+        margin-bottom: 0.8rem !important;
+        color: #141517;
         font-size: 1.5rem;
-        line-height: 1.7;
+        font-weight: 700;
+        line-height: 1.4;
         span {
             display: flex;
             align-items: flex-end;
             svg,
             img {
-                height: 32px;
-                width: 32px;
+                height: 28px;
+                width: 28px;
                 margin-right: 0.5rem;
             }
         }
@@ -42,36 +56,46 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    row-gap: 0.5rem;
+    gap: 1rem;
+    row-gap: 0.35rem;
     p {
         flex-shrink: 0;
         margin: 0;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        color: #5a5a62;
+        display: flex;
+        align-items: center;
         svg {
-            margin-right: 0.15rem;
+            margin-right: 0.3rem;
+            color: #a3a3ab;
+            flex-shrink: 0;
         }
     }
 }
 
 .publisher {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+    color: #5a5a62;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    svg {
+        color: #a3a3ab;
+        flex-shrink: 0;
+    }
 }
 
 .student {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    gap: 0.5rem;
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+    color: #84848d;
 }
 
 @media (max-width: 768px) {
     .paper {
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.45rem;
             span {
                 align-items: flex-start;
                 svg {

@@ -5,6 +5,37 @@
 .textRegular {
     font-size: 1.6rem;
     line-height: 1.8;
-    color: #0f172a;
+    color: #3a3a44;
     margin-bottom: 1rem;
+}
+
+/* Inline "Read more / less" toggle */
+.toggle {
+    margin-top: 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.4rem 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-raleway), "Raleway", sans-serif;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #c32938;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #a81f2e;
+    }
+}
+
+.toggleIcon {
+    font-size: 1.2rem;
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.toggleIconOpen {
+    transform: rotate(180deg);
 }

@@ -24,10 +24,15 @@ export default function Slider({
   autoplayInterval = 4000,
   showTracks = false,
 }: SliderProps) {
+  // Respect the user's reduced-motion preference: no auto-advancing carousel.
+  const prefersReducedMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+
   const ref = useBlazeSlider({
     all: {
       slidesToShow,
-      enableAutoplay,
+      enableAutoplay: enableAutoplay && !prefersReducedMotion,
       autoplayInterval,
       slideGap,
       loop,

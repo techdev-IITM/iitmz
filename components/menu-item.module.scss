@@ -8,9 +8,15 @@
     font-size: 1.7rem;
     font-weight: 500;
     margin: 1.5rem 1rem;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-raleway), "Raleway", sans-serif;
     background: none;
     outline: none;
+    color: #2a2c30;
+    transition: color 0.2s ease;
+  }
+  & > a:hover,
+  & > button:hover {
+    color: #141517;
   }
   button {
     display: flex;
@@ -32,6 +38,11 @@
     margin: 0;
     padding: 0.5rem 1.25rem;
     width: 100%;
+    transition: background-color 0.18s ease, color 0.18s ease;
+  }
+  & > a:hover,
+  & > button:hover {
+    background-color: #f3f4f6;
   }
 
   &:last-child {
@@ -58,6 +69,10 @@
   button {
     font-size: 1.6rem;
     color: #dedede;
+  }
+  & > a:hover,
+  & > button:hover {
+    color: #fff;
   }
   .caret {
     transform: rotate(180deg);

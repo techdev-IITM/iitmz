@@ -14,8 +14,8 @@
         flex: 0 0 calc(20% - 2rem);
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
         transition: transform 0.2s ease;
 
         &:hover {
@@ -29,18 +29,24 @@
         width: 180px;
         height: 120px;
         object-fit: contain;
-        background-color: white;
-        padding: 1.5rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        background-color: #fff;
+        padding: 1.6rem;
+        border-radius: 10px;
+        border: 1px solid #e7e8ee;
+        transition: border-color 0.2s ease;
+    }
+
+    &:hover img {
+        border-color: #e3c98f;
     }
 
     p {
-        margin: 1.2rem 0 0;
+        margin: 1.3rem 0 0;
         font-size: 1.4rem;
-        line-height: 1.4;
-        max-width: 240px;
-        font-weight: 500;
+        line-height: 1.45;
+        max-width: 200px;
+        font-weight: 600;
+        color: #2a2c30;
     }
 }
 
@@ -54,22 +60,56 @@
 }
 
 .header {
-    padding: 3rem 0;
+    padding: 3rem 0 0;
     margin-bottom: 1rem;
 
     h1 {
         font-size: 3.6rem;
-        border-left: 4px solid #ffb013;
-        padding-left: 2rem;
-        margin: 0;
-        margin-bottom: 2.5rem;
+        color: #141517;
+        letter-spacing: -0.02em;
+        margin: 1rem 0 1.4rem;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 5.6rem;
+            height: 4px;
+            border-radius: 2px;
+            background: #ffb013;
+            margin-top: 1.4rem;
+        }
     }
 
     p {
         line-height: 1.7;
         margin: 0;
         font-size: 1.6rem;
+        color: #575757;
         max-width: 780px;
+    }
+}
+
+/* Section dividers within the page (Academic / Corporate & Government) */
+.sectionTitle {
+    margin: 2.5rem 0 2.6rem;
+
+    h2 {
+        position: relative;
+        font-size: 2.8rem;
+        color: #141517;
+        letter-spacing: -0.015em;
+        padding-bottom: 1.1rem;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 4.4rem;
+            height: 4px;
+            border-radius: 2px;
+            background: #ffb013;
+        }
     }
 }
 
@@ -103,17 +143,24 @@
     }
 
     .header {
-        padding: 2rem 0;
+        padding: 2rem 0 0;
 
         h1 {
             font-size: 2.8rem;
-            padding-left: 1.5rem;
-            margin-bottom: 2rem;
+            margin: 0.5rem 0 1.4rem;
         }
 
         p {
             font-size: 1.5rem;
             line-height: 1.6;
+        }
+    }
+
+    .sectionTitle {
+        margin: 1.5rem 0 2rem;
+
+        h2 {
+            font-size: 2.4rem;
         }
     }
 
@@ -144,7 +191,6 @@
     .header {
         h1 {
             font-size: 2.4rem;
-            padding-left: 1.2rem;
         }
 
         p {

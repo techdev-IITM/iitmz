@@ -4,23 +4,31 @@
 
 .header {
   padding: 3rem 0 0;
-  gap: 5%;
-  align-items: center;
 
   h1 {
     font-size: 3.6rem;
-    border-left: 4px solid #ffb013;
-    padding-left: 2rem;
+    color: #141517;
+    letter-spacing: -0.02em;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.4rem;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 5.6rem;
+      height: 4px;
+      border-radius: 2px;
+      background: #ffb013;
+      margin-top: 1.4rem;
+    }
   }
   p {
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 3.5rem;
     font-size: 1.6rem;
-    margin-bottom: 4rem;
-
-}
+    color: #575757;
+    max-width: 68ch;
+  }
 }
 
 .body {

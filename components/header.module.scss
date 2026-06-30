@@ -28,6 +28,13 @@
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    transition: background-color 0.22s ease, color 0.22s ease,
+      box-shadow 0.22s ease;
+    &:hover {
+      background: #d50032;
+      color: #fff;
+      box-shadow: 0 6px 16px -8px rgba(213, 0, 50, 0.5);
+    }
     img {
       margin: 0 8px 0 16px;
       width: 20px;

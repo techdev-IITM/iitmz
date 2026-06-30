@@ -10,10 +10,14 @@ import Script from "next/script";
 const lato = Lato({
   weight: ["100", "400", "700"],
   subsets: ["latin"],
+  display: "swap",
+  variable: "--font-lato",
 });
 const raleway = Raleway({
   weight: ["500", "700"],
   subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway",
 });
 
 export const viewport: Viewport = {
@@ -36,7 +40,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en">
       <meta name="google-site-verification" content="5JWgn4gCT2PCaGMgbVSrlk_1EWzg5HkMu7Li-NsQO_Q" />
       <GoogleTagManager gtmId="GTM-N9TVCHGQ" />
-      <body className={`${lato.className}${raleway.className}`}>
+      <body className={`${lato.variable} ${raleway.variable}`}>
         <Header />
         {children}
         <Footer />

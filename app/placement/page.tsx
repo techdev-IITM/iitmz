@@ -18,13 +18,18 @@ export default function PlacementPage() {
       <div className="container">
         <div className={styles.header}>
           <h1>Student Placement</h1>
+          <p>
+            Partner with IIT Madras Zanzibar to recruit from a globally diverse
+            cohort of engineering and science talent. Explore our programs and
+            connect with our placement team.
+          </p>
         </div>
         <div className={styles.images}>
           <Img
             width={1200}
             height={600}
             src="/degree-distribution/2.jpeg"
-            alt=""
+            alt="IIT Madras Zanzibar student placement overview"
             loading="eager"
           />
         </div>

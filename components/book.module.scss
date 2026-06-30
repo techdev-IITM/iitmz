@@ -1,14 +1,17 @@
 .books {
     ul {
         display: flex;
-        gap: 1rem;
-        padding: 1rem;
-        overflow: scroll;
+        gap: 1.5rem;
+        padding: 1rem 0.25rem 1.5rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x proximity;
         li {
             flex: 0 0 30%;
             list-style-type: none;
             display: flex;
-            gap: 1rem;
+            gap: 1.25rem;
+            scroll-snap-align: start;
             &::before {
                 display: none;
                 height: 0;
@@ -16,14 +19,26 @@
             }
             h4 {
                 font-size: 1.3rem;
+                color: #141517;
+                line-height: 1.4;
             }
             img {
                 border-radius: 5px;
                 height: 150px;
                 width: 100px;
+                flex-shrink: 0;
+                object-fit: cover;
+                box-shadow: 0 10px 24px -12px rgba(20, 21, 23, 0.35);
             }
             p {
                 margin-top: 1rem;
+                color: #6b6b76;
+                font-size: 1.3rem;
+            }
+            h5 {
+                color: #9a9aa2;
+                font-size: 1.25rem;
+                margin-top: 0.5rem;
             }
         }
     }

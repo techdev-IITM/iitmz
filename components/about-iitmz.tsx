@@ -82,7 +82,7 @@ export function AboutIITMZanzibar() {
               </p>
             </div>
             <div className={styles.imageColumn}>
-              <Img src="/about-iitmz.png" width={600} height={400} alt="" />
+              <Img src="/about-iitmz.jpg" width={600} height={400} alt="" />
             </div>
           </div>
         </section>

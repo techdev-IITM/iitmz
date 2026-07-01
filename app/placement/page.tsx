@@ -34,9 +34,9 @@ export default function PlacementPage() {
           />
         </div>
         <div className={styles.cta}>
-          <a target="_blank" href="/placement-brochure.png" rel="noreferrer">
+          <Link target="_blank" href="/placement-brochure.png" rel="noreferrer">
             <Button kind="SECONDARY">Download Placement Brochure</Button>
-          </a>
+          </Link>
           <Link target="_blank" href="https://forms.gle/J18cXSru9XEt7bcE7">
             <Button kind="PRIMARY">Recruiter Registration Form</Button>
           </Link>

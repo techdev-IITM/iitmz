@@ -261,11 +261,8 @@
 
 /* --- Past recruiters: clean uniform logo wall --- */
 .recruitersDescription {
-    font-size: 1.4rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #8a8a93;
+    font-size: 1.6rem;
+    color: #6b7280;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -274,7 +271,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.4rem;
-    align-items: start;
+    align-items: center;
+    justify-items: center;
 }
 
 @media (min-width: 640px) {
@@ -298,8 +296,9 @@
 
 .recruiterLogo {
     width: 100%;
+    max-width: 140px;
     aspect-ratio: 3 / 2;
-    padding: 2.6rem;
+    padding: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;

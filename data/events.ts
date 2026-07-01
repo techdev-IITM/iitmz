@@ -580,6 +580,20 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/second-degree-distribution-poster.png",
+    startDate: "July 03, 2026",
+    name: "Second MTech Degree Distribution Ceremony 2026",
+    time: "08:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "Second Degree Distribution Ceremony 2026 celebrates the achievements of the MTech Class of 2026 at IIT Madras Zanzibar. The ceremony marks an important academic milestone, bringing together graduates, faculty, and distinguished guests to recognize excellence and the successful completion of the programme.",
+    links: [
+      {
+        title: "View Program Schedule",
+        link: "/second-degree-distribution-schedule.jpeg",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

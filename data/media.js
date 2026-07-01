@@ -78,7 +78,7 @@ const media = {
       },
     },
     {
-      title: "Indian students can also apply at IIT’s African campus ",
+      title: "Indian students can also apply at IIT’s African campus",
       desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The fees will be $12,000 per year for bachelors and $4,000 for post-graduate. Classes will begin in October. ",
       link: "https://www.thehindu.com/education/indian-students-can-also-apply-at-iits-african-campus/article67065043.ece",
       image: {
@@ -144,15 +144,15 @@ const media = {
         alt: "Image of IITM Zanzibar Campus",
       },
     },
-    {
-      title: "Indian students can also apply at IIT's African campus",
-      desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The campus will offer two full-time academic programmes, a four-year Bachelor of Science in Data Science and Artificial Intelligence and a two-year Master of Technology in Data Science and Artificial Intelligence.",
-      link: "https://www.outlookindia.com/national/iit-tanzania-campus-to-offer-data-science-and-ai-courses-classes-to-start-from-october-news-301721",
-      image: {
-        url: "/media5.png",
-        alt: "Image of IITM Director",
-      },
-    },
+    // {
+    //   title: "Indian students can also apply at IIT's African campus",
+    //   desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The campus will offer two full-time academic programmes, a four-year Bachelor of Science in Data Science and Artificial Intelligence and a two-year Master of Technology in Data Science and Artificial Intelligence.",
+    //   link: "https://www.outlookindia.com/national/iit-tanzania-campus-to-offer-data-science-and-ai-courses-classes-to-start-from-october-news-301721",
+    //   image: {
+    //     url: "/media5.png",
+    //     alt: "Image of IITM Director",
+    //   },
+    // },
   ],
 };
 

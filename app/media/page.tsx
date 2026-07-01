@@ -25,7 +25,7 @@ export default function MediaPage() {
         <div className={styles.grid}>
           {media.articles.map((article) => (
             <MediaCard
-              key={article.title}
+              key={article.link}
               image={article.image.url}
               alt={article.image.alt}
               title={article.title}

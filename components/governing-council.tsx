@@ -3,79 +3,81 @@ import Img from "./image";
 
 export const governanceBoardMember = [
   {
-    name: "Prof. Mohamed Sheikh",
+    name: "Prof. Prabhu Rajagopal",
     title:
-      "Director, Department of Research, Training and Extension, Ministry of Livestock and Fisheries, Govt. of Tanzania",
-    img: "/Mohamed-Sheikh.png",
+      "Director-in-Charge, Dean of the School of Engineering & Science, IITMZ",
+    img: "/prajagopal.png",
+  },
+  {
+    name: "Prof. Mohammed Ali Sheikh",
+    title:
+      "Chairperson, Deputy Permanent Secretary (Fisheries), Ministry of Livestock and Fisheries, United Republic of Tanzania",
+    img: "/council/Ali-Sheikh.png",
+  },
+  {
+    name: "Prof. Preeti Aghalayam",
+    title:
+      "Former Director-in-Charge, IITMZ, Dean (Office of Global Engagement), IIT Madras",
+    img: "/preeti.jpg",
   },
   {
     name: "Prof. Raghunathan Rengaswamy",
     title:
-      "Dean, Global Engagement, Professor Chemical Engineering, IIT Madras",
+      "Prof., Department Chemical Engg. IIT Madras , Board Member IITM Global",
     img: "/prof-raghu.jpg",
   },
+
   {
     name: "Prof. Hamed R. H. Hikmany",
-    title: "Principal, Zanzibar School of Health, Zanzibar",
-    img: "/Prof-Hamed-R-H-Hikmany.jpg",
+    title:
+      "Principal, Zanzibar School of Health; Chairman, Board of Directors Zanzibar Revenue Authority(ZRA); Chairman, Council of the State University of Zanzibar (SUZA)",
+    img: "/council/Hamed.png",
   },
   {
     name: "Prof. Ligy Philip",
     title:
-      "Professor, Civil Engg., IIT Madras and Professor-in-charge (Infrastructure), IITM Zanzibar",
+      "Nita and KG Ganapathy Institute Chair Professor, Department of Civil Engineering, IIT Madras",
     img: "/ligy-1.png",
   },
   {
-    name: "Prof. Mussa J. Assad",
+    name: "Dr. Maryam Jaffar Ismail",
     title:
-      "Deputy Vice Chancellor [Administration and Finance] and acting Vice Chancellor Muslim University of Morogoro (MUM), Tanzania",
-    img: "/Prof-Mussa-J-Assad.jpeg",
+      "Assistant Director, Department of Higher Education ( Coordination ), Ministry of Education, Science and Technology",
+    img: "/council/maryam.png",
   },
   {
     name: "Prof. Elisante Ole Gabriel",
-    title: "Tanzania Chief Court Administrator, Judiciary of Tanzania",
-    img: "/elisante-ole-gabriel-large.jpeg",
-  },
-  {
-    name: "Dr. Said Ally Khamis",
-    title:
-      "Executive Secretary - National Examinations Council of Tanzania (NECTA), Govt. of Tanzania",
-    img: "/Dr.-Said-Ally-Khamis.jpg",
+    title: "Tanzania Chief Court Administrator",
+    img: "/council/elisante-ole.png",
   },
   {
     name: "Prof. Maulilio John Kipanyula",
     title:
-      "Vice Chancellor, Nelson Mandela Africa Institute of Science and Technology, Tanzania",
-    img: "/Prof-Maulilio-John-Kipanyula.jpg",
+      "Vice Chancellor of the Nelson Mandela Africa Institute of Science and Technology",
+    img: "/council/Maulilio.png",
   },
   {
-    name: "Dr. Asha Rose Migiro",
+    name: "Prof. Said Ally Mohamed",
+    title: "Executive Secretary - National Examination Council Tanzania(NECTA)",
+    img: "/council/Said-Ally.png",
+  },
+  {
+    name: "Dr. Pramath Sinha",
     title:
-      "Former High Commissioner of Tanzania to the United Kingdom, Former United Nations Deputy Secretary General",
-    img: "/Dr-Asha-Rose-Migiro.jpg",
+      "Founder & Chairperson, Board of Trustees, Ashoka University; Founding Senior Partner, Jetri",
+    img: "/council/pramath-sinha.png",
   },
   {
-    name: "Prof. Devang Khakhar",
-    title: "Professor, Chemical Engg. and Former Director, IIT Bombay",
-    img: "/Prof-Devang-V-Khakhar.jpg",
-  },
-  {
-    name: "Prof. Bhaskar Ramamurthi",
-    title: "Professor, Electrical Engg. and Former Director, IIT Madras",
-    img: "/Prof.-Bhaskar-Ramamurthi.jpeg",
-  },
-  {
-    name: "Prof. Ganapathi Ramachandran",
+    name: "Prof. Ravindra Gettu",
     title:
-      "Chairman and Non-Executive Director, Trigyn Technologies Limited; President - SICCI & Co-Chair FICCI Africa Council",
-    img: "/Prof-Ganapathi-Ramachandran.jpeg",
+      "VS Raju Chair Professor, Department of Civil Engineering, IIT Madras",
+    img: "/council/Ravindra-Gettu.png",
   },
-
   {
-    name: "Prof. Preeti Aghalayam",
+    name: "Prof. Abdi Talib Abdalla",
     title:
-      "Faculty - School of Engg. & Science and Former Director-in-Charge, IITMZ",
-    img: "/preeti.jpg",
+      "Deputy Vice Chancellor (Academic Affairs, Research and Consultancy), The State University of Zanzibar (SUZA)",
+    img: "/council/abdi-talib.png",
   },
 ];
 

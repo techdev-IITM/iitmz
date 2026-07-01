@@ -16,13 +16,13 @@ export const banners: Banner[] = [
     linkText: "",
     linkURL: "",
   },
-  {
-    mdTitle: "Tutoring Session Cohort 3",
-    lgTitle: "",
-    smTitle: "April 20, 2026 - May 30, 2026 | 05:00 PM IST",
-    img: "/banner_front.jpg",
-    linkText: "Register Now",
-    linkURL:
-      "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
-  },
+  // {
+  //   mdTitle: "Tutoring Session Cohort 3",
+  //   lgTitle: "",
+  //   smTitle: "April 20, 2026 - May 30, 2026 | 05:00 PM IST",
+  //   img: "/banner_front.jpg",
+  //   linkText: "Register Now",
+  //   linkURL:
+  //     "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
+  // },
 ];

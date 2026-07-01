@@ -11,6 +11,7 @@ import Leadership from "@/components/leadership";
 import SocialMedia from "@/components/social-media";
 import { ProgramAdvisory } from "@/components/program-advisory";
 import StaffList from "@/components/staff";
+import { AboutIITMZanzibar } from "@/components/about-iitmz";
 
 export const metadata = {
   alternates: {
@@ -18,13 +19,12 @@ export const metadata = {
   },
 };
 
-
-
 export default async function Home() {
   return (
     <main>
       <Hero />
       <News />
+      <AboutIITMZanzibar />
       <Courses layout="HORIZONTAL" />
       <Counter />
       <Leadership />

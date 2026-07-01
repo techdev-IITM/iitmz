@@ -20,6 +20,12 @@ export const announcements: Announcements = [
     content: "M.Tech applications closed",
   },
   {
+    activeTill: "2026-07-04",
+    content: "Second MTech Degree Distribution Ceremony 2026",
+    linkText: "View program schedule",
+    linkUrl: "/second-degree-distribution-schedule.jpeg",
+  },
+  {
     activeTill: "2026-07-06",
     content:
       "Data Science for Epidemiology and Public Health Analytics – Registrations Open Until 5 July 2026",

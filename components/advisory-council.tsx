@@ -83,8 +83,8 @@ export default function AdvisoryCouncil() {
           />
           <div className={styles.body}>
             <h2>Prof. Raghunathan Rengaswamy</h2>
-            <h4>Dean, Global Engagement</h4>
-            <p>Indian Institute of Technology, Madras</p>
+            <h4>Prof., Department Chemical Engg. IIT Madras</h4>
+            <p>Board Member IITM Global</p>
           </div>
         </div>
       </div>

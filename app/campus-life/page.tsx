@@ -36,7 +36,7 @@ export default function CampusLife() {
             <Img
               width={1200}
               height={600}
-              src="/iitmz-campus.png"
+              src="/cover-campus-img.jpg"
               alt=""
               loading="eager"
             />

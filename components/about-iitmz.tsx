@@ -33,7 +33,7 @@ export function AboutIITMZanzibar() {
               </p>
             </div>
             <div className={styles.imageColumn}>
-              <Img src="/about-iitmz.jpg" width={600} height={400} alt="" />
+              <Img src="/cover-about.jpg" width={600} height={400} alt="" />
             </div>
           </div>
         </section>

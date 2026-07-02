@@ -1,5 +1,4 @@
 .container {
-    /* background: #f7f8fb; */
     padding: 7rem 0 5rem;
 }
 
@@ -37,7 +36,6 @@
     display: flex;
     gap: 48px;
     align-items: flex-start;
-    /* margin-top: 40px; */
     padding-top: 2.5rem;
 }
 
@@ -57,4 +55,26 @@
 
 .imageColumn {
     flex: 1;
+}
+
+@media (max-width: 768px) {
+    .twoColumn {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .textColumn {
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    .imageColumn {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }

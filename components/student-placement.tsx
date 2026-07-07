@@ -371,8 +371,8 @@ export function PlacementComp() {
                 <div className={styles.recruiterItem}>
                   <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
                     <Img
-                      src="/recuriter-logo/soft-tech.png"
-                      alt="GlobalTech Logo"
+                      src="/recuriter-logo/Soft Tech.png"
+                      alt="SoftTech Logo"
                       className={styles.recruiterImage}
                       width={120}
                       height={140}

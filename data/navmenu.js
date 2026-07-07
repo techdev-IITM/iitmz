@@ -62,7 +62,20 @@ const navMenu = [
       },
     ],
   },
-  { title: "Research", link: "/research/" },
+  {
+    title: "Research",
+    link: "",
+    submenus: [
+      {
+        title: "Highlights & Awards",
+        link: "/research/",
+      },
+      {
+        title: "Labs",
+        link: "/labs/",
+      },
+    ],
+  },
   {
     title: "Careers",
     link: "",
@@ -79,7 +92,25 @@ const navMenu = [
   },
   { title: "In Media", link: "/media/" },
   { title: "Partners", link: "/partners/" },
-  { title: "Campus Life", link: "/campus-life/" },
+  {
+    title: "Campus Life",
+    link: "",
+    submenus: [
+      {
+        title: "Overview",
+        link: "/campus-life/",
+      },
+      {
+        title: "CIE",
+        link: "/center-for-innovation-and-entrepreneurship/",
+      },
+      {
+        title: "ASTRA Club",
+        link: "/astra/",
+      },
+    ],
+  },
+  // { title: "Campus Life", link: "/campus-life/" },
   { title: "Financial Aid", link: "/financial-aid/" },
   { title: "Events", link: "/events/" },
   { title: "Admissions", link: "/admission/" },

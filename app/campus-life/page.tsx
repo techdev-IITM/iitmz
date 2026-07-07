@@ -46,18 +46,18 @@ export default function CampusLife() {
               <div className={styles.itemInfo}>
                 <h3>Degree Distribution Ceremony</h3>
                 <p>
-                  On 11 July 2025, alongside IIT Madras' 62nd Convocation, IIT
-                  Madras Zanzibar celebrated the graduation of its inaugural
+                  On 11 July 2025, alongside IIT Madras&apos; 62nd Convocation,
+                  IIT Madras Zanzibar celebrated the graduation of its inaugural
                   MTech in Data Science & AI cohort, marking the first degree
-                  distribution at India's first offshore IIT campus. Building on
-                  this milestone, the second degree distribution celebrated 19
-                  graduates from the MTech in Data Science & AI and MTech in
-                  Ocean Structure Engineering programmes, with students from
-                  Tanzania, Kenya, Uganda, Zambia, Ethiopia, and India. With
-                  nearly 50% of graduates from East Africa and 30% women
-                  graduates, the ceremony reflected IIT Madras Zanzibar's
-                  growing global community and its commitment to academic
-                  excellence and international collaboration.
+                  distribution at India&apos;s first offshore IIT campus.
+                  Building on this milestone, on 3 July 2026, the second degree
+                  distribution celebrated 19 graduates from the MTech in Data
+                  Science & AI and MTech in Ocean Structure Engineering
+                  programmes, with students from Tanzania and India. With nearly
+                  50% of graduates from East Africa and 30% women graduates, the
+                  ceremony reflected IIT Madras Zanzibar&apos;s growing global
+                  community and its commitment to academic excellence and
+                  international collaboration.
                 </p>
               </div>
               <div className={styles.itemImages}>

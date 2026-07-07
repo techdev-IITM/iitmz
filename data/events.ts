@@ -592,6 +592,10 @@ const eventsList = [
         title: "View Program Schedule",
         link: "/second-degree-distribution-schedule.jpeg",
       },
+      {
+        title: "View Ceremony Here",
+        link: "https://youtu.be/Mxf5IM29dMY?si=FPA3b2TnkEKSOn1Q",
+      },
     ],
   },
 ];

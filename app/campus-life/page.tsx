@@ -46,21 +46,23 @@ export default function CampusLife() {
               <div className={styles.itemInfo}>
                 <h3>Degree Distribution Ceremony</h3>
                 <p>
-                  On July 11, 2025, as IIT Madras celebrated its 62nd
-                  Convocation in Chennai, IITM Zanzibar hosted its first-ever
-                  Degree Distribution Ceremony. This milestone marks the
-                  graduation of the inaugural MTech Data Science & AI cohort at
-                  our Zanzibar campus—a proud reflection of IIT Madras&rsquo;s
-                  vision for global education and a shared legacy of excellence
-                  across continents. It also highlights the growing
-                  international collaboration in higher education and IIT
-                  Madras&rsquo;s pioneering achievement in establishing
-                  India&rsquo;s first offshore IIT campus.
+                  On 11 July 2025, alongside IIT Madras' 62nd Convocation, IIT
+                  Madras Zanzibar celebrated the graduation of its inaugural
+                  MTech in Data Science & AI cohort, marking the first degree
+                  distribution at India's first offshore IIT campus. Building on
+                  this milestone, the second degree distribution celebrated 19
+                  graduates from the MTech in Data Science & AI and MTech in
+                  Ocean Structure Engineering programmes, with students from
+                  Tanzania, Kenya, Uganda, Zambia, Ethiopia, and India. With
+                  nearly 50% of graduates from East Africa and 30% women
+                  graduates, the ceremony reflected IIT Madras Zanzibar's
+                  growing global community and its commitment to academic
+                  excellence and international collaboration.
                 </p>
               </div>
               <div className={styles.itemImages}>
                 <Slider slidesToShow={1} showTracks={true}>
-                  {Array.from({ length: 4 }, (_, index) => (
+                  {Array.from({ length: 8 }, (_, index) => (
                     <Img
                       key={`image__${index}`}
                       // src={`/student-life/${index + 1}.jpg`}

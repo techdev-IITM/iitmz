@@ -14,6 +14,13 @@ export const news: News[] = [
     linkURL: "/course.pdf",
   },
   {
+    title: "Second MTech Degree Distribution Ceremony 2026",
+    content:
+      "On 11 July 2025, alongside IIT Madras' 62nd Convocation, IIT Madras Zanzibar celebrated the graduation of its inaugural MTech in Data Science & AI cohort, marking the first degree distribution at India's first offshore IIT campus. Building on this milestone, the second degree distribution celebrated 19 graduates from the MTech in Data Science & AI and MTech in Ocean Structure Engineering programmes, with students from Tanzania, Kenya, Uganda, Zambia, Ethiopia, and India. With nearly 50% of graduates from East Africa and 30% women graduates, the ceremony reflected IIT Madras Zanzibar's growing global community and its commitment to academic excellence and international collaboration.",
+    img: "/degree-distribution/8.jpeg",
+    linkURL: "https://youtu.be/Mxf5IM29dMY?si=FPA3b2TnkEKSOn1Q",
+  },
+  {
     title: "CPE - Curtain Raiser Event",
     content:
       "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
@@ -28,13 +35,13 @@ export const news: News[] = [
   //   linkURL:
   //     "https://us06web.zoom.us/webinar/register/WN_njBcNJ2ASA67T6_RZXoU-g",
   // },
-  {
-    title: "RIEP – RISE 4.0 Innovation Bootcamp",
-    content:
-      "IIT Madras Zanzibar hosted the RIEP – RISE 4.0 Innovation Bootcamp, bringing together students, faculty leaders, and innovation stakeholders from India, Kenya, and Tanzania. The programme featured an international hackathon, a three-month mentorship phase, an intensive innovation bootcamp, and a faculty exchange programme with 30+ East African universities.  Our team CarbonTrace, secured a £3,500 non-dilutive grant to further develop their innovation. ",
-    img: "/news-rise.jpeg",
-    linkURL: "/_RIEP–RISE-4.0-Innovation-Bootcamp.pdf",
-  },
+  // {
+  //   title: "RIEP – RISE 4.0 Innovation Bootcamp",
+  //   content:
+  //     "IIT Madras Zanzibar hosted the RIEP – RISE 4.0 Innovation Bootcamp, bringing together students, faculty leaders, and innovation stakeholders from India, Kenya, and Tanzania. The programme featured an international hackathon, a three-month mentorship phase, an intensive innovation bootcamp, and a faculty exchange programme with 30+ East African universities.  Our team CarbonTrace, secured a £3,500 non-dilutive grant to further develop their innovation. ",
+  //   img: "/news-rise.jpeg",
+  //   linkURL: "/_RIEP–RISE-4.0-Innovation-Bootcamp.pdf",
+  // },
   // {
   //   title:
   //     "On July 11, 2025, as IIT Madras celebrated its 62nd Convocation in Chennai, IITM Zanzibar hosted its first-ever Degree Distribution Ceremony.",

@@ -5,19 +5,23 @@ import Img from "./image";
 
 type TeamMember = {
   name: string;
+  role: string;
   img: string;
 };
 
 const saailFaculty: TeamMember = {
   name: "Dr. Innocent Nyalala",
+  role: "",
   img: "/innocent-nyalala.jpg",
 };
 const insightFaculty: TeamMember = {
   name: "Dr. Manoj Kumar",
+  role: "",
   img: "/k-manoj.jpeg",
 };
 const midasFaculty: TeamMember = {
   name: "Dr. Tushar Shinde",
+  role: "",
   img: "/tushar.JPG",
 };
 
@@ -26,7 +30,10 @@ function LabFaculty({ member }: { member: TeamMember }) {
     <div className={styles.teamGrid}>
       <div className={styles.teamMember}>
         <Img width={100} height={100} src={member.img} alt={member.name} />
-        <p className={styles.teamName}>{member.name}</p>
+        <div className={styles.teamInfo}>
+          <p className={styles.teamName}>{member.name}</p>
+          <p className={styles.teamRole}>PRINCIPAL INVESTIGATOR</p>
+        </div>
       </div>
     </div>
   );

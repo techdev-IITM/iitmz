@@ -9,6 +9,7 @@ export interface Publication {
 
 export interface FacultyMember {
   name: string;
+  photo?: string;
   posterImage?: string; // Made optional
   publications: Publication[];
 }
@@ -33,6 +34,7 @@ export const researchData: ResearchDataType = {
   faculty: [
     {
       name: "Dr. Innocent Nyalala",
+      photo: "/innocent-nyalala.jpg",
       posterImage: "/cultural-sutainability.png",
       publications: [
         {
@@ -169,6 +171,7 @@ export const researchData: ResearchDataType = {
     },
     {
       name: "Dr. Manoj Kumar",
+      photo: "/k-manoj.jpeg",
       posterImage: "/research-6.jpeg",
       publications: [
         {
@@ -223,6 +226,7 @@ export const researchData: ResearchDataType = {
     },
     {
       name: "Dr. Tushar Shinde",
+      photo: "/tushar.JPG",
       posterImage: "/AAAI Conference.png",
       publications: [
         {
@@ -518,6 +522,7 @@ export const researchData: ResearchDataType = {
     },
     {
       name: "Dr. Ritika Jain",
+      photo: "/ritika.png",
       posterImage: "/research-4.jpg",
       publications: [
         {

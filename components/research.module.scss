@@ -7,7 +7,7 @@ $spacing-unit: 0.25rem; // 4px
 }
 
 .section {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 // Section heading used inside the grid ("Awards & Recognitions")
@@ -55,14 +55,15 @@ $spacing-unit: 0.25rem; // 4px
 }
 
 .cardHeader {
-    padding: 2rem 2.5rem;
+    /* padding: 2rem 2.5rem; */
+    padding: 0.5rem 1.5rem;
     display: flex;
     flex-direction: column;
     gap: spacing(1.5);
 }
 
 .cardTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.02em;
@@ -95,7 +96,6 @@ $spacing-unit: 0.25rem; // 4px
     gap: spacing(6);
 }
 
-.facultyHeaderBg,
 .awardHeaderBg {
     background: linear-gradient(135deg, rgba(255, 176, 19, 0.1), #ffffff 72%);
     border-bottom: 1px solid #f1ecdf;
@@ -115,11 +115,81 @@ $spacing-unit: 0.25rem; // 4px
     flex-shrink: 0;
 }
 
+.facultyAvatar {
+    height: spacing(6);
+    width: spacing(6);
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.avatarStack {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+.avatarStackItem {
+    /* height: spacing(6);
+    width: spacing(6); */
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 1px #edeef2;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+    &:not(:first-child) {
+        margin-left: -0.75rem;
+    }
+
+    &:hover {
+        transform: scale(1.6);
+        box-shadow:
+            0 4px 14px rgba(0, 0, 0, 0.25),
+            0 0 0 2px #ffffff;
+        z-index: 30 !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .avatarStackItem {
+        height: 3.6rem;
+        width: 3.6rem;
+
+        &:not(:first-child) {
+            margin-left: -0.5rem;
+        }
+
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+}
+
+.avatarStackFallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 176, 19, 0.15), #ffffff 72%);
+    color: #c32938;
+    font-size: 1.1rem;
+}
+
 .facultyContentLayout {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin: 0.5rem 0 0;
+
     @media (min-width: 1024px) {
         flex-direction: row;
     }

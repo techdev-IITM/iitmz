@@ -14,6 +14,7 @@ type AccordionProps = {
   children: ReactNode;
   title: string;
   id?: string;
+  extra?: ReactNode;
 };
 
 type AccordionItemProps = {
@@ -21,7 +22,7 @@ type AccordionItemProps = {
   initialEntered?: boolean;
 };
 
-const Accordion = ({ children, title, id }: AccordionProps) => {
+const Accordion = ({ children, title, id, extra }: AccordionProps) => {
   const providerValue = useAccordionProvider({
     allowMultiple: true,
     transition: true,
@@ -33,7 +34,10 @@ const Accordion = ({ children, title, id }: AccordionProps) => {
   return (
     <section id={id}>
       <div className={styles.titleheader}>
-        <h3>{title}</h3>
+        <div className={styles.titleWithExtra}>
+          <h3>{title}</h3>
+          {extra}
+        </div>
         <button
           className={styles.accordionButton}
           onClick={() => {

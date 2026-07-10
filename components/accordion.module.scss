@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
     margin-bottom: 1.5rem;
     padding: 0 0.5rem;
     font-size: 2rem;
@@ -19,11 +21,29 @@
         align-items: center;
         font-size: 1.5rem;
         cursor: pointer;
+        white-space: nowrap;
         svg {
             margin-right: 0.5rem;
             height: 16px;
             width: 16px;
             margin-top: -0.15rem;
+        }
+    }
+}
+
+.titleWithExtra {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+    .titleheader {
+        justify-content: flex-start;
+
+        button {
+            margin-left: auto;
         }
     }
 }

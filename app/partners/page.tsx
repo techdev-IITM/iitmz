@@ -670,6 +670,24 @@ export default function PartnersPage() {
             />
             <p>Wadhwani Institute for Artificial Intelligence Foundation</p>
           </div>
+          <div className={styles.card}>
+            <Img
+              src="/logos/Nelson-mandela-1.png"
+              alt="Nelson Mandela"
+              width={300}
+              height={180}
+            />
+            <p>Nelson Mandela African Institute of Science and Technology</p>
+          </div>
+          <div className={styles.card}>
+            <Img
+              src="/logos/iit-bombay.png"
+              alt="Nelson Mandela"
+              width={300}
+              height={180}
+            />
+            <p>Indian Institute of Technology Bombay (IITB)</p>
+          </div>
         </div>
 
         <div className={styles.sectionTitle}>
@@ -874,6 +892,15 @@ export default function PartnersPage() {
               height={180}
             />
             <p>Touchwood Cybersecurity Services</p>
+          </div>
+          <div className={styles.card}>
+            <Img
+              src="/logos/zanzibar-startup-association-1.png"
+              alt="Zanzibar Startup Association"
+              width={300}
+              height={180}
+            />
+            <p>Zanzibar Startup Association</p>
           </div>
 
           {/* <div className={styles.card}>

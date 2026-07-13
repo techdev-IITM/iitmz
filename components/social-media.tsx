@@ -6,8 +6,8 @@ import {
   BsFacebook,
   BsLinkedin,
   BsInstagram,
-  BsTwitter,
   BsYoutube,
+  BsTwitterX,
 } from "react-icons/bs";
 import { IconType } from "react-icons";
 
@@ -19,7 +19,7 @@ const socialIcons: SocialIcons = {
   facebook: BsFacebook,
   linkedin: BsLinkedin,
   instagram: BsInstagram,
-  twitter: BsTwitter,
+  x: BsTwitterX,
   youtube: BsYoutube,
 };
 

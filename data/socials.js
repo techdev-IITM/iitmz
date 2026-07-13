@@ -15,8 +15,8 @@ const socials = [
     link: "https://www.instagram.com/iitmzanzibar/",
   },
   {
-    title: "Twitter",
-    icon: "twitter",
+    title: "X (Twitter)",
+    icon: "x",
     link: "https://twitter.com/IITMZanzibar",
   },
   {

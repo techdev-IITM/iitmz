@@ -25,6 +25,19 @@ const midasFaculty: TeamMember = {
   img: "/tushar.JPG",
 };
 
+const bioNexusFaculty: TeamMember[] = [
+  {
+  name: "Dr. Sunil Sazawal",
+  role: "",
+  img: "/sunil.jpeg",
+  },
+  {
+    name: "Dr. Nirav Bhatt",
+    role: "",
+    img: "/nirav-1.jpg",
+  },
+];
+
 function LabFaculty({ member }: { member: TeamMember }) {
   return (
     <div className={styles.teamGrid}>
@@ -39,6 +52,24 @@ function LabFaculty({ member }: { member: TeamMember }) {
   );
 }
 
+// rendering multiple LabFaculty members
+
+function LabFacultyList({ members }: { members: TeamMember[] }) {
+  return (
+    <div className={styles.teamGrid}>
+      {members.map((member) => (
+        <div className={styles.teamMember} key={member.name}>
+          <Img width={100} height={100} src={member.img} alt={member.name} />
+          <div className={styles.teamInfo}>
+            <p className={styles.teamName}>{member.name}</p>
+            <p className={styles.teamRole}>PRINCIPAL INVESTIGATOR</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function LabsComp() {
   return (
     <section className={styles.section}>
@@ -46,6 +77,46 @@ export default function LabsComp() {
         <h1>Our Labs</h1>
       </div>*/}
       <div className={styles.programGrid}>
+
+        {/* BioNexus Lab */}
+
+        <article className={styles.programCard}>
+          <div className={styles.cardHeader}>
+            <div className={styles.logoContainer}>
+              <Img
+                src="/lab-logos/bionexus.png"
+                alt="BioNexus Logo"
+                className={styles.logo}
+                width={100}
+                height={140}
+              />
+            </div>
+            <div className={styles.cardInfo}>
+              <h2 className={styles.cardTitle}>BioNexus Lab</h2>
+              <h3 className={styles.cardSubtitle}>
+                {/*Center for Artificial Intelligence, Data Sciences and Computational
+                Biology in Health*/}
+                Connecting Data, Biology & Health through AI
+              </h3>
+              <div className={styles.cardMeta}>
+                <Link
+                  href="/"
+                  className={styles.cardLink}
+                  target="_blank"
+                >
+                  Visit BioNexus Lab
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.cardContent}>
+            <p className={styles.description}>
+              BioNexus AI is a multidisciplinary center that integrates artificial intelligence, data science, computational biology, biomedical research, and public health to address complex healthcare challenges. Guided by the motto &apos;Where Biology Meets Intelligence,&apos; it fosters collaborative research, innovation, and education. The center connects research and academic partners across India, Zanzibar, Bangladesh, Zambia, and the United States, creating a global network that develops scalable, data-driven solutions for precision health and public health.
+            </p>
+          </div>
+          <LabFacultyList members={bioNexusFaculty} />
+        </article>
+
         {/* Insights Lab */}
         <article className={styles.programCard}>
           <div className={styles.cardHeader}>

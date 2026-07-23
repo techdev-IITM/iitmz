@@ -33,7 +33,7 @@ const media = {
   ],
   articles: [
     {
-      title: "President of Zanzibar Visits IIT Madras for the 63rd Convocation",
+      title: "President of Zanzibar visits IIT Madras | 63rd Convocation | IIT Madras Zanzibar campus unveiling & book launch",
       desc: "H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, attended the 63rd Convocation of IIT Madras, reaffirming the shared vision between India and Zanzibar and highlighting the continued growth and impact of IIT Madras Zanzibar as India's first international IIT campus.",
       link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285874&reg=48&lang=2",
       image: {
@@ -42,7 +42,7 @@ const media = {
       },
     },
     {
-      title: "12th International Day of Yoga Celebrated in Tanzania",
+      title: "12th International Day of Yoga celebrated at IITM Zanzibar Campus in collaboration with India in Tanzania (Consulate General of India, Zanzibar)",
       desc: "The High Commission of India in Dar es Salaam celebrated the 12th International Day of Yoga, bringing together thousands of participants across Tanzania to promote health, wellness, and cultural harmony.",
       link: "https://hcindiatz.gov.in/pdf/press%20release.12th%20IDY.pdf",
       image: {

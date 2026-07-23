@@ -7,6 +7,12 @@ export interface News {
 
 export const news: News[] = [
   {
+    title: "President of Zanzibar visits IIT Madras | 63rd Convocation | IIT Madras Zanzibar campus unveiling & book launch",
+    content: "The visit of H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, to IIT Madras during its 63rd Convocation marked a significant milestone for IIT Madras Zanzibar. The occasion celebrated academic excellence while reinforcing the strong partnership between India and Zanzibar. As India's first international IIT campus, IIT Madras Zanzibar continues to expand its global impact through quality education, innovation, and research. The visit highlighted the campus's remarkable achievements and reaffirmed a shared vision of empowering future leaders through education that transcends borders. It stands as a testament to the enduring collaboration between India and Zanzibar in advancing higher education.",
+    img: "/63-convocation.jpeg",
+    linkURL: "https://www.linkedin.com/posts/iitmzanzibar_iitmz-iitm-convocation-activity-7484896639954862080-hHNw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETf3BMBidhoGGbh4ESgmGt6WrVweQSwlHc",
+  },
+  {
     title: "Short-Term Professional Course",
     content:
       "Data Science for Epidemiology and Public Health Analytics is a 2-week intensive program commencing on 20 July 2026, designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
@@ -20,13 +26,13 @@ export const news: News[] = [
     img: "/degree-distribution/8.jpeg",
     linkURL: "https://youtu.be/Mxf5IM29dMY?si=FPA3b2TnkEKSOn1Q",
   },
-  {
-    title: "CPE - Curtain Raiser Event",
-    content:
-      "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
-    img: "/curtain.png",
-    linkURL: "https://forms.gle/R8ayAsbTJs1euXQg8",
-  },
+  // {
+  //   title: "CPE - Curtain Raiser Event",
+  //   content:
+  //     "The Curtain-Raiser event brings together industry leaders, policymakers, and educational institutions from sectors such as chemical and pharmaceutical processing, energy, water, mineral and food processing, and related domains. The program will feature keynote and invited talks highlighting the vision, motivation, and architecture of the initiative at IITMZ, along with perspectives from academia and industry experts. Interactive breakout sessions in the afternoon will focus on selected concentration areas, encouraging discussions on shaping the later stages of the BS curriculum to better align with emerging industry and societal needs.",
+  //   img: "/curtain.png",
+  //   linkURL: "https://forms.gle/R8ayAsbTJs1euXQg8",
+  // },
   // {
   //   title: "Tutoring Session Cohort 3",
   //   content:

@@ -90,7 +90,7 @@ const navMenu = [
       },
     ],
   },
-  { title: "In Media", link: "/media/" },
+  // { title: "In Media", link: "/media/" },
   { title: "Partners", link: "/partners/" },
   {
     title: "Campus Life",
@@ -110,9 +110,31 @@ const navMenu = [
       },
     ],
   },
-  // { title: "Campus Life", link: "/campus-life/" },
+  {
+    title: "News & Events",
+    link: "",
+    submenus: [
+      {
+        title: "Events",
+        link: "/events/",
+      },
+      {
+        title: "In Media",
+        link: "/media/",
+      },
+      // {
+      //   title: "SASISHO (Newsletter)",
+      //   link: "/newsletter/",
+      // },
+      {
+        title: "Visits",
+        link: "/visits/",
+      },
+    ],
+  },
+
   { title: "Financial Aid", link: "/financial-aid/" },
-  { title: "Events", link: "/events/" },
+  // { title: "Events", link: "/events/" },
   { title: "Admissions", link: "/admission/" },
   { title: "Privacy Policy", link: "/privacy-policy", type: "FOOTER_ONLY" },
   { title: "Terms of Use", link: "/terms-of-use", type: "FOOTER_ONLY" },

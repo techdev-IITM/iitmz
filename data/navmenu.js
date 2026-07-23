@@ -122,10 +122,10 @@ const navMenu = [
         title: "In Media",
         link: "/media/",
       },
-      // {
-      //   title: "SASISHO (Newsletter)",
-      //   link: "/newsletter/",
-      // },
+      {
+        title: "SASISHO (Newsletter)",
+        link: "/newsletter/",
+      },
       {
         title: "Visits",
         link: "/visits/",

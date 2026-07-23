@@ -26,9 +26,9 @@ export default function SkillsPage() {
           </div>
           <div className={styles.imageWrapper}>
             <Slider showTracks={true}>
-              {Array.from({ length: 12 }).map((_, index) => (
+              {Array.from({ length: 14 }).map((_, index) => (
                 <Img
-                  key={`admission-image-${index + 1}`}
+                  key={`skilling-${index + 1}`}
                   src={`/skilling-prg/${index + 1}.png`}
                   width={800}
                   height={450}

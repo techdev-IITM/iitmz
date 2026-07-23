@@ -1,6 +1,10 @@
 const media = {
   yt: [
     {
+      title: "UNDP FUNGUO PULSE podcast launch",
+      id: "CoaeB8gKx8E",
+    },
+    {
       title: "Inauguration of IIT Madras Zanzibar, Tanzania",
       id: "2JGyGjTwOlY",
     },
@@ -28,6 +32,69 @@ const media = {
     },
   ],
   articles: [
+    {
+      title: "President of Zanzibar Visits IIT Madras for the 63rd Convocation",
+      desc: "H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, attended the 63rd Convocation of IIT Madras, reaffirming the shared vision between India and Zanzibar and highlighting the continued growth and impact of IIT Madras Zanzibar as India's first international IIT campus.",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285874&reg=48&lang=2",
+      image: {
+        url: "/63-convocation.jpeg",
+        alt: "63rd Convocation of IIT Madras",
+      },
+    },
+    {
+      title: "12th International Day of Yoga Celebrated in Tanzania",
+      desc: "The High Commission of India in Dar es Salaam celebrated the 12th International Day of Yoga, bringing together thousands of participants across Tanzania to promote health, wellness, and cultural harmony.",
+      link: "https://hcindiatz.gov.in/pdf/press%20release.12th%20IDY.pdf",
+      image: {
+        url: "/yoga-day-1.png",
+        alt: "Yoga Day",
+      },
+    },
+    {
+      title: "Africa Day in Zanzibar: Where Knowledge Becomes the New Independence at IIT Madras Zanzibar",
+      desc: "On the occasion of Africa Day, IIT Madras Zanzibar highlighted its commitment to advancing world-class education, innovation, entrepreneurship, and India–Africa collaboration, empowering the next generation of African leaders.",
+      link: "/",
+      image: {
+        url: "/knowledge-revolution.png",
+        alt: "Knowledge Revolution",
+      },
+    },
+    {
+      title: "Applications Open for the 2026 Academic Year at IIT Madras Zanzibar",
+      desc: "IIT Madras Zanzibar is set to welcome the fourth incoming batch of students to its Zanzibar Campus in Tanzania, the first-ever international campus established by any IIT. Applications are now open for full-time undergraduate and postgraduate programmes for the 2026 academic year",
+      link: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2251521&reg=3&lang=2",
+      image: {
+        url: "/banner_front.jpg",
+        alt: "Applications",
+      },
+    },
+    {
+      title: "Akili Unde to strengthen agriculture, livestock in Zanzibar",
+      desc: "IIT Madras Zanzibar highlighted the potential of artificial intelligence to transform Zanzibar's agriculture and livestock sectors through data-driven innovation, improved productivity, and sustainable development.",
+      link: "https://www.mwananchi.co.tz/mw/zanzibar/akili-unde-kuimarisha-kilimo-mifugo-zanzibar-5406274",
+      image: {
+        url: "/akili-unde.png",
+        alt: "Image of Akili Unde",
+      },
+    },
+    {
+      title: "IIT Madras Zanzibar Featured on ZBC's PAMBAZUKO",
+      desc: "IIT Madras Zanzibar Campus was featured on PAMBAZUKO, aired by Zanzibar Broadcasting Corporation (ZBC), highlighting key milestones achieved over the past two years. The discussion focused on academic growth, strategic partnerships, and IITM Zanzibar’s contribution to advancing technology and innovation in Zanzibar and Tanzania at large.",
+      link: "https://www.linkedin.com/posts/iitmzanzibar_iitmzanzibar-innovation-technology-activity-7434200232881696768-tPIU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADf4nEBscATuwuz8-jt3e5BlFxmAogJ3yU",
+      image: {
+        url: "/broadcast-zbc.png",
+        alt: "IIT Madras Zanzibar on PAMBAZUKO",
+      },
+    },
+    {
+      title: "UNDP, UK Government Bring Together University Leaders to Stimulate Innovation and Entrepreneurship in Zanzibar",
+      desc: "University Innovation & Entrepreneurship Exchange Programme (4–6 March 2026). IIT Madras Zanzibar, in collaboration with the Revolutionary Government of Zanzibar and UNDP Tanzania, hosted university leaders, policymakers, and innovation stakeholders from East Africa to strengthen university-led innovation, entrepreneurship, and technology commercialization through a regional Faculty Exchange Programme.",
+      link: "https://www.mtaakwamtaa.co.tz/2026/03/undp-serikali-ya-uingereza.html",
+      image: {
+        url: "/undp-shareholder.png",
+        alt: "UNDP Shareholder Discussion",
+      },
+    },
     {
       title:
         "Inauguration of IITM Zanzibar Library and “India Corner” by the High Commissioner of India to Tanzania",

@@ -7,9 +7,12 @@ import {
   FaUsers,
   FaRocket,
   FaStar,
+  FaGlobe,
+  FaArrowRight,
 } from "react-icons/fa";
 import { IconType } from "react-icons";
 import Slider from "@/components/slider";
+import Link from "next/link";
 
 export const metadata = {
   title: "Center for Innovation and Entrepreneurship",
@@ -253,7 +256,25 @@ export default function CenterForInnovation() {
             </div>
           </section>
         </div>
-
+        <div className={styles.visitStrip}>
+          <div className={styles.visitLeft}>
+            <div className={styles.visitIcon}>
+              <FaGlobe size={18} color="#fff" />
+            </div>
+            <p className={styles.visitText}>Want to know more about CIE?</p>
+          </div>
+          <Link
+            href="https://cie-iitmz.web.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.visitButton}
+          >
+            Visit Website
+            <span className={styles.visitArrow}>
+              <FaArrowRight size={14} />
+            </span>
+          </Link>
+        </div>
         {/* Highlights Section */}
         <section>
           <div className={styles.fullBleed}>

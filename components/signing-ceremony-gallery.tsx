@@ -5,7 +5,7 @@ import Img from "./image";
 export default function SigningCeremony() {
   return (
     <section>
-      <Slider slidesToShow={5}>
+      <Slider slidesToShow={4}>
         <div className={styles.item}>
           <Img
             src="/birmingham-2x.jpeg"
@@ -130,6 +130,33 @@ export default function SigningCeremony() {
             height={290}
             style={{ objectFit: "cover" }}
             alt="Image of signing of MOU with Asili Zanzibar"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/nelson-mandela-signing.jpeg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of signing of MOU with Nelson Mandela"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/zut-signing.jpeg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of signing of MOU with Zambia University of Technology"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/zanzibar-startup-association.jpeg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of signing of MOU with Zanzibar startup association"
           />
         </div>
       </Slider>

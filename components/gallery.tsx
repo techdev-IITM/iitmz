@@ -1,5 +1,4 @@
 import styles from "./gallery.module.scss";
-import Image from "next/image";
 import Slider from "./slider";
 import Img from "./image";
 
@@ -7,6 +6,42 @@ export default function Gallery() {
   return (
     <section>
       <Slider slidesToShow={4}>
+        <div className={styles.item}>
+          <Img
+            src="/63-convocation.jpeg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of human and machine"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/courtesy-visit.jpeg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of human and machine"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/slider/eac-ai-training.jpg"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of human and machine"
+          />
+        </div>
+        <div className={styles.item}>
+          <Img
+            src="/undp-shareholder.png"
+            width={260}
+            height={290}
+            style={{ objectFit: "cover" }}
+            alt="Image of human and machine"
+          />
+        </div>
         <div className={styles.item}>
           <Img
             src="/slider/1.jpg"
@@ -19,15 +54,6 @@ export default function Gallery() {
         <div className={styles.item}>
           <Img
             src="/slider/2.jpg"
-            width={260}
-            height={290}
-            style={{ objectFit: "cover" }}
-            alt="Image of human and machine"
-          />
-        </div>
-        <div className={styles.item}>
-          <Img
-            src="/slider/3.jpeg"
             width={260}
             height={290}
             style={{ objectFit: "cover" }}

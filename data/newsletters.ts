@@ -27,7 +27,7 @@ export const newsletters: Newsletter[] = [
   {
     quarter: "March 2026",
     // date: "March 2026",
-    thumbnail: "/march.png",
-    href: "/",
+    thumbnail: "/march-newsletter.png",
+    href: "/march-newsletter.pdf",
   },
 ];

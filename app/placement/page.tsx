@@ -28,13 +28,13 @@ export default function PlacementPage() {
           <Img
             width={1200}
             height={600}
-            src="/degree-distribution/2.jpeg"
+            src="/degree-distribution/8.jpeg"
             alt="IIT Madras Zanzibar student placement overview"
             loading="eager"
           />
         </div>
         <div className={styles.cta}>
-          <Link target="_blank" href="/placement-brochure.png" rel="noreferrer">
+          <Link target="_blank" href="/IITMZ-PlacementBrochure-2026.pdf" rel="noreferrer">
             <Button kind="SECONDARY">Download Placement Brochure</Button>
           </Link>
           <Link target="_blank" href="https://forms.gle/J18cXSru9XEt7bcE7">

@@ -10,7 +10,6 @@ import GovernanceBoard from "@/components/governing-council";
 import Leadership from "@/components/leadership";
 import SocialMedia from "@/components/social-media";
 import { ProgramAdvisory } from "@/components/program-advisory";
-import StaffList from "@/components/staff";
 import { AboutIITMZanzibar } from "@/components/about-iitmz";
 import ZanzibarTeam from "@/components/zanzibar-team";
 
@@ -30,7 +29,6 @@ export default async function Home() {
       <Counter />
       <Leadership />
       <GovernanceBoard />
-      <StaffList />
       {/* <AdvisoryCouncil /> */}
       <ProgramAdvisory />
       {/* <section className={styles.events_testimonials_section}>

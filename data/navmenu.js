@@ -47,19 +47,22 @@ const navMenu = [
       },
     ],
   },
-  { title: "Faculty", link: "/schools/engineering-and-science/faculty" },
   {
-    title: "E-Learning",
+    title: "People",
     link: "",
     submenus: [
       {
-        title: "Skilling Programs",
-        link: "/skilling-programs",
+        title: "Faculty",
+        link: "/schools/engineering-and-science/faculty",
       },
       {
-        title: "Web Enabled Industrial AI",
-        link: "/schools/engineering-and-science/mtech-industrial-ai",
+        title: "Administrative Staff",
+        link: "/administrative-staff",
       },
+      // {
+      //   title: "Student Alumni",
+      //   link: "/student-alumni",
+      // },
     ],
   },
   {
@@ -76,21 +79,6 @@ const navMenu = [
       },
     ],
   },
-  {
-    title: "Careers",
-    link: "",
-    submenus: [
-      {
-        title: "Faculty Hiring",
-        link: "/careers/",
-      },
-      {
-        title: "Student Placement",
-        link: "/placement/",
-      },
-    ],
-  },
-  // { title: "In Media", link: "/media/" },
   { title: "Partners", link: "/partners/" },
   {
     title: "Campus Life",
@@ -110,6 +98,36 @@ const navMenu = [
       },
     ],
   },
+  {
+    title: "E-Learning",
+    link: "",
+    submenus: [
+      {
+        title: "Skilling Programs",
+        link: "/skilling-programs",
+      },
+      {
+        title: "Web Enabled Industrial AI",
+        link: "/schools/engineering-and-science/mtech-industrial-ai",
+      },
+    ],
+  },
+  {
+    title: "Careers",
+    link: "",
+    submenus: [
+      {
+        title: "Faculty Hiring",
+        link: "/careers/",
+      },
+      {
+        title: "Student Placement",
+        link: "/placement/",
+      },
+    ],
+  },
+  // { title: "In Media", link: "/media/" },
+
   {
     title: "News & Events",
     link: "",
@@ -132,10 +150,9 @@ const navMenu = [
       },
     ],
   },
-
+    { title: "Admissions", link: "/admission/" },
   { title: "Financial Aid", link: "/financial-aid/" },
   // { title: "Events", link: "/events/" },
-  { title: "Admissions", link: "/admission/" },
   { title: "Privacy Policy", link: "/privacy-policy", type: "FOOTER_ONLY" },
   { title: "Terms of Use", link: "/terms-of-use", type: "FOOTER_ONLY" },
 ];

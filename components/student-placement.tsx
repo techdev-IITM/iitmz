@@ -94,21 +94,21 @@ export function PlacementComp() {
             {/* Director Profile */}
             <div className={styles.directorProfile}>
               <Img
-                src="/preeti.jpg"
-                alt="Prof. Preeti Aghalayam"
+                src="/prajagopal.png"
+                alt="Prof. Prabhu Rajagopal"
                 width={100}
                 height={100}
                 className={styles.directorImage}
               />
               <Link
-                href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-preeti-aghalayam"
+                href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-prabhu-rajagopal"
                 target="_blank"
               >
-                <h3 className={styles.directorName}>Prof. Preeti Aghalayam</h3>
+                <h3 className={styles.directorName}>Prof. Prabhu Rajagopal</h3>
                 <p className={styles.directorTitle}>
-                  Faculty - School of Engg. & Science
+                  Dean - School of Engg. & Science
                   <br />
-                  Former Director-in-Charge, IITMZ
+                  Director-in-Charge, IITMZ
                 </p>
               </Link>
             </div>
@@ -120,100 +120,34 @@ export function PlacementComp() {
                   <div className={styles.messageContent}>
                     <Expand previewItems={1}>
                       <p className={styles.textRegular}>
-                        As we embark on the third year of our journey, it is my
+                        {/*As we embark on the third year of our journey, it is my
                         pleasure to welcome you to IITM&apos;s offshore campus
                         in Zanzibar, Tanzania. IITM Zanzibar was conceived in
                         July 2023, via a tripartite agreement between the Govts.
                         of India and Zanzibar, and India&apos;s top academic
-                        institution, IIT Madras.
+                        institution, IIT Madras.*/}
+                        I am happy to share my message as IIT Madras (IITM) celebrates its third year of operations at Zanzibar, our first International campus location. Established through the visionary joint efforts of the governments of India, Tanzania and Zanzibar, IITMZ commenced operations at our temporary campus in 2023 with the first batch of 4-year BS degree in Data Sciences & AI (DSAI).
                       </p>
                       <p className={styles.textRegular}>
-                        From the signing of the document to the graduation of
-                        our first batch of MTech students on 11 July 2025, every
-                        moment in this beautiful campus has been memorable for
-                        us.
+                        As an offshore campus of IITM, one of the world’s leading technological universities and India’s top engineering institution as per NIRF rankings for 10 years in a row, IITMZ offers IITM degrees and is envisioned to bring pedagogy of international standards, and the promise of technology-led transformation to the East African region. The academics and teaching at IITMZ are handled by a mix of permanent international faculty members fully employed at IITMZ or on deputation from the Chennai campus and those visiting from various other IITs in India.
                       </p>
 
                       <p className={styles.textRegular}>
-                        IIT Madras has enjoyed a place in high echelons of
-                        higher education and academia for several decades now.
-                        The rigorous curriculum and modern pedagogy, the
-                        stringent student and faculty selection processes, and
-                        the unwavering commitment to a well-rounded campus
-                        experience have enabled the remarkable success of
-                        IITM&quot;s 60,000 strong alumni. Known for their
-                        entrepreneurial spirit and innovation, our students
-                        represent the modern global citizenry in myriad ways.
-                      </p>
-
-                      <div className={styles.academicBox}>
-                        <h3 className={styles.academicTitle}>
-                          Academic Excellence
-                        </h3>
-                        <div className={styles.academicGrid}>
-                          <div className={styles.academicItem}>
-                            <div className={styles.academicDot}></div>
-                            <span>MTech Program: 190+ credits</span>
-                          </div>
-                          <div className={styles.academicItem}>
-                            <div className={styles.academicDot}></div>
-                            <span>Bachelor&apos;s Program: 430+ credits</span>
-                          </div>
-                        </div>
-                        <p className={styles.academicNote}>
-                          Internships and industrial engagements, within the
-                          umbrella of academic credit requirements are strongly
-                          encouraged.
-                        </p>
-                      </div>
-
-                      <p className={styles.textRegular}>
-                        The professors who participate in teaching and mentoring
-                        are remarkably committed academics, with top notch
-                        qualifications from across the world. The students
-                        themselves are from several countries – India, Zanzibar,
-                        and beyond – and are selected based not only on their
-                        academic capabilities but also their leadership skills,
-                        and an ability to participate meaningfully in the global
-                        workforce.
+                        Over the past 2.5+ years, IITMZ has made steady strides: adding 1 more BS programme in Chemical Process Engineering in 2025, focussed on developing human capacity for the burgeoning process industry in the resource-rich continent of African. IITMZ today has over 129 students on roll across various programs, with significant features including having almost 51% students from Tanzania, a strong female participation across the disciplines, and enrolment of about 8% students from other African countries (Ethiopia, Zambia, Kenya, etc.).
                       </p>
 
                       <p className={styles.textRegular}>
-                        The Data Science and Artificial Intelligence MTech is
-                        our flagship program. Starting with intensive training
-                        in core subjects during the first semester, students are
-                        exposed to advanced topics in the second semester and
-                        beyond. Several course projects provide students with a
-                        flavour of innovative research, whereas the final two
-                        semesters are dedicated to a long thesis project,
-                        building up on their base skills and solving real world
-                        problems, with novel approaches.
+                        At IITM Zanzibar, we exemplify the ‘IITM Way’ every single day. The four year Bachelor of Science program requires over 430 credits, including both core and elective subjects. Internships and industrial engagements, within the umbrella of academic credit requirements are strongly encouraged. We aim to foster experiential learning through a culture of ‘building’. The two year M.Tech in Data Science and Artificial Intelligence is our flagship program at the master’s level, and requires over 190 credits of course and project work. Starting with intensive training in core subjects during the first semester, students are exposed to advanced topics in the second semester and beyond. Course-related projects provide s a flavour of innovative research, whereas the final two semesters are dedicated to a thesis project, augmenting student skills to solve real world problems innovatively. The evaluation of the course and project work is stringent, ensuring advancement in skills, aptitude and an attitude attuned to solving problems.
                       </p>
 
                       <p className={styles.textRegular}>
-                        The success of our first batch of graduates has been
-                        multi-dimensional. Several of them participated and won
-                        awards in hackathons, attended international conferences
-                        to present papers, and were hired as interns in
-                        technology companies. They have received final
-                        placements in companies across the world and were also
-                        accepted into highly ranked PhD programs. The diverse
-                        environment of IITM Zanzibar also enabled them to
-                        develop a deep sense of community.
+                        Providing a well-rounded education is a highlight of the IIT system, and IITMZ has a year-long calendar of technical, cultural and sports events that support this mission.  The diverse and international settings make our students globally adaptable. Our students and faculty members engage extensively with societal, academic and industrial communities, both in Tanzania and across the world through hackathons, conferences, workshops, internships,  and joint research projects. The first batch of MTech in DSAI graduated last year, in what was our first graduation ceremony, and we are about to commence our first batch of PhD students shortly.  The graduating MTech batch in 2025 saw 100% placement, while our current  students have interned with top companies in India, West Asia and East Africa.
                       </p>
 
-                      <div className={styles.quote}>
-                        <p className={styles.quoteText}>
-                          &lsquo;I am confident that our subsequent batches of
-                          students will be no less in their achievements. With a
-                          strong first year under their belt, and already
-                          several successes to their name, the MTech batch of
-                          2026, have been nothing short of amazing. I am proud
-                          to welcome you to our campus, to interact with our
-                          bright students, and explore opportunities
-                          together.&rsquo;
-                        </p>
-                      </div>
+                      <p className={styles.textRegular}>
+                        I am thrilled to welcome you to IITM Zanzibar, interact with our students and faculty, explore  emerging oppetunities together.
+                      </p>
+
                     </Expand>
                   </div>
                 </div>
@@ -233,22 +167,20 @@ export function PlacementComp() {
               <div className={styles.cardContentTeam}>
                 <div className={styles.teamAvatar}>
                   <Img
-                    src="/ramkrishna.png"
-                    alt="Ramkrishna Pasumarthy"
+                    src="/innocent-nyalala.jpg"
+                    alt="Innocent Nyalala"
                     className={styles.teamImage}
                     width={84}
                     height={84}
                   />
                 </div>
-                <h3 className={styles.teamName}>Ramkrishna Pasumarthy</h3>
+                <h3 className={styles.teamName}>Innocent Nyalala</h3>
                 <p className={styles.teamRole}>
-                  Program Chair - BS in DS & AI
-                  <br />
                   Faculty - School of Engg. & Science
                 </p>
                 <Link
                   target="_blank"
-                  href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-ramkrishna-pasumarthy"
+                  href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-innocent-nyalala"
                 >
                   <Button kind="SECONDARY">Know More</Button>
                 </Link>
@@ -259,22 +191,20 @@ export function PlacementComp() {
               <div className={styles.cardContentTeam}>
                 <div className={styles.teamAvatar}>
                   <Img
-                    src="/nirav-1.jpg"
+                    src="/appu-vinod.jpg"
                     alt="Nirav Bhatt"
                     className={styles.teamImage}
                     width={84}
                     height={84}
                   />
                 </div>
-                <h3 className={styles.teamName}>Nirav Bhatt</h3>
+                <h3 className={styles.teamName}>Appu Vinod</h3>
                 <p className={styles.teamRole}>
-                  Program Chair - MTech in DS & AI
-                  <br />
                   Faculty - School of Engg. & Science
                 </p>
                 <Link
                   target="_blank"
-                  href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/dr-nirav-bhatt"
+                  href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-appu-vinod"
                 >
                   <Button kind="SECONDARY">Know More</Button>
                 </Link>

@@ -1,4 +1,4 @@
-import styles from "./governing-council.module.scss";
+import styles from "./staff.module.scss";
 import Img from "./image";
 import Button from "./button";
 import Link from "next/link";
@@ -99,7 +99,6 @@ export const StaffMember = [
 export default function StaffList() {
   return (
     <div className={styles.section}>
-      <h2 className="section-title center">Administrative & Support Staff</h2>
       <div className="container">
         <div className={styles.flex_grid}>
           {StaffMember.map((member) => (

@@ -5,13 +5,14 @@ import Courses from "@/components/courses";
 import Counter from "@/components/counter";
 // import Testimonials from "@/components/testimonials";
 import Gallery from "@/components/gallery";
-import AdvisoryCouncil from "@/components/advisory-council";
+// import AdvisoryCouncil from "@/components/advisory-council";
 import GovernanceBoard from "@/components/governing-council";
 import Leadership from "@/components/leadership";
 import SocialMedia from "@/components/social-media";
 import { ProgramAdvisory } from "@/components/program-advisory";
 import StaffList from "@/components/staff";
 import { AboutIITMZanzibar } from "@/components/about-iitmz";
+import ZanzibarTeam from "@/components/zanzibar-team";
 
 export const metadata = {
   alternates: {
@@ -30,7 +31,7 @@ export default async function Home() {
       <Leadership />
       <GovernanceBoard />
       <StaffList />
-      <AdvisoryCouncil />
+      {/* <AdvisoryCouncil /> */}
       <ProgramAdvisory />
       {/* <section className={styles.events_testimonials_section}>
         <div className="container">
@@ -458,6 +459,7 @@ export default async function Home() {
           </div>
         </div>
       </section> */}
+      <ZanzibarTeam />
       <SocialMedia kind="FULL" />
       <Gallery />
     </main>

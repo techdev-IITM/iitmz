@@ -598,6 +598,14 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/sameer.png",
+    startDate: "August 14, 2026",
+    name: "NM AIST-IITMZ Industry-Academia Webinar Series",
+    time: "03:00 PM - 04:00 PM EAT",
+    location: "Virtual",
+    desc: "'Recycling for a Sustainable Future: Transforming Environmental Challenges into Economic Opportunities' explores how industrial waste can be transformed into valuable resources through recycling, innovation, and technology. The talk highlights practical examples from steel recycling, used-oil re-refining, and agro-processing, while focusing on circular economy, ESG, sustainable business, and industry-academia collaboration.",
+  },
 ];
 
 export default eventsList;

@@ -10,6 +10,11 @@ export const StaffMember = [
     img: "/staff/Idrissa Said Amour-1.jpg",
   },
   {
+    name: "Mr. Abdulrahman Ali Hassan",
+    title: "Chief Liaison Officer",
+    img: "/staff/abdulrahman-ali-hassan.png",
+  },
+  {
     name: "Ms. Mshauri Abdulla Khamis",
     title: "Registrar",
     img: "/staff/MSHAURI ABDULLA KHAMIS.jpg",

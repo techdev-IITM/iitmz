@@ -39,7 +39,7 @@ export default function CareersPage() {
         </div> */}
         <div className={styles.grid}>
           <Img
-            src="/Faculty-Recruitment.png"
+            src="/faculty-hiring.jpg"
             alt="Image of signing of MOU with University of Birmingham"
             width={300}
             height={400}
@@ -74,7 +74,7 @@ export default function CareersPage() {
                   </div>
                 </div> */}
               </div>
-              <Link target="_blank" href="https://forms.gle/BsxPMZQk4JXw9HTSA">
+              <Link target="_blank" href="https://forms.gle/jyC7ksXSkzX5CqvD6">
                 <Button>Apply Now</Button>
               </Link>
             </div>

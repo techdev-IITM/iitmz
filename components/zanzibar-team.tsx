@@ -1,11 +1,11 @@
-import styles from "./leadership.module.scss";
+import styles from "./zanzibar-team.module.scss";
 import Img from "./image";
 import Link from "next/link";
 
 export default function ZanzibarTeam() {
   return (
     <div className={styles.section}>
-      <h2 className="section-title center">IITM Zanzibar - Madras Campus Team</h2>
+      {/*<h2 className="section-title center">IITM Zanzibar - Madras Campus Team</h2>*/}
       <div className="container">
 
           <div className={styles.card}>

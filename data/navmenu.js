@@ -56,13 +56,18 @@ const navMenu = [
         link: "/schools/engineering-and-science/faculty",
       },
       {
-        title: "Administrative Staff",
-        link: "/administrative-staff",
+        title: "Offshore Campus Team",
+        link: "/offshore-campus-team",
       },
-      // {
-      //   title: "Student Alumni",
-      //   link: "/student-alumni",
-      // },
+      {
+        title: "On-campus Team",
+        link: "/on-campus-team",
+      },
+
+      {
+        title: "Student Alumni",
+        link: "/student-alumni",
+      },
     ],
   },
   {

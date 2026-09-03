@@ -37,7 +37,7 @@ export default function Testimonials({ ...props }: TestimonialsProps) {
           <div className={styles.body}>
 
             <p>
-              Studying at IITM Zanzibar has been a journey since day one. As is the case with any journey, there have been lots of twists and turns, and the road was some-times rough, but the memories I have made here are precious and invaluable. It's more than just a campus, it's a home-away-from-home, a place filled with peo-ple from different cultures and settings - all here to work towards building something magical, and I be-lieve that is what makes IITM Zanzibar so beautiful.
+              Studying at IITM Zanzibar has been a journey since day one. As is the case with any journey, there have been lots of twists and turns, and the road was some-times rough, but the memories I have made here are precious and invaluable. It&apos;s more than just a campus, it&apos;s a home-away-from-home, a place filled with peo-ple from different cultures and settings - all here to work towards building something magical, and I be-lieve that is what makes IITM Zanzibar so beautiful.
 
             </p>
              <h3>As a wise sage once said - IITM Zanzibar is small, but mighty!</h3>
@@ -196,7 +196,7 @@ export default function Testimonials({ ...props }: TestimonialsProps) {
           </div>*/}
         </div>
         {/* testimonial 6 */}
-        {/*<div className={styles.item}>
+        <div className={styles.item}>
           <div className={styles.quote}>
             <Img
               src="/img/testimonial/quotes.png"
@@ -207,7 +207,7 @@ export default function Testimonials({ ...props }: TestimonialsProps) {
           </div>
           <div className={styles.header}>
             <Img
-              src="/feedback/Khamis.png"
+              src="/feedback/Khamis - Kali.png"
               height={52}
               width={52}
               alt="Testimonial Reviewer Picture"
@@ -225,7 +225,7 @@ export default function Testimonials({ ...props }: TestimonialsProps) {
             </p>
             <h3>Let&apos;s be together as one to build a future per-spective through science and technology</h3>
           </div>
-        </div>*/}
+        </div>
 
       </Slider>
     </section>

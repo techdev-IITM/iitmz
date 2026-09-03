@@ -64,10 +64,10 @@ const navMenu = [
         link: "/on-campus-team",
       },
 
-      {
-        title: "Student Alumni",
-        link: "/student-alumni",
-      },
+      // {
+      //   title: "Student Alumni",
+      //   link: "/student-alumni",
+      // },
     ],
   },
   {

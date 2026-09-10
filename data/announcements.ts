@@ -16,7 +16,7 @@ export const announcements: Announcements = [
   //   linkUrl: "https://admissions.iitmz.ac.in/mtechdsai",
   // },
   {
-    activeTill: "2026-09-12",
+    activeTill: "2026-09-15",
     content: "International Teaching Experience (ITE) Program 2026_Sem2 applications open",
     linkText: "view website",
     linkUrl: "https://ge.iitm.ac.in/iie/ite-program",

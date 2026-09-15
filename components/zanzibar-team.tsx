@@ -10,7 +10,7 @@ export default function ZanzibarTeam() {
 
           <div className={styles.card}>
             <Img
-              src="/team/mohana-1.png"
+              src="/team/mohana-pic.png"
               height={200}
               width={200}
               alt="Image of Professor Mohanapriya"

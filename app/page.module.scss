@@ -1,6 +1,6 @@
-.events_testimonials_section > div {
+.row {
   display: flex;
-  padding: 6rem 0;
+  padding: 2rem 0 3rem;
   position: relative;
   gap: 3%;
   overflow: hidden;
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 480px) {
-  .events_testimonials_section > div {
+  .row {
     flex-direction: column;
     padding: 3rem 0;
   }

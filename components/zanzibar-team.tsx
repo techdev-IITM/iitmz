@@ -6,9 +6,20 @@ export default function ZanzibarTeam() {
   return (
     <div className={styles.section}>
       {/*<h2 className="section-title center">IITM Zanzibar - Madras Campus Team</h2>*/}
-      <div className="container">
+      <div>
 
-          <div className={styles.card}>
+        <div className={styles.card}>
+          <Img
+            src="/team/thukaramv2.jpeg"
+            height={200}
+            width={200}
+            alt="Image of Professor Mohanapriya"
+          />
+          <h3>Thukaram M Damodhar</h3>
+          <p>Lead, Inbound International academic programs</p>
+        </div>
+
+        <div className={styles.card}>
             <Img
               src="/team/mohana-pic.png"
               height={200}

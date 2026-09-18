@@ -10,7 +10,9 @@
     // );
     & > div {
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3rem 2rem;
         margin-top: 5rem;
     }
 }
@@ -20,10 +22,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 0 0 200px;
+    text-align: center;
+    padding: 0 0.5rem;
     img {
         object-fit: cover;
         border-radius: 50%;
         margin-bottom: 1.5rem;
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
     }
     // h3,
     // h4,

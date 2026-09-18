@@ -33,16 +33,18 @@ export default async function Home() {
       <ProgramAdvisory />
        <section className={styles.events_testimonials_section}>
         <div className="container">
-           <Img
-           height={400}
-           width={580}
-           className={styles.feedback_image}
-            src="/testimonial.jpeg"
-            alt=""
-          />
-          <div className={styles.testimonials}>
-            <h2 className="section-title">Student Feedback</h2>
-            <Testimonials type="PRIMARY" />
+          <h2 className="section-title center line">Student Feedback</h2>
+          <div className={styles.row}>
+            <Img
+            height={400}
+            width={580}
+            className={styles.feedback_image}
+              src="/testimonial.jpeg"
+              alt=""
+            />
+            <div className={styles.testimonials}>
+              <Testimonials type="PRIMARY" />
+            </div>
           </div>
         </div>
       </section>

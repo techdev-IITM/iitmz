@@ -14,6 +14,27 @@ export type Visit = {
 
 export const visits: Visit[] = [
   {
+    slug: "iit-kharagpur-visit",
+    title: "IIT Kharagpur Alumna Visits IIT Madras Zanzibar",
+    description: "A delightful visit by an IIT Kharagpur alumna to IIT Madras Zanzibar on 31st July 2026, celebrating the spirit of higher education, learning, and global academic connections.",
+    date: "July 31, 2026",
+    image: "/iit-kharagpur-visit.jpeg",
+  },
+  {
+    slug: "secretary-mea-visit",
+    title: "MEA Officials Visit IIT Madras Zanzibar Campus",
+    description: "The Joint Secretary and Under Secretary, East & Southern Africa Division, Ministry of External Affairs (MEA), Government of India, visited the IIT Madras Zanzibar campus on 25th July 2026. The visit provided an opportunity to engage with the campus and learn more about its academic initiatives and development. It also reflected the continued support and engagement towards strengthening India–Zanzibar cooperation in higher education.",
+    date: "July 25, 2026",
+    image: "/secretary-mea-visit.jpeg",
+  },
+  {
+    slug: "prof-michael-kavic-visit",
+    title: "Prof. Michael Kavic visits IITM Zanzibar",
+    description: "Prof. Michael Kavic visited IIT Madras Zanzibar on 24th July 2026, marking a meaningful academic engagement and opportunity for knowledge exchange.",
+    date: "July 24, 2026",
+    image: "/michael-kavic-visit.jpeg",
+  },
+  {
     slug: "president-visit-iitm",
     title: "President of Zanzibar Visits IIT Madras for the 63rd Convocation",
     description: "H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, attended the 63rd Convocation of IIT Madras, reaffirming the shared vision between India and Zanzibar and highlighting the continued growth and impact of IIT Madras Zanzibar as India's first international IIT campus.",

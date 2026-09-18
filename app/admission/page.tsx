@@ -35,7 +35,7 @@ export default function AdmissionPage() {
         title="Have Questions?"
         description="Are you interested in applying to IIT Madras Zanzibar and still have questions about the program, admission process, and screening test? Our admission counsellors are here to help."
         emails={["admissions@iitmz.ac.in"]}
-        inquiryMessage="Fill out the IITM Zanzibar Inquiry Form and our admission counsellor will be in touch with you."
+        inquiryMessage="Fill out the IITM Zanzibar Enquiry Form and our admission counsellor will be in touch with you."
         inquiryLink="https://ge.iitm.ac.in/forms/iitmz-enquiry-form"
       />
     </div>

@@ -3,6 +3,7 @@ import Button from "@/components/button";
 import Img from "@/components/image";
 import Link from "next/link";
 import { AiOutlineCalendar } from "react-icons/ai";
+import InquirySection from "@/components/admissions-enquiry";
 
 export const metadata = {
   title: "Careers",
@@ -4697,6 +4698,13 @@ export default function CareersPage() {
             </div>
           </div>
         </div>
+        <InquirySection
+          title="Explore ITE Opportunities"
+          description="Explore the International Teaching Experience (ITE) Program and join IIT Madras Zanzibar as a Teaching Assistant while gaining valuable international teaching experience."
+          // emails={["admissions@iitmz.ac.in"]}
+          inquiryMessage="Teach. Learn. Experience Zanzibar."
+          inquiryLink="https://ge.iitm.ac.in/forms/iitmz-enquiry-form"
+        />
         <p className={styles.note}>
           Note: The institute will shortlist candidates for an interview based
           on their academic qualifications, tangible research output, teaching

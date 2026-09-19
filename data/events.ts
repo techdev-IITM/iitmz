@@ -606,6 +606,25 @@ const eventsList = [
     location: "Virtual",
     desc: "'Recycling for a Sustainable Future: Transforming Environmental Challenges into Economic Opportunities' explores how industrial waste can be transformed into valuable resources through recycling, innovation, and technology. The talk highlights practical examples from steel recycling, used-oil re-refining, and agro-processing, while focusing on circular economy, ESG, sustainable business, and industry-academia collaboration.",
   },
+  {
+    img: "/IUTAM-Symposium.png",
+    startDate: "December 14, 2026",
+    endDate: "December 18, 2026",
+    name: "IUTAM Symposium on Flow and Instabilities of Complex Fluids",
+    time: "10:00 AM EAT",
+    location: "IITMZ Auditorium",
+    desc: "This symposium brings together researchers from theory, computation, and experiment to explore instabilities, pattern formation, and microstructure–flow interactions in complex fluids. It highlights applications across microfluidics, granular transport, soft matter, and sustainable energy. The event provides a platform for PhD students, postdoctoral researchers, and young faculty to present their work, engage with experts, and build international collaborations. Hosted at IIT Madras Zanzibar, Tanzania, the symposium also aims to strengthen scientific engagement and expand the global reach of IUTAM activities in Africa and beyond.",
+    links: [
+      {
+        title: "View More Information",
+        link: "https://ge.iitm.ac.in/ficf-symposium",
+      },
+      {
+        title: "Download Brochure",
+        link: "/IUTAM-Brochure.pdf",
+      },
+    ],
+  },
 ];
 
 export default eventsList;

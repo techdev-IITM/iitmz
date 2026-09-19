@@ -4703,7 +4703,7 @@ export default function CareersPage() {
           description="Explore the International Teaching Experience (ITE) Program and join IIT Madras Zanzibar as a Teaching Assistant while gaining valuable international teaching experience."
           // emails={["admissions@iitmz.ac.in"]}
           inquiryMessage="Teach. Learn. Experience Zanzibar."
-          inquiryLink="https://ge.iitm.ac.in/forms/iitmz-enquiry-form"
+          inquiryLink="https://ge.iitm.ac.in/iie/ite-program"
         />
         <p className={styles.note}>
           Note: The institute will shortlist candidates for an interview based

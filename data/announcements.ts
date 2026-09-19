@@ -16,6 +16,12 @@ export const announcements: Announcements = [
   //   linkUrl: "https://admissions.iitmz.ac.in/mtechdsai",
   // },
   {
+    activeTill: "2026-11-01",
+    content: "Interested in IIT Madras Zanzibar?",
+    linkText: "Connect with us",
+    linkUrl: "https://ge.iitm.ac.in/forms/iitmz-enquiry-form",
+  },
+  {
     activeTill: "2026-09-15",
     content: "International Teaching Experience (ITE) Program 2026_Sem2 applications open",
     linkText: "view website",

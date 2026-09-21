@@ -4704,6 +4704,7 @@ export default function CareersPage() {
           // emails={["admissions@iitmz.ac.in"]}
           inquiryMessage="Teach. Learn. Experience Zanzibar."
           inquiryLink="https://ge.iitm.ac.in/iie/ite-program"
+          buttonLabel="Know More"
         />
         <p className={styles.note}>
           Note: The institute will shortlist candidates for an interview based

@@ -10,15 +10,17 @@ interface InquirySectionProps {
   whatsapp?: string;
   inquiryMessage?: string;
   inquiryLink?: string;
+  buttonLabel?: string;
 }
 
-export default function InquirySection({ 
-  title, 
-  description, 
-  emails = [], 
-  whatsapp, 
-  inquiryMessage, 
-  inquiryLink 
+export default function InquirySection({
+  title,
+  description,
+  emails = [],
+  whatsapp,
+  inquiryMessage,
+  inquiryLink,
+  buttonLabel = "Enquire Now",
 }: InquirySectionProps) {
   return (
     <section className={styles.section}>
@@ -48,7 +50,7 @@ export default function InquirySection({
                 <p>{inquiryMessage}</p>
                 {inquiryLink && (
                   <Link target="_blank" href={inquiryLink}>
-                    <Button kind="PRIMARY">Enquire Now</Button>
+                    <Button kind="PRIMARY">{buttonLabel}</Button>
                   </Link>
                 )}
               </div>

@@ -15,8 +15,8 @@ export default function ZanzibarTeam() {
             width={200}
             alt="Image of Professor Mohanapriya"
           />
-          <h3>Thukaram M Damodhar</h3>
-          <p>Lead, Inbound International academic programs</p>
+          <h3>Thukaram. D</h3>
+          <p>International Academic Programs</p>
         </div>
 
         <div className={styles.card}>

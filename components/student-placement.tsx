@@ -226,16 +226,48 @@ export function PlacementComp() {
               </p>
               <div className={styles.recruitersGrid}>
                 <div className={styles.recruiterItem}>
-                  <div className={`${styles.recruiterLogo} ${styles.logoBlue}`}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
                     <Img
-                      src="/recuriter-logo/superdoll.jpg"
-                      alt="TechCorp Logo"
+                      src="/recuriter-logo/agl.png"
+                      alt="GlobalTech Logo"
                       className={styles.recruiterImage}
                       width={120}
                       height={140}
                     />
                   </div>
-                  <span className={styles.recruiterName}>SuperDoll</span>
+                  <span className={styles.recruiterName}>
+                    Africa Global Logistics
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/alliance.png"
+                      alt="Alliance Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    Alliance Insurance Ltd
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/atri-ai.png"
+                      alt="ATRI Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    ATRI AI
+                  </span>
                 </div>
 
                 <div className={styles.recruiterItem}>
@@ -251,6 +283,36 @@ export function PlacementComp() {
                     />
                   </div>
                   <span className={styles.recruiterName}>Bosch</span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/epfl.png"
+                      alt="GlobalTech Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    EPFL - University in Switzerland
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/gitaa.png"
+                      alt="Gitaa Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                   GITAA Pvt Ltd
+                  </span>
                 </div>
 
                 <div className={styles.recruiterItem}>
@@ -273,6 +335,81 @@ export function PlacementComp() {
                 <div className={styles.recruiterItem}>
                   <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
                     <Img
+                      src="/recuriter-logo/iitm.png"
+                      alt="IITM Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    IIT Madras
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/iit-roorkee.png"
+                      alt="IIT Roorkee Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    IIT Roorkee
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/india-fasteners.png"
+                      alt="India Fasteners Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    India Fasteners
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/kea.png"
+                      alt="Kea Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    Kea Credit
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/liquid.png"
+                      alt="GlobalTech Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    Liquid Intelligent Technologies
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
                       src="/recuriter-logo/netweb.jpg"
                       alt="GlobalTech Logo"
                       className={styles.recruiterImage}
@@ -280,7 +417,48 @@ export function PlacementComp() {
                       height={140}
                     />
                   </div>
-                  <span className={styles.recruiterName}>Netweb</span>
+                  <span className={styles.recruiterName}>Netweb Technologies</span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/novacis.png"
+                      alt="Novacis Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    Novacis Digital
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/Soft Tech.png"
+                      alt="SoftTech Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>Soft Tech Consulting Inc.</span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoBlue}`}>
+                    <Img
+                      src="/recuriter-logo/superdoll.jpg"
+                      alt="TechCorp Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>SuperDoll</span>
                 </div>
 
                 <div className={styles.recruiterItem}>
@@ -301,19 +479,7 @@ export function PlacementComp() {
                 <div className={styles.recruiterItem}>
                   <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
                     <Img
-                      src="/recuriter-logo/Soft Tech.png"
-                      alt="SoftTech Logo"
-                      className={styles.recruiterImage}
-                      width={120}
-                      height={140}
-                    />
-                  </div>
-                  <span className={styles.recruiterName}>SoftTech</span>
-                </div>
-                <div className={styles.recruiterItem}>
-                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
-                    <Img
-                      src="/recuriter-logo/agl.png"
+                      src="/recuriter-logo/vigor.png"
                       alt="GlobalTech Logo"
                       className={styles.recruiterImage}
                       width={120}
@@ -321,21 +487,37 @@ export function PlacementComp() {
                     />
                   </div>
                   <span className={styles.recruiterName}>
-                    Africa Global Logistics
+                    VIGOR
                   </span>
                 </div>
+
                 <div className={styles.recruiterItem}>
                   <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
                     <Img
-                      src="/recuriter-logo/liquid.png"
-                      alt="GlobalTech Logo"
+                      src="/recuriter-logo/xlscout.png"
+                      alt="Xlscout Logo"
                       className={styles.recruiterImage}
                       width={120}
                       height={140}
                     />
                   </div>
                   <span className={styles.recruiterName}>
-                    Liquid Intelligent Technologies
+                    Xlscout
+                  </span>
+                </div>
+
+                <div className={styles.recruiterItem}>
+                  <div className={`${styles.recruiterLogo} ${styles.logoGray}`}>
+                    <Img
+                      src="/recuriter-logo/zanlink.png"
+                      alt="Zanlink Logo"
+                      className={styles.recruiterImage}
+                      width={120}
+                      height={140}
+                    />
+                  </div>
+                  <span className={styles.recruiterName}>
+                    Zanlink Limited
                   </span>
                 </div>
               </div>

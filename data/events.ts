@@ -625,6 +625,14 @@ const eventsList = [
       },
     ],
   },
+  {
+    img: "/nmist.jpeg",
+    startDate: "September 30, 2026",
+    name: "NM AIST-IITMZ Industry-Academia Webinar Series",
+    time: "03:00 PM - 04:00 PM EAT",
+    location: "IITM Auditorium and Virtual",
+    desc: "This talk explores the practical engineering challenges of developing hospitality, residential, mixed-use, and urban projects in Zanzibar, covering design coordination, infrastructure, coastal conditions, construction quality, material sourcing, logistics, and local execution. It also highlights the growing role of data, AI, and digital tools, and concludes with opportunities for stronger industry-academia collaboration through live projects and student engagement.",
+  },
 ];
 
 export default eventsList;

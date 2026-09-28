@@ -39,6 +39,41 @@ export const researchData: ResearchDataType = {
       publications: [
         {
           year: 2026,
+          title: "Explainable AI for Clove Quality Grading: Benchmarking Post Hoc XAI and Compositional Interpretability Under Domain Shift",
+          venue: "ETRI Journal, 2026",
+          type: "Journal",
+          description: "Benchmarks seven post hoc explainability methods (Grad-CAM, LIME, GradientSHAP, and others) against a compositional, interpretable by design pipeline on 4,603 expert-graded clove images from the Zanzibar State Trading Corporation. Introduces the Explanation Energy Ratio (EER) to measure how well explanations align with the true clove regions and shows explanation quality and robustness vary widely by architecture and explainer, even when accuracy looks similar.",
+        },
+        {
+          year: 2026,
+          title: "Auditing Representation in Crop Disease Benchmark Datasets Intended for Sub-Saharan African Deployment",
+          venue: "Data Science Africa (DSA) 2026, Kampala, Uganda",
+          type: "",
+          description: "Audits three widely used crop disease datasets (PlantVillage, iCassava 2019, iBean) across five dimensions of representativeness, geography, imaging environment, class balance, image quality, and morphological diversity, for fitness in Sub-Saharan African deployment, and introduces the AgriAI Bias Card, a six-item documentation checklist for African agricultural AI datasets.",
+        },
+        {
+          year: 2026,
+          title: "When Synthetic Data Hurts: DCGAN Augmentation Failure Under Extreme Data Scarcity for Cassava Disease Classification in East Africa",
+          venue: "Data Science Africa (DSA) 2026, Kampala, Uganda",
+          type: "",
+          description: "Tests whether DCGAN-based synthetic image augmentation helps cassava disease classification under extreme data scarcity in Uganda, and finds it consistently hurts accuracy instead, cutting macro-F1 by up to 23 percentage points due to GAN mode collapse, with pretrained classifiers hurt far more than models trained from scratch. We suggest a practical minimum of about 100 to 200 real images per class before synthetic augmentation is worth considering.",
+        },
+        {
+          year: 2026,
+          title: "Few-Shot Transfer Learning for Cassava Leaf Disease Detection Under East African Field Conditions",
+          venue: "Data Science Africa (DSA) 2026, Kampala, Uganda",
+          type: "",
+          description: "Evaluates few-shot transfer learning on 21,397 smartphone-captured Ugandan field images across five cassava disease classes. Fine-tuned ViT-B/16 reaches 63.6% accuracy with just 50 labelled images per class, a 28.5 point gain over training from scratch, and the analysis identifies 50 labelled images per class as the cost-effective sweet spot for real deployments.",
+        },
+        {
+          year: 2026,
+          title: "DGS-Bench: Measuring the Deployment Gap in African Agricultural AI Requires Balanced Metrics - A Cassava Case Study",
+          venue: "Deep Learning Indaba (DLI) 2026, Lagos, Nigeria",
+          type: "",
+          description: "Introduces DGS-Bench, showing that agricultural AI models can look better on imbalanced African field data purely because of an Evaluation Mirage: raw accuracy rises while minority-class performance actually drops. Across 40 independent cassava experiments, raw accuracy fell by 6.0 points on average while macro-F1 rose by 8.2 points, holding up under further segmentation, fine-tuning, and cross-dataset checks, showing standard accuracy metrics can overstate real deployment readiness.",
+        },
+        {
+          year: 2026,
           title: "Cultural Sustainability in the New Technological Age",
           venue:
             "International Conference on AI Policy Harmonisation in East Africa, University of Oxford, United Kingdom",
@@ -588,6 +623,16 @@ export const researchData: ResearchDataType = {
     },
   ],
   awards: [
+  {
+    faculty: "Prof. Innocent Nyalala",
+    mentor: "",
+    student: "",
+    award: "ICSR Grant",
+    work: "CashewAI: Phenology-Aware Dual-Stream Deep Learning for Integrated Disease Detection, Pest Identification, and Yield Prediction in Smallholder Cashew Orchards of East Africa",
+    conference:
+      "IC&SR (Industrial Consultancy & Sponsored Research), IIT Madras",
+    posterImage: "",
+  },
     {
       mentor: "Dr. Tushar Shinde",
       student: "Sreejita Roy (MTech Student)",

@@ -239,6 +239,30 @@ export default function CampusLife() {
                 </Slider>
               </div>
             </div>
+
+            <div className={styles.itemSection}>
+              <div className={styles.itemInfo}>
+                <h3>Campus Amenities</h3>
+                <p>
+                  At IIT Madras Zanzibar Campus, students experience a vibrant and supportive environment designed to complement their academic journey. The campus offers well-equipped laboratories, classrooms, hostel facilities, recreational spaces, and essential student and faculty amenities, creating a comfortable setting for learning and personal growth. Modern academic and residential facilities provide students with opportunities to learn, collaborate, and engage beyond the classroom. From innovative learning spaces to welcoming residential and common areas, every aspect of campus life contributes to a holistic educational experience. These facilities foster a sense of community, encourage interaction, and support students in making the most of their time at IITM Zanzibar.
+                </p>
+              </div>
+              <div className={styles.itemImages}>
+                <Slider slidesToShow={1} showTracks={true}>
+                  {Array.from({ length: 15 }, (_, index) => (
+                    <Img
+                      key={`image__${index}`}
+                      src={`/amenities/${index + 1}.jpeg`}
+                      width={450}
+                      height={350}
+                      alt="Image of IITM Zanzibar Campus"
+                    />
+                  ))}
+                </Slider>
+              </div>
+            </div>
+
+
           </div>
 
           {/* <div className={styles.gallery}>

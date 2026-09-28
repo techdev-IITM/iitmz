@@ -210,8 +210,14 @@ $spacing-unit: 0.25rem; // 4px
 .posterImage {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid #e7e8ee;
+    box-shadow: 0 4px 14px rgba(20, 21, 23, 0.06);
+    transition: transform 0.25s ease;
+
+    .awardEntry:hover & {
+        transform: scale(1.015);
+    }
 }
 
 .posterBadgeContainer {
@@ -344,65 +350,127 @@ $spacing-unit: 0.25rem; // 4px
 }
 
 .awards {
-    & > *:not([hidden]) ~ *:not([hidden]) {
-        margin-top: spacing(8);
+    display: flex;
+    flex-direction: column;
+    gap: spacing(8);
+}
+
+.awardEntry {
+    padding: spacing(6);
+    border: 1px solid #e7e8ee;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #fffefb 0%, #ffffff 14%);
+    transition:
+        box-shadow 0.25s ease,
+        transform 0.25s ease,
+        border-color 0.25s ease;
+
+    &:hover {
+        border-color: #f3d9a0;
+        box-shadow: 0 12px 28px rgba(20, 21, 23, 0.08);
+        transform: translateY(-3px);
+    }
+}
+
+@media (max-width: 640px) {
+    .awardEntry {
+        padding: spacing(4);
+        border-radius: 10px;
     }
 }
 
 .awardLayout {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    margin: 0.5rem 0 0;
+    gap: 2rem;
     @media (min-width: 768px) {
         flex-direction: row;
+        align-items: center;
+        gap: 3rem;
     }
 }
 
 .awardPoster {
     @extend .posterWrapper;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f7fa;
+    border: 1px solid #edeef3;
+    border-radius: 12px;
+    padding: spacing(3);
+    align-self: center;
+    width: 100%;
+
     @media (min-width: 768px) {
-        width: 320px;
+        width: 260px;
+    }
+
+    .posterImage {
+        max-height: 300px;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+        border: none;
+        box-shadow: none;
+        border-radius: 6px;
     }
 }
 
 .awardDetails {
     flex: 1;
     min-width: 0;
+    align-self: center;
     & > *:not([hidden]) ~ *:not([hidden]) {
-        margin-top: spacing(3);
+        margin-top: spacing(5);
     }
 }
 
 .awardTitleText {
+    display: flex;
+    align-items: flex-start;
+    gap: spacing(2);
     font-weight: 700;
-    font-size: 1.7rem;
-    line-height: 1.4;
+    font-size: 1.75rem;
+    line-height: 1.35;
     color: #141517;
+    letter-spacing: -0.01em;
+}
+
+.awardTitleIcon {
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+    font-size: 1.4rem;
+    color: #ffb013;
 }
 
 .awardInfoGroup {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
+    line-height: 1.55;
     & > *:not([hidden]) ~ *:not([hidden]) {
-        margin-top: spacing(2);
+        margin-top: spacing(4);
     }
 }
 
 .infoLineFlex {
     display: flex;
     flex-wrap: wrap;
-    gap: spacing(2);
+    align-items: baseline;
+    gap: spacing(1.5);
 }
 
 .infoLineBlock {
     display: flex;
     flex-direction: column;
-    gap: spacing(1);
+    gap: spacing(2);
 }
 
 .infoLabel {
     font-weight: 700;
     color: #3a3a44;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .infoValue {
@@ -411,6 +479,7 @@ $spacing-unit: 0.25rem; // 4px
 
 .infoValueItalic {
     font-style: italic;
+    color: #46464e;
 }
 
 .conferenceInfo {
@@ -418,6 +487,7 @@ $spacing-unit: 0.25rem; // 4px
     align-items: flex-start;
     gap: spacing(2);
     color: #6a6a73;
+    font-size: 1.35rem;
 }
 
 .conferenceIcon {

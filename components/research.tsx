@@ -183,68 +183,70 @@ export default function ResearchHighlights() {
           <div className={styles.cardContent}>
             <div className={styles.awards}>
               {researchData.awards.map(
-                (award: AwardEntry, awardIndex: number) => (
-                  <section key={awardIndex} className={styles.awardEntry}>
-                    <div className={styles.awardLayout}>
-                      {/* Conditionally render award poster */}
-                      {award.posterImage && (
-                        <div className={styles.awardPoster}>
-                          <Img
-                            src={award.posterImage} // No need for || "/placeholder.svg"
-                            alt={`Award poster for ${award.student}`}
-                            className={styles.posterImage}
-                            width={320}
-                            height={320}
-                          />
-                          {/* <div className={styles.posterBadgeContainer}>
-                          <span className={styles.badgePoster}>
-                            Award Poster
-                          </span>
-                        </div> */}
-                        </div>
-                      )}
+                (award: AwardEntry, awardIndex: number) => {
+                  const hasMentorInfo = Boolean(award.mentor || award.student);
+                  return (
+                    <section key={awardIndex} className={styles.awardEntry}>
+                      <div className={styles.awardLayout}>
+                        {/* Conditionally render award poster */}
+                        {award.posterImage && (
+                          <div className={styles.awardPoster}>
+                            <Img
+                              src={award.posterImage} // No need for || "/placeholder.svg"
+                              alt={`Award poster for ${award.student || award.faculty || award.award}`}
+                              className={styles.posterImage}
+                              width={320}
+                              height={320}
+                            />
+                          </div>
+                        )}
 
-                      <div className={styles.awardDetails}>
-                        {" "}
-                        {/* This will expand if poster is not present */}
-                        <span
-                          className={`${styles.badgeSecondary} ${styles.badgeWithIcon}`}
-                        >
-                          <FaUsers className={styles.iconXs} />
-                          Faculty Mentor: {award.mentor}
-                        </span>
-                        <h3 className={styles.awardTitleText}>{award.award}</h3>
-                        <div className={styles.awardInfoGroup}>
-                          <p className={styles.infoLineFlex}>
-                            <span className={styles.infoLabel}>
-                              Student(s):
-                            </span>
-                            <span className={styles.infoValue}>
-                              {award.student}
-                            </span>
-                          </p>
-                          <p className={styles.infoLineBlock}>
-                            <span className={styles.infoLabel}>Work:</span>
+                        <div className={styles.awardDetails}>
+                          {" "}
+                          {/* This will expand if poster is not present */}
+                          {hasMentorInfo && (
                             <span
-                              className={`${styles.infoValue} ${styles.infoValueItalic}`}
+                              className={`${styles.badgeSecondary} ${styles.badgeWithIcon}`}
                             >
-                              {award.work}
+                              <FaUsers className={styles.iconXs} />
+                              Faculty Mentor: {award.mentor}
                             </span>
-                          </p>
-                          <div className={styles.conferenceInfo}>
-                            <FaMapMarkerAlt className={styles.conferenceIcon} />
-                            <span>{award.conference}</span>
+                          )}
+                          <h3 className={styles.awardTitleText}>
+                            <FaAward className={styles.awardTitleIcon} />
+                            <span>{award.award}</span>
+                          </h3>
+                          <div className={styles.awardInfoGroup}>
+                            {hasMentorInfo && award.student && (
+                              <p className={styles.infoLineFlex}>
+                                <span className={styles.infoLabel}>
+                                  Student(s):
+                                </span>
+                                <span className={styles.infoValue}>
+                                  {award.student}
+                                </span>
+                              </p>
+                            )}
+                            <p className={styles.infoLineBlock}>
+                              <span className={styles.infoLabel}>Work:</span>
+                              <span
+                                className={`${styles.infoValue} ${styles.infoValueItalic}`}
+                              >
+                                {award.work}
+                              </span>
+                            </p>
+                            <div className={styles.conferenceInfo}>
+                              <FaMapMarkerAlt
+                                className={styles.conferenceIcon}
+                              />
+                              <span>{award.conference}</span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    {awardIndex < researchData.awards.length - 1 && (
-                      <hr
-                        className={`${styles.customSeparator} ${styles.separatorLargeMargin}`}
-                      />
-                    )}
-                  </section>
-                ),
+                    </section>
+                  );
+                },
               )}
             </div>
           </div>

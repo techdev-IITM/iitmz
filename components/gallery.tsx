@@ -125,7 +125,7 @@ export default function Gallery() {
         </div>
         <div className={styles.item}>
           <Img
-            src="/slider/11.jpg"
+            src="/slider/image-1.web"
             width={260}
             height={290}
             style={{ objectFit: "cover" }}
@@ -143,7 +143,7 @@ export default function Gallery() {
         </div>
         <div className={styles.item}>
           <Img
-            src="/slider/13.jpeg"
+            src="/slider/image-2.webp"
             width={260}
             height={290}
             style={{ objectFit: "cover" }}

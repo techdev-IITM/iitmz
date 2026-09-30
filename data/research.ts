@@ -631,7 +631,7 @@ export const researchData: ResearchDataType = {
     work: "CashewAI: Phenology-Aware Dual-Stream Deep Learning for Integrated Disease Detection, Pest Identification, and Yield Prediction in Smallholder Cashew Orchards of East Africa",
     conference:
       "IC&SR (Industrial Consultancy & Sponsored Research), IIT Madras",
-    posterImage: "",
+    posterImage: "/icsr-grant.jpeg",
   },
     {
       mentor: "Dr. Tushar Shinde",

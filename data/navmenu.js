@@ -48,9 +48,13 @@ const navMenu = [
     ],
   },
   {
-    title: "People",
+    title: "About Us",
     link: "",
     submenus: [
+      {
+        title: "The Institute",
+        link: "/the-institute",
+      },
       {
         title: "Faculty",
         link: "/schools/engineering-and-science/faculty",
@@ -63,7 +67,6 @@ const navMenu = [
         title: "On-campus Team",
         link: "/on-campus-team",
       },
-
       {
         title: "Student Alumni",
         link: "/student-alumni",
@@ -98,7 +101,7 @@ const navMenu = [
         link: "/center-for-innovation-and-entrepreneurship/",
       },
       {
-        title: "ASTRA Club",
+        title: "ASTRA",
         link: "/astra/",
       },
     ],

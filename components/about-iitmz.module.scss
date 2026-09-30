@@ -1,5 +1,5 @@
 .container {
-    padding: 7rem 0 5rem;
+    padding: 4rem 0 5rem;
 }
 
 .content {
@@ -11,41 +11,31 @@
     gap: 64px;
 }
 
-.sectionHeader {
+.itemGrid {
     display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 32px;
-}
-
-.sectionIndicator {
-    width: 4px;
-    height: 32px;
-    background-color: #ffb013;
-    border-radius: 9999px;
-}
-
-.sectionTitle {
-    font-size: 2.6rem;
-    font-weight: 600;
-    /* replaced hsl(var(--foreground)) with exact dark color */
-    color: #0f172a;
-}
-
-.twoColumn {
-    display: flex;
-    gap: 48px;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 4rem;
     padding-top: 2.5rem;
 }
 
-.textColumn {
-    flex: 1;
+.itemSection {
+    display: flex;
+    gap: 6rem;
+    align-items: flex-start;
+
+    & > div {
+        flex: 0 1 50%;
+    }
+}
+
+.itemInfo {
+    padding: 0.5rem 2rem 0.5rem 0;
 
     p {
         font-size: 1.6rem;
-        line-height: 1.7;
-        margin-bottom: 4rem;
+        line-height: 2;
+        text-align: justify;
+        margin-bottom: 2.5rem;
 
         &:last-child {
             margin-bottom: 0;
@@ -53,28 +43,40 @@
     }
 }
 
-.imageColumn {
-    flex: 1;
+.itemImages {
+    position: sticky;
+    top: 2rem;
+
+    img {
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
 }
 
 @media (max-width: 768px) {
-    .twoColumn {
+    .itemSection {
         flex-direction: column;
         gap: 3rem;
+
+        & > div {
+            flex: 0 0 100%;
+        }
     }
 
-    .textColumn {
+    .itemInfo {
+        padding: 1rem 0;
+
         p {
             font-size: 1.4rem;
         }
     }
 
-    .imageColumn {
-        width: 100%;
+    .itemImages {
+        position: static;
 
         img {
-            width: 100%;
-            height: auto;
+            height: 300px;
         }
     }
 }

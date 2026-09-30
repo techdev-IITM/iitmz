@@ -92,7 +92,7 @@ export default function LabsComp() {
               />
             </div>
             <div className={styles.cardInfo}>
-              <h2 className={styles.cardTitle}>BioNexus Lab</h2>
+              <h2 className={styles.cardTitle}>BioNexus AI Lab</h2>
               <h3 className={styles.cardSubtitle}>
                 {/*Center for Artificial Intelligence, Data Sciences and Computational
                 Biology in Health*/}

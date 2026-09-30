@@ -1,3 +1,7 @@
+.events_testimonials_section {
+  padding-top: 5rem;
+}
+
 .row {
   display: flex;
   padding: 2rem 0 3rem;
@@ -14,6 +18,9 @@
 }
 
 @media (max-width: 480px) {
+  .events_testimonials_section {
+    padding-top: 3rem;
+  }
   .row {
     flex-direction: column;
     padding: 3rem 0;

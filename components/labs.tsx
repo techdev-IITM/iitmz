@@ -104,7 +104,7 @@ export default function LabsComp() {
                   className={styles.cardLink}
                   target="_blank"
                 >
-                  Visit BioNexus Lab
+                  Visit BioNexus AI Lab
                 </Link>
               </div>
             </div>

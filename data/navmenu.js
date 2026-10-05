@@ -30,24 +30,6 @@ const navMenu = [
   //   ],
   // },
   {
-    title: "Academics",
-    link: "",
-    submenus: [
-      {
-        title: "Programs Offered",
-        link: "/schools/engineering-and-science",
-      },
-      {
-        title: "Academic Calendar",
-        link: "/academic-calendar",
-      },
-      {
-        title: "Ordinances",
-        link: "/schools/engineering-and-science/ordinances",
-      },
-    ],
-  },
-  {
     title: "About Us",
     link: "",
     submenus: [
@@ -70,6 +52,24 @@ const navMenu = [
       {
         title: "Student Alumni",
         link: "/student-alumni",
+      },
+    ],
+  },
+  {
+    title: "Academics",
+    link: "",
+    submenus: [
+      {
+        title: "Programs Offered",
+        link: "/schools/engineering-and-science",
+      },
+      {
+        title: "Academic Calendar",
+        link: "/academic-calendar",
+      },
+      {
+        title: "Ordinances",
+        link: "/schools/engineering-and-science/ordinances",
       },
     ],
   },

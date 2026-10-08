@@ -25,7 +25,7 @@ export default function ApplyCard({
         {buttonLink && (
           <div className={styles.applyCta}>
             {!buttonDisabled && (
-              <Link target="_blank" href={buttonLink}>
+              <Link prefetch={false} target="_blank" href={buttonLink}>
                 <Button kind="PRIMARY">{buttonText}</Button>
               </Link>
             )}

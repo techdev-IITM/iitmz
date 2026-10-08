@@ -1,5 +1,6 @@
 import styles from "./admissions-course-card.module.scss";
 import Link from "next/link";
+import { isFileHref } from "@/utils/url";
 import Button from "./button";
 
 type CourseLink = {
@@ -27,7 +28,12 @@ export default function CourseCard({
 
         <div className={styles.links}>
           {links.map((link, index) => (
-            <Link key={index} href={link.url} className={styles.link}>
+            <Link
+              key={index}
+              href={link.url}
+              prefetch={isFileHref(link.url) ? false : undefined}
+              className={styles.link}
+            >
               {link.label}
             </Link>
           ))}
@@ -37,7 +43,7 @@ export default function CourseCard({
           {applicationDisabled ? (
             <Button disabled>Apply Now</Button>
           ) : (
-            <Link target="_blank" href={applicationLink}>
+            <Link prefetch={false} target="_blank" href={applicationLink}>
               <Button>Apply Now</Button>
             </Link>
           )}

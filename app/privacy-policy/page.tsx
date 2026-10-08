@@ -18,13 +18,14 @@ export default function PrivacyPolicy() {
           of the information collected by Google Analytics about your visits to
           this site is subject to{" "}
           <Link
+            prefetch={false}
             target="_blank"
             href="https://marketingplatform.google.com/about/analytics/terms/us/"
           >
             Google Analytics Terms of Use
           </Link>{" "}
           and the{" "}
-          <Link target="_blank" href="https://policies.google.com/privacy">
+          <Link prefetch={false} target="_blank" href="https://policies.google.com/privacy">
             Google Privacy Policy
           </Link>
           . You can prevent Google Analytics from recognizing you on return

@@ -16,7 +16,7 @@ export default function AcademicCalendar(){
           <div className={styles.calendarGrid}>
             {academicCalendarData.map((calendar) => (
               <div className={styles.calendar} key={calendar.link}>
-                <Link href={calendar.link} target="_blank">
+                <Link prefetch={false} href={calendar.link} target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlSpace="preserve"

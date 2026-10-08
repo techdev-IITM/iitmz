@@ -32,7 +32,7 @@ export default function Hero() {
 
               {banner.linkText && banner.linkURL && (
                 <Button>
-                  <Link target="_blank" href={banner.linkURL}>
+                  <Link prefetch={false} target="_blank" href={banner.linkURL}>
                     {banner.linkText}
                   </Link>
                 </Button>

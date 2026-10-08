@@ -1,5 +1,6 @@
 import Img from "@/components/image";
 import Link from "next/link";
+import { isFileHref } from "@/utils/url";
 import { GoLinkExternal } from "react-icons/go";
 import { LuArrowRight } from "react-icons/lu";
 import styles from "./program-card.module.scss";
@@ -30,7 +31,11 @@ export default function ProgramCard(item: cardItem) {
             .filter((link) => link.href)
             .map((link, index) => (
               <li key={index}>
-                <Link href={link.href!} className={link.highlight ? styles.primary : ""}>
+                <Link
+                  href={link.href!}
+                  prefetch={isFileHref(link.href!) ? false : undefined}
+                  className={link.highlight ? styles.primary : ""}
+                >
                   {link.label}
                   {link.external ? <GoLinkExternal /> : <LuArrowRight />}
                 </Link>

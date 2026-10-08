@@ -70,6 +70,7 @@ export default function Courses({ layout = "HORIZONTAL" }: CoursesProps) {
                           <Button kind="SECONDARY">More Details</Button>
                         </Link>
                         <Link
+                          prefetch={false}
                           target="_blank"
                           href={
                             !course.applicationDisabled &&

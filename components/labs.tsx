@@ -100,6 +100,7 @@ export default function LabsComp() {
               </h3>
               <div className={styles.cardMeta}>
                 <Link
+                  prefetch={false}
                   href="/"
                   className={styles.cardLink}
                   target="_blank"
@@ -137,6 +138,7 @@ export default function LabsComp() {
               </h3>
               <div className={styles.cardMeta}>
                 <Link
+                  prefetch={false}
                   href="https://sites.google.com/view/hansat/home"
                   className={styles.cardLink}
                   target="_blank"
@@ -180,6 +182,7 @@ export default function LabsComp() {
                 className={`${styles.cardMeta} ${styles.certButtonsContainer}`}
               >
                 <Link
+                  prefetch={false}
                   href="https://sites.google.com/view/tushar-shinde/midas-lab"
                   className={styles.cardLink}
                   target="_blank"
@@ -219,6 +222,7 @@ export default function LabsComp() {
               </h3>
               <div className={styles.cardMeta}>
                 <Link
+                  prefetch={false}
                   href="https://saaillab.github.io/"
                   className={styles.cardLink}
                   target="_blank"

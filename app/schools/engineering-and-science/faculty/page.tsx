@@ -109,7 +109,7 @@ export default function AcademicsPage() {
                             )}
                             {/* External link for visiting faculty */}
                             {facultyMember.link && (
-                              <Link href={facultyMember.link} target="_blank">
+                              <Link prefetch={false} href={facultyMember.link} target="_blank">
                                 <Button kind="SECONDARY">Know More</Button>
                               </Link>
                             )}

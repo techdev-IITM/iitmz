@@ -18,7 +18,7 @@ export default function AcademicCalendar() {
         <div className={styles.ordinanceGrid}>
           {academicOrdinancesData.map((ordinance) => (
             <div className={styles.ordinance} key={ordinance.link}>
-              <Link href={ordinance.link} target="_blank">
+              <Link prefetch={false} href={ordinance.link} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlSpace="preserve"

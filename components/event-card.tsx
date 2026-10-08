@@ -3,6 +3,7 @@ import { CiClock1 } from "react-icons/ci";
 import { SlLocationPin } from "react-icons/sl";
 import Img from "./image";
 import Link from "next/link";
+import { isFileHref } from "@/utils/url";
 import Button from "./button";
 import Image from "next/image";
 import parse from "html-react-parser";
@@ -56,7 +57,7 @@ export default function EventCard({
           </div>
           <div className={styles.cta}>
             {type === "UPCOMING" && regLink && (
-              <Link target="_blank" href={regLink}>
+              <Link prefetch={false} target="_blank" href={regLink}>
                 <Button kind="PRIMARY">Register Now</Button>
               </Link>
             )}
@@ -78,7 +79,11 @@ export default function EventCard({
           <div className={styles.links}>
             {links &&
               links.map((linkItem) => (
-                <Link key={linkItem.title} href={linkItem.link}>
+                <Link
+                  key={linkItem.title}
+                  href={linkItem.link}
+                  prefetch={isFileHref(linkItem.link) ? false : undefined}
+                >
                   <Button kind="SECONDARY">{linkItem.title}</Button>
                 </Link>
               ))}

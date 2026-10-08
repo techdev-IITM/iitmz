@@ -8,6 +8,7 @@ export default function ContactWidget() {
   return (
     <div className={styles.widget}>
       <Link
+        prefetch={false}
         target="_blank"
         // href="https://admissions.iitmz.ac.in/"
         href="https://admissions.iitmz.ac.in/bs"
@@ -38,6 +39,7 @@ export default function ContactWidget() {
       </a>
 
       <Link
+        prefetch={false}
         target="_blank"
         href="https://ge.iitm.ac.in/forms/iitmz-enquiry-form"
         className={styles.widgetItem}
@@ -47,6 +49,7 @@ export default function ContactWidget() {
       </Link>
 
       {/* <Link
+        prefetch={false}
         href="https://wa.me/919600685899"
         target="_blank"
         className={styles.widgetItem}

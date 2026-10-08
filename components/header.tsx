@@ -2287,7 +2287,7 @@ export default function Header() {
               alt="Institute Of Eminence Icon"
             />
           </a>
-          <Link target="_blank" href={`https://admissions.iitmz.ac.in/`}>
+          <Link prefetch={false} target="_blank" href={`https://admissions.iitmz.ac.in/`}>
             <Button kind="PRIMARY">Apply Now</Button>
           </Link>
 

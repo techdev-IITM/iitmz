@@ -75,7 +75,7 @@ export default function CareersPage() {
                   </div>
                 </div> */}
               </div>
-              <Link target="_blank" href="https://forms.gle/jyC7ksXSkzX5CqvD6">
+              <Link prefetch={false} target="_blank" href="https://forms.gle/jyC7ksXSkzX5CqvD6">
                 <Button>Apply Now</Button>
               </Link>
             </div>

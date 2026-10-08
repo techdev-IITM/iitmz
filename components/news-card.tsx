@@ -17,7 +17,7 @@ export default function NewsCard({ link, image, title, desc }: NewsCardProps) {
 
   return (
     <div className={styles.card}>
-      <Link target="_blank" href={linkURL || "#"}>
+      <Link prefetch={false} target="_blank" href={linkURL || "#"}>
         <Img src={`${imageURL}`} width={200} height={100} alt={`IITM Zanzibar News Image`} />
         <h3>{title}</h3>
         <p>{desc}</p>

@@ -3,6 +3,7 @@ import eventsList from "@/data/events";
 import Img from "@/components/image";
 import Button from "@/components/button";
 import Link from "next/link";
+import { isFileHref } from "@/utils/url";
 import parse from "html-react-parser";
 import EventSchedule from "@/components/event-schedule";
 import { CiClock1 } from "react-icons/ci";
@@ -71,7 +72,7 @@ export default async function EventDetail(props: any) {
                     {new Date(event?.endDate || event?.startDate) >
                       new Date() &&
                       event.regLink && (
-                        <Link target="_blank" href={event.regLink}>
+                        <Link prefetch={false} target="_blank" href={event.regLink}>
                           <Button kind="PRIMARY">Register Now</Button>
                         </Link>
                       )}
@@ -94,7 +95,11 @@ export default async function EventDetail(props: any) {
                 <div className={styles.links}>
                   {event.links &&
                     event.links.map((linkItem) => (
-                      <Link key={linkItem.title} href={linkItem.link}>
+                      <Link
+                        key={linkItem.title}
+                        href={linkItem.link}
+                        prefetch={isFileHref(linkItem.link) ? false : undefined}
+                      >
                         <Button kind="SECONDARY">{linkItem.title}</Button>
                       </Link>
                     ))}

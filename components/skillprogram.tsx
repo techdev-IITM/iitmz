@@ -24,6 +24,7 @@ export default function SkillPrograms() {
               <h3 className={styles.cardSubtitle}>GITAA Pvt. Ltd.</h3>
               <div className={styles.cardMeta}>
                 <Link
+                  prefetch={false}
                   href="https://www.gitaa.in/ai-ml-training"
                   className={styles.cardLink}
                   target="_blank"
@@ -63,6 +64,7 @@ export default function SkillPrograms() {
               <h3 className={styles.cardSubtitle}>Spoken Tutorial </h3>
               <div className={styles.cardMeta}>
                 <Link
+                  prefetch={false}
                   href="https://spoken-tutorial.org/"
                   className={styles.cardLink}
                   target="_blank"
@@ -115,6 +117,7 @@ export default function SkillPrograms() {
                 {" "}
                 {/* Added certButtonsContainer class */}
                 <Link
+                  prefetch={false}
                   href="https://www.cert.ae/"
                   className={styles.cardLink}
                   target="_blank"
@@ -122,6 +125,7 @@ export default function SkillPrograms() {
                   Visit CERT
                 </Link>
                 <Link
+                  prefetch={false}
                   href="https://thedigitalschool.org/"
                   className={styles.cardLink}
                   target="_blank"
@@ -173,6 +177,7 @@ export default function SkillPrograms() {
               >
                 {" "}
                 <Link
+                  prefetch={false}
                   href="/course.pdf"
                   className={styles.cardLink}
                   target="_blank"
@@ -180,6 +185,7 @@ export default function SkillPrograms() {
                   Course Details
                 </Link>
                 <Link
+                  prefetch={false}
                   href="https://forms.gle/KiEY8GzJHDV3GWuL6"
                   className={styles.cardLink}
                   target="_blank"
@@ -227,6 +233,7 @@ export default function SkillPrograms() {
               >
                 {" "}
                 <Link
+                  prefetch={false}
                   href="https://www.cert.ae/"
                   className={styles.cardLink}
                   target="_blank"
@@ -234,6 +241,7 @@ export default function SkillPrograms() {
                   Visit CERT
                 </Link>
                 <Link
+                  prefetch={false}
                   href="https://thedigitalschool.org/"
                   className={styles.cardLink}
                   target="_blank"
@@ -272,6 +280,7 @@ export default function SkillPrograms() {
               >
                 {" "}
                 <Link
+                  prefetch={false}
                   href="https://www.cert.ae/"
                   className={styles.cardLink}
                   target="_blank"
@@ -279,6 +288,7 @@ export default function SkillPrograms() {
                   Visit CERT
                 </Link>
                 <Link
+                  prefetch={false}
                   href="https://thedigitalschool.org/"
                   className={styles.cardLink}
                   target="_blank"

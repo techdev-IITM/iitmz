@@ -10,7 +10,7 @@ export interface Banner {
 export const banners: Banner[] = [
   {
     mdTitle: "Welcome To",
-    lgTitle: "IITM Zanzibar",
+    lgTitle: "IIT Madras Zanzibar",
     smTitle: "Empowering Africa: Shaping Next-Gen Tech Leaders and Innovators",
     img: "/banner_default.jpg",
     linkText: "",

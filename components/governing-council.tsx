@@ -11,7 +11,7 @@ export const governanceBoardMember = [
   {
     name: "Prof. Hamed R. H. Hikmany",
     title:
-      "Principal, Zanzibar School of Health; Chairman, Board of Directors Zanzibar Revenue Authority(ZRA); Chairman, Council of the State University of Zanzibar (SUZA)",
+      "Principal, Zanzibar School of Health; Chairman, Board of Directors Zanzibar Revenue Authority (ZRA); Chairman, Council of the State University of Zanzibar (SUZA)",
     img: "/council/Hamed.png",
   },
   {
@@ -51,7 +51,7 @@ export const governanceBoardMember = [
   },
   {
     name: "Prof. Said Ally Mohamed",
-    title: "Executive Secretary - National Examination Council Tanzania(NECTA)",
+    title: "Executive Secretary - National Examination Council Tanzania (NECTA)",
     img: "/council/Said-Ally.png",
   },
   {
@@ -69,7 +69,7 @@ export const governanceBoardMember = [
   {
     name: "Prof. Preeti Aghalayam",
     title:
-      "Former Director-in-Charge, IITMZ, Dean (Office of Global Engagement), IIT Madras",
+      "Former Director-in-Charge, IITM Zanzibar, Dean (Office of Global Engagement), IIT Madras",
     img: "/preeti.jpg",
   },
   {
@@ -90,7 +90,7 @@ export const governanceBoardMember = [
   {
     name: "Prof. Prabhu Rajagopal",
     title:
-      "Director-in-Charge, Dean of the School of Engineering & Science, IITMZ",
+      "Director-in-Charge, Dean of the School of Engineering & Science, IITM Zanzibar",
     img: "/prajagopal.png",
   },
 ];

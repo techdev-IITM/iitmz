@@ -45,7 +45,7 @@ const culturalClubs: ClubData[] = [
     name: "Aperture",
     tagline: "Photography Club",
     // desc: "Street walks, studio lighting workshops, and monthly portfolio reviews.",
-    desc: "Capturing the spirit of IITMZ through photography and visual storytelling, documenting campus events, student life, and memorable moments.",
+    desc: "Capturing the spirit of IITM Zanzibar through photography and visual storytelling, documenting campus events, student life, and memorable moments.",
     coordinators: [
       { name: "Amina", img: "/astra-members/Amina.jpg" },
       { name: "Arunya", img: "/astra-members/Arunya.jpg" },
@@ -88,7 +88,7 @@ const culturalClubs: ClubData[] = [
     name: "Symphony",
     tagline: "Music Club",
     // desc: "Ensembles, bands, and open jam sessions — auditions held every semester.",
-    desc: "Bringing the campus to life through music, Symphony unites students with diverse musical interests and performs at cultural events and celebrations across IITMZ.",
+    desc: "Bringing the campus to life through music, Symphony unites students with diverse musical interests and performs at cultural events and celebrations across IITM Zanzibar.",
     coordinators: [{ name: "Sri Advaita", img: "/clubs/symphony/1.jpg" }],
     imageCount: 3,
     Icon: FaMusic,

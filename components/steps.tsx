@@ -68,7 +68,7 @@ export default function Steps() {
               </div>
               <h3>Selection Process</h3>
               <p>
-                Final selections are made by the IITMZ Admission Committee based
+                Final selections are made by the IITM Zanzibar Admission Committee based
                 on overall performance.
               </p>
             </div>

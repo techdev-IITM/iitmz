@@ -20,7 +20,7 @@ export function AboutIITMZanzibar() {
       <div className={styles.content}>
         {/* About Section */}
         <section>
-          <h2 className="section-title center line">About IITM Zanzibar</h2>
+          <h2 className="section-title center line">About IIT Madras Zanzibar</h2>
           <div className={styles.itemGrid}>
             <div className={styles.itemSection}>
               <div className={styles.itemInfo}>

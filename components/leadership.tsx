@@ -29,7 +29,8 @@ export default function Leadership() {
               alt="Image of Professor Preeti Aghalayam"
             />
             <h3>Prof Preeti Aghalayam</h3>
-            <h4>Former Director-in-Charge, IITMZ</h4>
+            <h4>Former Director-in-Charge,</h4>
+            <h4> IITM Zanzibar</h4>
             <p>Dean (Office of Global Engagement),</p>
             <p>IIT Madras</p>
             <p>Faculty - School of Engg. & Science</p>

@@ -109,7 +109,7 @@ export function PlacementComp() {
                 <p className={styles.directorTitle}>
                   Dean - School of Engg. & Science
                   <br />
-                  Director-in-Charge, IITMZ
+                  Director-in-Charge, IITM Zanzibar
                 </p>
               </Link>
             </div>
@@ -127,14 +127,14 @@ export function PlacementComp() {
                         July 2023, via a tripartite agreement between the Govts.
                         of India and Zanzibar, and India&apos;s top academic
                         institution, IIT Madras.*/}
-                        I am happy to share my message as IIT Madras (IITM) celebrates its third year of operations at Zanzibar, our first International campus location. Established through the visionary joint efforts of the governments of India, Tanzania and Zanzibar, IITMZ commenced operations at our temporary campus in 2023 with the first batch of 4-year BS degree in Data Sciences & AI (DSAI).
+                        I am happy to share my message as IIT Madras (IITM) celebrates its third year of operations at Zanzibar, our first International campus location. Established through the visionary joint efforts of the governments of India, Tanzania and Zanzibar, IITM Zanzibar commenced operations at our temporary campus in 2023 with the first batch of 4-year BS degree in Data Sciences & AI (DSAI).
                       </p>
                       <p className={styles.textRegular}>
-                        As an offshore campus of IITM, one of the world’s leading technological universities and India’s top engineering institution as per NIRF rankings for 10 years in a row, IITMZ offers IITM degrees and is envisioned to bring pedagogy of international standards, and the promise of technology-led transformation to the East African region. The academics and teaching at IITMZ are handled by a mix of permanent international faculty members fully employed at IITMZ or on deputation from the Chennai campus and those visiting from various other IITs in India.
+                        As an offshore campus of IITM, one of the world’s leading technological universities and India’s top engineering institution as per NIRF rankings for 10 years in a row, IITM Zanzibar offers IITM degrees and is envisioned to bring pedagogy of international standards, and the promise of technology-led transformation to the East African region. The academics and teaching at IITM Zanzibar are handled by a mix of permanent international faculty members fully employed at IITM Zanzibar or on deputation from the Chennai campus and those visiting from various other IITs in India.
                       </p>
 
                       <p className={styles.textRegular}>
-                        Over the past 2.5+ years, IITMZ has made steady strides: adding 1 more BS programme in Chemical Process Engineering in 2025, focussed on developing human capacity for the burgeoning process industry in the resource-rich continent of African. IITMZ today has over 129 students on roll across various programs, with significant features including having almost 51% students from Tanzania, a strong female participation across the disciplines, and enrolment of about 8% students from other African countries (Ethiopia, Zambia, Kenya, etc.).
+                        Over the past 2.5+ years, IITM Zanzibar has made steady strides: adding 1 more BS programme in Chemical Process Engineering in 2025, focussed on developing human capacity for the burgeoning process industry in the resource-rich continent of African. IITM Zanzibar today has over 129 students on roll across various programs, with significant features including having almost 51% students from Tanzania, a strong female participation across the disciplines, and enrolment of about 8% students from other African countries (Ethiopia, Zambia, Kenya, etc.).
                       </p>
 
                       <p className={styles.textRegular}>
@@ -142,7 +142,7 @@ export function PlacementComp() {
                       </p>
 
                       <p className={styles.textRegular}>
-                        Providing a well-rounded education is a highlight of the IIT system, and IITMZ has a year-long calendar of technical, cultural and sports events that support this mission.  The diverse and international settings make our students globally adaptable. Our students and faculty members engage extensively with societal, academic and industrial communities, both in Tanzania and across the world through hackathons, conferences, workshops, internships,  and joint research projects. The first batch of MTech in DSAI graduated last year, in what was our first graduation ceremony, and we are about to commence our first batch of PhD students shortly.  The graduating MTech batch in 2025 saw 100% placement, while our current  students have interned with top companies in India, West Asia and East Africa.
+                        Providing a well-rounded education is a highlight of the IIT system, and IITM Zanzibar has a year-long calendar of technical, cultural and sports events that support this mission.  The diverse and international settings make our students globally adaptable. Our students and faculty members engage extensively with societal, academic and industrial communities, both in Tanzania and across the world through hackathons, conferences, workshops, internships,  and joint research projects. The first batch of MTech in DSAI graduated last year, in what was our first graduation ceremony, and we are about to commence our first batch of PhD students shortly.  The graduating MTech batch in 2025 saw 100% placement, while our current  students have interned with top companies in India, West Asia and East Africa.
                       </p>
 
                       <p className={styles.textRegular}>

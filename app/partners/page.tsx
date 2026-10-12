@@ -474,7 +474,7 @@ export default function PartnersPage() {
               study abroad programs, staff exchange, teaching & research among
               others, at the NEP2020 Anniversary event held today at Pragati
               Maidan, New Delhi. */}
-              IITM Zanzibar is proud to be associated with several academic,
+              IIT Madras Zanzibar is proud to be associated with several academic,
               corporate and government institutions in its mission to develop
               the next generation of global leaders.
             </p>

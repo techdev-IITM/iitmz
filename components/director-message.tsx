@@ -32,7 +32,7 @@ export default function DirectorMessage() {
                 <p className={styles.directorTitle}>
                   Dean - School of Engg. & Science
                   <br />
-                  Director-in-Charge, IITMZ
+                  Director-in-Charge, IITM Zanzibar
                 </p>
               </Link>
             </div>

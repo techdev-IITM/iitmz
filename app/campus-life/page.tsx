@@ -79,7 +79,7 @@ export default function CampusLife() {
               <div className={styles.itemInfo}>
                 <h3>Student Life</h3>
                 <p>
-                  At IITM Zanzibar Campus, the spirit of social responsibility
+                  At IIT Madras Zanzibar Campus, the spirit of social responsibility
                   is deeply ingrained in our campus culture. Students
                   enthusiastically volunteer for various social activities,
                   lending a helping hand to the local community and making a
@@ -120,7 +120,7 @@ export default function CampusLife() {
                   extracurricular activities; they&rsquo;re pathways to personal
                   growth and community enrichment. Led by passionate student
                   leaders and supported by dedicated faculty champions, the
-                  clubs at IITMZ offer an ocean of opportunities to explore
+                  clubs at IITM Zanzibar offer an ocean of opportunities to explore
                   diverse interests. Whether it&rsquo;s designing autonomous
                   robots or organizing cultural festivals, students at IITM
                   Zanzibar are constantly pushing boundaries and creating an
@@ -261,7 +261,6 @@ export default function CampusLife() {
                 </Slider>
               </div>
             </div>
-
 
           </div>
 

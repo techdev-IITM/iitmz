@@ -125,7 +125,7 @@ export default function Gallery() {
         </div>
         <div className={styles.item}>
           <Img
-            src="/image-1.web"
+            src="/image-1.webp"
             width={260}
             height={290}
             style={{ objectFit: "cover" }}

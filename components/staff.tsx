@@ -124,6 +124,7 @@ export default function StaffList() {
               {/* Conditionally render button only for (Late) Mr. Hassan Soud */}
               {member.name === "(Late) Mr. Hassan Soud" && (
                 <Link
+                  prefetch={false}
                   target="_blank"
                   href="https://padlet.com/iitm_zanzibar/in-loving-memory-of-our-rafiki-hassan-soud-j3kxbn8t5aig9547"
                 >

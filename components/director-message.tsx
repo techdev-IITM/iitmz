@@ -24,6 +24,7 @@ export default function DirectorMessage() {
                 className={styles.directorImage}
               />
               <Link
+                prefetch={false}
                 href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-prabhu-rajagopal"
                 target="_blank"
               >

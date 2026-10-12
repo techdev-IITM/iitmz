@@ -49,7 +49,7 @@ export default function InquirySection({
               <div className={styles.cta}>
                 <p>{inquiryMessage}</p>
                 {inquiryLink && (
-                  <Link target="_blank" href={inquiryLink}>
+                  <Link prefetch={false} target="_blank" href={inquiryLink}>
                     <Button kind="PRIMARY">{buttonLabel}</Button>
                   </Link>
                 )}

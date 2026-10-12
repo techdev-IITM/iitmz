@@ -34,10 +34,10 @@ export default function PlacementPage() {
           />
         </div>
         <div className={styles.cta}>
-          <Link target="_blank" href="/IITMZ-PlacementBrochure-2026.pdf" rel="noreferrer">
+          <Link prefetch={false} target="_blank" href="/IITMZ-PlacementBrochure-2026.pdf" rel="noreferrer">
             <Button kind="SECONDARY">Download Placement Brochure</Button>
           </Link>
-          <Link target="_blank" href="https://forms.gle/J18cXSru9XEt7bcE7">
+          <Link prefetch={false} target="_blank" href="https://forms.gle/J18cXSru9XEt7bcE7">
             <Button kind="PRIMARY">Recruiter Registration Form</Button>
           </Link>
         </div>

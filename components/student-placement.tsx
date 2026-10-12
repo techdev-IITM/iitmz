@@ -101,6 +101,7 @@ export function PlacementComp() {
                 className={styles.directorImage}
               />
               <Link
+                prefetch={false}
                 href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-prabhu-rajagopal"
                 target="_blank"
               >
@@ -179,6 +180,7 @@ export function PlacementComp() {
                   Faculty - School of Engg. & Science
                 </p>
                 <Link
+                  prefetch={false}
                   target="_blank"
                   href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-innocent-nyalala"
                 >
@@ -203,6 +205,7 @@ export function PlacementComp() {
                   Faculty - School of Engg. & Science
                 </p>
                 <Link
+                  prefetch={false}
                   target="_blank"
                   href="https://www.iitmz.ac.in/schools/engineering-and-science/faculty/prof-appu-vinod"
                 >

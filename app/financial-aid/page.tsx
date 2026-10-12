@@ -30,6 +30,7 @@ export default function FinancialAidPage() {
               full-time study in degree programs at IITM Zanzibar.
             </p>
             <Link
+              prefetch={false}
               target="_blank"
               href="https://ge.iitm.ac.in/forms/iitmz-financial-assistance"
             >

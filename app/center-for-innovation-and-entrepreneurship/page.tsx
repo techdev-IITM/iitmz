@@ -264,6 +264,7 @@ export default function CenterForInnovation() {
             <p className={styles.visitText}>Want to know more about CIE?</p>
           </div>
           <Link
+            prefetch={false}
             href="https://cie-iitmz.web.app"
             target="_blank"
             rel="noopener noreferrer"

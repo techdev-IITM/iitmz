@@ -26,6 +26,7 @@ export default function MediaCard({
   return (
     <article className={styles.card}>
       <Link
+        prefetch={false}
         className={styles.media}
         target="_blank"
         href={linkURL || "#"}
@@ -41,13 +42,13 @@ export default function MediaCard({
       </Link>
       <div className={styles.body}>
         <h3 className={styles.title}>
-          <Link target="_blank" href={linkURL || "#"}>
+          <Link prefetch={false} target="_blank" href={linkURL || "#"}>
             {title}
           </Link>
         </h3>
         <p className={styles.desc}>{desc}</p>
         {hasLink && (
-          <Link className={styles.read} target="_blank" href={linkURL}>
+          <Link prefetch={false} className={styles.read} target="_blank" href={linkURL}>
             Read article <BsArrowUpRight aria-hidden="true" />
           </Link>
         )}

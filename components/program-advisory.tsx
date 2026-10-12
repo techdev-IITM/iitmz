@@ -17,7 +17,7 @@ export const ProgramAdvisory = () => {
           />
           <h3>Prof Sharat Chandran</h3>
           <h4>IIT, Bombay</h4>
-          <Link target="_blank" href="https://www.cse.iitb.ac.in/~sharat/">
+          <Link prefetch={false} target="_blank" href="https://www.cse.iitb.ac.in/~sharat/">
             <Button kind="SECONDARY">Know More</Button>
           </Link>
         </div>
@@ -32,6 +32,7 @@ export const ProgramAdvisory = () => {
           <h3>Prof C Pandurangan</h3>
           <h4>IISc, Bengaluru</h4>
           <Link
+            prefetch={false}
             target="_blank"
             href="https://odaa.iisc.ac.in/prof-pandurangan-medal/"
           >
@@ -48,6 +49,7 @@ export const ProgramAdvisory = () => {
           <h3>Prof Mark Lee</h3>
           <h4>University of Birmingham</h4>
           <Link
+            prefetch={false}
             target="_blank"
             href="https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/lee-mark.aspx"
           >

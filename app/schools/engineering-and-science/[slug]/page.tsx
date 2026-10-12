@@ -199,6 +199,7 @@ export default async function PagePage({
               )}
               {coursesMember?.applicationLink && (
                 <Link
+                  prefetch={false}
                   target="_blank"
                   href={
                     coursesMember.applicationDisabled

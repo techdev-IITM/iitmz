@@ -53,6 +53,10 @@ const navMenu = [
         title: "Student Alumni",
         link: "/student-alumni",
       },
+      {
+        title: "Teaching Assistants",
+        link: "/teaching-assistants",
+      },
     ],
   },
   {

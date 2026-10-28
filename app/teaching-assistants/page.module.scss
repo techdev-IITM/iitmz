@@ -1,0 +1,118 @@
+.page {
+    padding: 4rem 0 3rem;
+}
+
+.header {
+    padding: 3rem 0 0;
+
+    h1 {
+        font-size: 3.6rem;
+        color: #141517;
+        letter-spacing: -0.02em;
+        margin-top: 1rem;
+        margin-bottom: 1.4rem;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 5.6rem;
+            height: 4px;
+            border-radius: 2px;
+            background: #ffb013;
+            margin-top: 1.4rem;
+        }
+    }
+    p {
+        line-height: 1.7;
+        margin: 0 0 3.5rem;
+        font-size: 1.6rem;
+        color: #575757;
+        max-width: 68ch;
+    }
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 0;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    .page {
+        padding: 2.5rem 0 3rem;
+    }
+}
+
+/* Team / Alumni */
+
+.batchBlock {
+    margin-top: 3.5rem;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+
+    &:last-of-type {
+        margin-bottom: 6rem;
+    }
+}
+
+.batchTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+}
+
+.teamMember {
+    text-align: center;
+
+    img {
+        width: 100%;
+        max-width: 140px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        object-fit: cover;
+        // border: 1px solid #ffb013;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.teamName {
+    margin-top: 0.85rem;
+    font-size: 1.45rem;
+    // font-weight: 600;
+    color: #1a1a1a;
+}
+
+.item {
+    height: 290px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    &:hover img {
+        transform: scale(1.06);
+    }
+}

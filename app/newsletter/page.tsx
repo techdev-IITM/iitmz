@@ -2,6 +2,15 @@ import styles from "./page.module.scss";
 import { newsletters, type Newsletter } from "@/data/newsletters";
 import Img from "@/components/image";
 
+export const metadata = {
+  title: "Newsletter | IIT Madras Zanzibar",
+  description:
+    "The IITM Zanzibar Chronicle: monthly updates from campus. Learn More.",
+  alternates: {
+    canonical: `newsletter`,
+  },
+};
+
 function NewsletterCard({ item }: { item: Newsletter }) {
   return (
     <a className={styles.newsletterCard} href={item.href} target="_blank" rel="noopener noreferrer">

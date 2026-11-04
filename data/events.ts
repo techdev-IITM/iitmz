@@ -633,6 +633,15 @@ const eventsList = [
     location: "IITM Auditorium and Virtual",
     desc: "This talk explores the practical engineering challenges of developing hospitality, residential, mixed-use, and urban projects in Zanzibar, covering design coordination, infrastructure, coastal conditions, construction quality, material sourcing, logistics, and local execution. It also highlights the growing role of data, AI, and digital tools, and concludes with opportunities for stronger industry-academia collaboration through live projects and student engagement.",
   },
+  {
+    img: "/fresher-fair.jpeg",
+    startDate: "October 01, 2026",
+    endDate: "October 04, 2026",
+    name: "IITM Zanzibar Orientation of 2026-27 batch & Freshers Fair 2026",
+    time: "09:00 AM EAT",
+    location: "IITM Zanzibar Campus",
+    desc: "A new batch. A new beginning. And four days filled with opportunities to connect, explore and make Zanzibar feel a little more like home. As we welcomed our 𝐀𝐘 2026–27 students to IIT Madras Zanzibar, the campus came alive with new connections, new experiences and the excitement of starting a new chapter. This year also marked our 𝐟𝐢𝐫𝐬𝐭-𝐞𝐯𝐞𝐫 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬 𝐅𝐚𝐢𝐫! From discovering organisations and services to exploring opportunities across industry, innovation and campus life, it was all about helping our students find their feet and connect with the wider IITM Zanzibar community.",
+  },
 ];
 
 export default eventsList;

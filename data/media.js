@@ -4,34 +4,17 @@ const media = {
       title: "UNDP FUNGUO PULSE podcast launch",
       id: "CoaeB8gKx8E",
     },
-    {
-      title: "Inauguration of IIT Madras Zanzibar, Tanzania",
-      id: "2JGyGjTwOlY",
-    },
-    {
-      title: "IIT Madras Goes Global, Opens International Campus At Zanzibar",
-      id: "mAV7_7TKGqE",
-    },
-    {
-      title: "Zanzibar and India sign agreement to open IIT campus in Zanzibar",
-      id: "po3JPFVT_BU",
-    },
-    {
-      title:
-        "IIT Madras Set To Create History By Establishing An International Campus In Zanzibar-Tanzania",
-      id: "xrN7ThgqM74",
-    },
-    {
-      title:
-        "A conversation with Preeti Aghalayam, the first director of an overseas IIT campus, in Zanzibar",
-      id: "TQPAJph-0a0",
-    },
-    {
-      title: "Meet The Woman In Charge Of IIT Zanzibar | Newsbreak",
-      id: "oVPxHNDlgPQ",
-    },
   ],
   articles: [
+    {
+      title: "CAG International Training Programme on Data Science, Artificial Intelligence and Cyber Security Audit",
+      desc: "IIT Madras Zanzibar, in collaboration with the Comptroller and Auditor General (CAG) of India, hosted its first international training programme outside India on Data Science, Artificial Intelligence, and Cyber Security Audit. The two-week certification programme brought together senior audit professionals from African Supreme Audit Institutions to explore emerging technologies in public-sector auditing. The initiative promoted knowledge exchange, capacity building, and stronger India–Africa collaboration in technology-driven governance.",
+      link: "https://www.hcindiatz.gov.in/tz-glr-14-08-2026-01.php",
+      image: {
+        url: "/cag-news.jpg",
+        alt: "CAG Program",
+      },
+    },
     {
       title: "President of Zanzibar visits IIT Madras | 63rd Convocation | IIT Madras Zanzibar campus unveiling & book launch",
       desc: "H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, attended the 63rd Convocation of IIT Madras, reaffirming the shared vision between India and Zanzibar and highlighting the continued growth and impact of IIT Madras Zanzibar as India's first international IIT campus.",

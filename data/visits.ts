@@ -14,6 +14,41 @@ export type Visit = {
 
 export const visits: Visit[] = [
   {
+    slug: "world-tourism-day",
+    title: "World Tourism Day Event",
+    description: "Prof. AK Suresh led a faculty team from IITM Zanzibar at the World Tourism Day event held at Hotel Verde and organised by the Ministry of Tourism and Antiquities. The team exchanged views with the Ministry's Permanent Secretary, Dr. Aboud Suleiman Jumbe, as part of the wider engagement with Zanzibar's tourism sector.",
+    date: "September 27, 2026",
+    image: "/tourism-day.jpeg",
+  },
+  {
+    slug: "zanzibar-ports",
+    title: "Exploring Collaboration with Zanzibar Ports Corporation",
+    description: "Officials from Zanzibar Ports Corporation (ZPC), led by Director General Akif Ali Khamis, visited IIT Madras Zanzibar for discussions on potential areas of collaboration and foccused on research support through IIT Madras' National Technology Centre for Ports, Waterways and Coasts, a revamped M.Tech in Marine Engineering with subjects relevant to ZPC, and opportunities involving startups.",
+    date: "September 17, 2026",
+    image: "/zanzibar-ports.png",
+  },
+  {
+    slug: "nactvet-visit",
+    title: "NACTVET Conducts Annual Supervision Visit",
+    description: "The National Council for Technical and Vocational Education and Training (NACTVET) conducted its annual routine supervision visit to IIT Madras Zanzibar. The visit assessed the campus's compliance with technical education and training standards and included an inspection of campus facilities.",
+    date: "September 3, 2026",
+    image: "/nactvet.png",
+  },
+  {
+    slug: "cag-training-program",
+    title: "CAG International Training Programme on Data Science, Artificial Intelligence and Cyber Security Audit",
+    description: "IIT Madras Zanzibar, in collaboration with the Comptroller and Auditor General (CAG) of India, hosted its first international training programme outside India on Data Science, Artificial Intelligence, and Cyber Security Audit. The two-week certification programme brought together senior audit professionals from African Supreme Audit Institutions to explore emerging technologies in public-sector auditing. The initiative promoted knowledge exchange, capacity building, and stronger India–Africa collaboration in technology-driven governance.",
+    date: "August 10-21, 2026",
+    image: "/cag.jpeg",
+  },
+  {
+    slug: "swahili-night",
+    title: "Cultural program organized by Swami Vivekananda Cultural Centre (SVCC) at IITM Zanzibar",
+    description: "The visit also featured opportunities for cultural exchange through official interactions and a Swahili night, allowing participants to connect, experience local traditions, and appreciate the warmth of Zanzibar's culture.",
+    date: "August 10, 2026",
+    image: "/swahili-night.jpeg",
+  },
+  {
     slug: "iit-kharagpur-visit",
     title: "IIT Kharagpur Alumna Visits IIT Madras Zanzibar",
     description: "A delightful visit by an IIT Kharagpur alumna to IIT Madras Zanzibar on 31st July 2026, celebrating the spirit of higher education, learning, and global academic connections.",

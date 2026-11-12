@@ -642,6 +642,14 @@ const eventsList = [
     location: "IITM Zanzibar Campus",
     desc: "A new batch. A new beginning. And four days filled with opportunities to connect, explore and make Zanzibar feel a little more like home. As we welcomed our 𝐀𝐘 2026–27 students to IIT Madras Zanzibar, the campus came alive with new connections, new experiences and the excitement of starting a new chapter. This year also marked our 𝐟𝐢𝐫𝐬𝐭-𝐞𝐯𝐞𝐫 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬 𝐅𝐚𝐢𝐫! From discovering organisations and services to exploring opportunities across industry, innovation and campus life, it was all about helping our students find their feet and connect with the wider IITM Zanzibar community.",
   },
+  {
+    img: "/sanjay-raja-nmist-series.png",
+    startDate: "November 20, 2026",
+    name: "NM AIST-IITMZ Industry-Academia Webinar Series",
+    time: "04:00 PM - 05:00 PM EAT",
+    location: "IITM Auditorium",
+    desc: "Over the past 25 years, Zanzibar has seen a remarkable transformation in digital connectivity, with telecom infrastructure becoming a key enabler of economic growth and innovation. Drawing on his journey building and leading Zanlink, Mr. Raja will share insights into the evolution of the industry, the challenges and lessons learned, and the opportunities ahead. The session also explores emerging technologies and how industry-academia collaboration can help build a more connected, digitally enabled Zanzibar.",
+  },
 ];
 
 export default eventsList;

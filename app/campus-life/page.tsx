@@ -192,7 +192,7 @@ export default function CampusLife() {
               </div>
               <div className={styles.itemImages}>
                 <Slider slidesToShow={1} showTracks={true}>
-                  {Array.from({ length: 7 }, (_, index) => (
+                  {Array.from({ length: 11 }, (_, index) => (
                     <Img
                       key={`image__${index}`}
                       src={`/sports-and-exercise/${index + 1}.jpeg`}

@@ -7,18 +7,24 @@ export interface News {
 
 export const news: News[] = [
   {
+    title: "IITM Zanzibar Orientation of 2026-27 batch & Freshers Fair 2026",
+    content: "A new batch. A new beginning. And four days filled with opportunities to connect, explore and make Zanzibar feel a little more like home. As we welcomed our 𝐀𝐘 2026–27 students to IIT Madras Zanzibar, the campus came alive with new connections, new experiences and the excitement of starting a new chapter. This year also marked our 𝐟𝐢𝐫𝐬𝐭-𝐞𝐯𝐞𝐫 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬 𝐅𝐚𝐢𝐫! From discovering organisations and services to exploring opportunities across industry, innovation and campus life, it was all about helping our students find their feet and connect with the wider IITM Zanzibar community.",
+    img: "/fresher-fair.jpeg",
+    linkURL: "https://www.linkedin.com/feed/update/urn:li:activity:7518152480451358721",
+  },
+  {
     title: "President of Zanzibar visits IIT Madras | 63rd Convocation | IIT Madras Zanzibar campus unveiling & book launch",
     content: "The visit of H.E. Dr. Hussein Ali Mwinyi, President of Zanzibar, to IIT Madras during its 63rd Convocation marked a significant milestone for IIT Madras Zanzibar. The occasion celebrated academic excellence while reinforcing the strong partnership between India and Zanzibar. As India's first international IIT campus, IIT Madras Zanzibar continues to expand its global impact through quality education, innovation, and research. The visit highlighted the campus's remarkable achievements and reaffirmed a shared vision of empowering future leaders through education that transcends borders. It stands as a testament to the enduring collaboration between India and Zanzibar in advancing higher education.",
     img: "/63-convocation.jpeg",
     linkURL: "https://www.linkedin.com/posts/iitmzanzibar_iitmz-iitm-convocation-activity-7484896639954862080-hHNw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETf3BMBidhoGGbh4ESgmGt6WrVweQSwlHc",
   },
-  {
-    title: "Short-Term Professional Course",
-    content:
-      "Data Science for Epidemiology and Public Health Analytics is a 2-week intensive program commencing on 20 July 2026, designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
-    img: "/course-1.png",
-    linkURL: "/course.pdf",
-  },
+  // {
+  //   title: "Short-Term Professional Course",
+  //   content:
+  //     "Data Science for Epidemiology and Public Health Analytics is a 2-week intensive program commencing on 20 July 2026, designed to equip participants with essential data science skills for analyzing, interpreting, and visualizing epidemiological and public health data. Through a combination of expert lectures, hands-on laboratory sessions, and project-based learning, participants will gain practical experience in applying modern data analytics techniques to address real-world public health challenges, with a focus on evidence-based decision-making, data-driven insights, and the effective use of contemporary analytical tools in epidemiological and public health research.",
+  //   img: "/course-1.png",
+  //   linkURL: "/course.pdf",
+  // },
   {
     title: "Second MTech Degree Distribution Ceremony 2026",
     content:

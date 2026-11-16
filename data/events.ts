@@ -643,6 +643,15 @@ const eventsList = [
     desc: "A new batch. A new beginning. And four days filled with opportunities to connect, explore and make Zanzibar feel a little more like home. As we welcomed our 𝐀𝐘 2026–27 students to IIT Madras Zanzibar, the campus came alive with new connections, new experiences and the excitement of starting a new chapter. This year also marked our 𝐟𝐢𝐫𝐬𝐭-𝐞𝐯𝐞𝐫 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬 𝐅𝐚𝐢𝐫! From discovering organisations and services to exploring opportunities across industry, innovation and campus life, it was all about helping our students find their feet and connect with the wider IITM Zanzibar community.",
   },
   {
+    img: "/faculty-development-program.png",
+    startDate: "November 18, 2026",
+    endDate: "November 20, 2026",
+    name: "Faculty Development Programme - Product-Driven Learning (PDL)",
+    time: "10:00 AM EAT",
+    location: "IITM Zanzibar Campus",
+    desc: "IIT Madras Zanzibar and LEAP are partnering to offer a 3-day Faculty Development Program (FDP) to introduce faculty to the Product-Driven Learning pedagogy. In the spirit of hands-by-doing, participants will spend much of the FDP working hands-on with a prototype to learn product design. The FDP will equip faculty with the pedagogy, skills, and tools to deliver product-based, hands-on education and experiential learning programs. The FDP covers technical material and course delivery.",
+  },
+  {
     img: "/nmist-daraja-seminar-series.jpeg",
     startDate: "November 20, 2026",
     name: "NM AIST-IITMZ Industry-Academia Webinar Series",
@@ -658,15 +667,6 @@ const eventsList = [
     time: "10:00 AM EAT",
     location: "Golden Tulip Airport Hotel Zanzibar",
     desc: "Prof. Prabhu Rajagopal, Director-in-Charge, IIT Madras Zanzibar, Participated in the headline panel 'From Scarcity to Abundance' at Sahara Sparks 2026, exploring the role of exponential technologies in shaping Africa's future.",
-  },
-  {
-    img: "/faculty-development-program.png",
-    startDate: "November 18, 2026",
-    endDate: "November 20, 2026",
-    name: "Faculty Development Programme - Product-Driven Learning (PDL)",
-    time: "10:00 AM EAT",
-    location: "IITM Zanzibar Campus",
-    desc: "IIT Madras Zanzibar and LEAP are partnering to offer a 3-day Faculty Development Program (FDP) to introduce faculty to the Product-Driven Learning pedagogy. In the spirit of hands-by-doing, participants will spend much of the FDP working hands-on with a prototype to learn product design. The FDP will equip faculty with the pedagogy, skills, and tools to deliver product-based, hands-on education and experiential learning programs. The FDP covers technical material and course delivery.",
   },
 ];
 

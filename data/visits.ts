@@ -14,6 +14,34 @@ export type Visit = {
 
 export const visits: Visit[] = [
   {
+    slug: "strategic-discussions-in-kenya",
+    title: "Strengthening Industry Engagement Through Strategic Discussions in Kenya",
+    description: "Prof. Prabhu Rajagopal, Director-in-Charge of IIT Madras Zanzibar, met with Mr. Bimal Kantaria, Chairman of the Elgon Group, to explore potential opportunities for collaboration. The meeting highlighted avenues for strengthening industry partnerships and fostering engagement with East African business leaders.",
+    date: "October 22, 2026",
+    image: "/kenya-partner-visit.png",
+  },
+  {
+    slug: "strengthening-india-kenya-educational-ties",
+    title: "Strengthening India-Kenya Educational Ties",
+    description: "IIT Madras Zanzibar, in collaboration with the High Commission of India in Kenya, organised an initiative to strengthen India–Kenya educational ties. The engagement focused on building academic partnerships, promoting institutional collaboration, and creating opportunities for student exchange and joint programmes.",
+    date: "October 23, 2026",
+    image: "/keny-visit.png",
+  },
+  {
+    slug: "zu-visit",
+    title: "Zanzibar Ports & IITM Zanzibar collaboration - ZU visit IITMZ",
+    description: "Wonderful meeting with officials from Zanzibar Ports Corporation www.zpc.go.tz led by Director General Akif Ali Khamis today at IIT Madras Zanzibar Campus - we discussed several strands of collaboration, including research support leveraging IITM Home Campus’ acclaimed National Technology Centre for Ports Waterways and Coasts, a revamped Masters in marine engineering with subjects relevant to ZPC, as well as startups! Thanks to Mr Abdirahman Hassan who enabled the visit and interactions & Dr Raju from National Technology Centre for Ports, Waterways and Coasts (NTCPWC) who shared slides on capabilities and also participated virtually answering key questions!",
+    date: "October 13, 2026",
+    image: "/zu-visit.png",
+  },
+  {
+    slug: "fumba-univeristy",
+    title: "Visit to IITM Zanzibar new campus at Fumba",
+    description: "IIT Madras Zanzibar (IITMZ) received a delegation from the Social Welfare Committee of the House of Representatives, which visited the institution to review and receive its First Quarter Implementation Report for the 2026/2027 Financial Year. The visit provided an opportunity for the Committee to gain insights into the institution’s progress, achievements, and implementation of planned activities during the reporting period. It also served as a platform for engagement and discussions on IITM Zanzibar’s contribution to higher education, technological innovation, research, and community development.",
+    date: "October 16, 2026",
+    image: "/fumba-visit.png",
+  },
+  {
     slug: "world-tourism-day",
     title: "World Tourism Day Event",
     description: "Prof. AK Suresh led a faculty team from IITM Zanzibar at the World Tourism Day event held at Hotel Verde and organised by the Ministry of Tourism and Antiquities. The team exchanged views with the Ministry's Permanent Secretary, Dr. Aboud Suleiman Jumbe, as part of the wider engagement with Zanzibar's tourism sector.",

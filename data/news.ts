@@ -9,7 +9,7 @@ export const news: News[] = [
   {
     title: "IITM Zanzibar Orientation of 2026-27 batch & Freshers Fair 2026",
     content: "A new batch. A new beginning. And four days filled with opportunities to connect, explore and make Zanzibar feel a little more like home. As we welcomed our 𝐀𝐘 2026–27 students to IIT Madras Zanzibar, the campus came alive with new connections, new experiences and the excitement of starting a new chapter. This year also marked our 𝐟𝐢𝐫𝐬𝐭-𝐞𝐯𝐞𝐫 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬 𝐅𝐚𝐢𝐫! From discovering organisations and services to exploring opportunities across industry, innovation and campus life, it was all about helping our students find their feet and connect with the wider IITM Zanzibar community.",
-    img: "/fresher-fair.jpeg",
+    img: "/orientation.jpeg",
     linkURL: "https://www.linkedin.com/feed/update/urn:li:activity:7518152480451358721",
   },
   {

@@ -37,8 +37,7 @@ export const visits: Visit[] = [
   {
     slug: "fumba-univeristy",
     title: "Visit to IITM Zanzibar new campus at Fumba",
-    description: "IIT Madras Zanzibar (IITMZ) received a delegation from the Social Welfare Committee of the House of Representatives, which visited the institution to review and receive its First Quarter Implementation Report for the 2026/2027 Financial Year. The visit provided an opportunity for the Committee to gain insights into the institution’s progress, achievements, and implementation of planned activities during the reporting period. It also served as a platform for engagement and discussions on IITM Zanzibar’s contribution to higher education, technological innovation, research, and community development.",
-    date: "October 16, 2026",
+    description: "On October 16, 2026, IITM Zanzibar welcomed the Social Welfare Committee of the House of Representatives to its new Fumba campus. The visit focused on reviewing institutional progress and exploring IITM Zanzibar's contributions to education, research and community development.",
     image: "/fumba-visit.png",
   },
   {

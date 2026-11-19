@@ -645,7 +645,7 @@ const eventsList = [
   {
     img: "/faculty-development-leap-poster.jpeg",
     startDate: "November 18, 2026",
-    endDate: "November 20, 2026",
+    endDate: "November 19, 2026",
     name: "Faculty Development Programme - Product-Driven Learning (PDL)",
     time: "10:00 AM EAT",
     location: "IITM Zanzibar Campus",

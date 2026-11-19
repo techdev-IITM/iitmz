@@ -38,6 +38,7 @@ export const visits: Visit[] = [
     slug: "fumba-univeristy",
     title: "Visit to IITM Zanzibar new campus at Fumba",
     description: "On October 16, 2026, IITM Zanzibar welcomed the Social Welfare Committee of the House of Representatives to its new Fumba campus. The visit focused on reviewing institutional progress and exploring IITM Zanzibar's contributions to education, research and community development.",
+    date: "October 9, 2026",
     image: "/fumba-visit.png",
   },
   {

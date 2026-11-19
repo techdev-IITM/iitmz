@@ -7,6 +7,11 @@ export type Newsletter = {
 
 export const newsletters: Newsletter[] = [
   {
+    quarter: "October 2026",
+    thumbnail: "/oct-newsletter-2026.jpeg",
+    href: "/oct-newsletter-2026.pdf"
+  },
+  {
     quarter: "August - September 2026",
     thumbnail: "/august-september-newsletter.png",
     href: "/August-September-newsltter-2026.pdf"

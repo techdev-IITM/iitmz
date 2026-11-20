@@ -1,0 +1,100 @@
+name: Compress PDFs
+
+# Runs when PDFs are pushed to main, compresses the photos inside them
+# (checked page by page against the original) and commits the result back
+# under the same filename, so URLs don't change.
+
+on:
+  push:
+    branches: [main]
+    paths: ["**.pdf", "**.PDF"]
+  workflow_dispatch:
+    inputs:
+      files:
+        description: "Space-free path(s) or a glob, e.g. public/*.pdf"
+        required: true
+        default: "public/*.pdf"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: compress-pdfs
+  cancel-in-progress: false
+
+jobs:
+  compress:
+    # commits pushed with GITHUB_TOKEN don't re-trigger workflows, this is a second guard
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Find changed PDFs
+        id: changed
+        env:
+          FILES_INPUT: ${{ inputs.files }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            shopt -s nullglob
+            # unquoted on purpose so the glob expands
+            # shellcheck disable=SC2086
+            printf '%s\0' $FILES_INPUT > "$RUNNER_TEMP/changed.txt"
+          else
+            before="${{ github.event.before }}"
+            if [ "$before" = "0000000000000000000000000000000000000000" ]; then
+              git diff-tree -z --no-commit-id --name-only -r --diff-filter=AM HEAD -- '*.pdf' '*.PDF' > "$RUNNER_TEMP/changed.txt"
+            else
+              git fetch --depth=1 origin "$before"
+              git diff -z --name-only --diff-filter=AM "$before" HEAD -- '*.pdf' '*.PDF' > "$RUNNER_TEMP/changed.txt"
+            fi
+          fi
+          count=$(tr -cd '\0' < "$RUNNER_TEMP/changed.txt" | wc -c)
+          echo "Found $count PDF(s)"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v6
+        if: steps.changed.outputs.count != '0'
+        with:
+          python-version: "3.14"  # same version the script was tested with locally
+          cache: pip
+          cache-dependency-path: scripts/pdf/requirements.txt
+
+      - name: Install tools
+        if: steps.changed.outputs.count != '0'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ghostscript
+          pip install -r scripts/pdf/requirements.txt
+
+      - name: Compress
+        id: compress
+        if: steps.changed.outputs.count != '0'
+        # keep going so already-compressed files still get committed; the size check fails the job below
+        continue-on-error: true
+        run: python scripts/pdf/compress_pdfs.py --from-file "$RUNNER_TEMP/changed.txt"
+
+      - name: Commit compressed PDFs
+        if: steps.changed.outputs.count != '0'
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Compress PDFs"
+          for _ in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            # someone pushed meanwhile: replay our commit on top of the new main
+            git fetch --depth=50 origin main
+            git rebase origin/main
+          done
+          exit 1
+
+      - name: Fail if a PDF is still too large
+        if: steps.compress.outcome == 'failure'
+        run: |
+          echo "::error::A PDF is still over the size limit after compression. See the Compress step."
+          exit 1
